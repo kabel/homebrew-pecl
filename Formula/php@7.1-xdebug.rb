@@ -7,8 +7,8 @@ class PhpAT71Xdebug < PhpPeclFormula
   sha256 "b0f3283aa185c23fcd0137c3aaa58554d330995ef7a3421e983e8d018b05a4a6"
 
   devel do
-    url "https://pecl.php.net/get/xdebug-2.8.0alpha1.tgz"
-    sha256 "28b773c233cb9af242bf8e518246bb171ed9cccfbef249a487c5c63d4c8a6165"
+    url "https://pecl.php.net/get/xdebug-2.8.0beta1.tgz"
+    sha256 "a576235c207c8b6b5bc41e2a3d5912cac34b4f7bb1def01893be54591e015fc3"
   end
 
   def extension_type
