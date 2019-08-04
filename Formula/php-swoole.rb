@@ -3,8 +3,8 @@ require File.expand_path("../lib/php_pecl_formula", __dir__)
 class PhpSwoole< PhpPeclFormula
   extension_dsl "Event-driven asynchronous and concurrent networking engine with high performance"
 
-  url "https://pecl.php.net/get/swoole-4.4.1.tgz"
-  sha256 "40c9130e14af339212752d792647d0fe1575935be2425e9b91df2772ea9f575b"
+  url "https://pecl.php.net/get/swoole-4.4.3.tgz"
+  sha256 "c04d0be9ae454a784f1799a46fe6b45c83170ef96b76507c75f7a4258cabcf4e"
 
   depends_on "openssl"
   depends_on "brotli"
