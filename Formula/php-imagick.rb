@@ -1,4 +1,4 @@
-require File.expand_path("../lib/php_pecl_formula", __dir__)
+require_relative "../lib/php_pecl_formula"
 
 class PhpImagick < PhpPeclFormula
   extension_dsl "Create and modify images using the ImageMagick API"

@@ -1,4 +1,4 @@
-require File.expand_path("../lib/php_pecl_formula", __dir__)
+require_relative "../lib/php_pecl_formula"
 
 class PhpAT72Xdebug < PhpPeclFormula
   extension_dsl "An extension to assist with debugging and development"

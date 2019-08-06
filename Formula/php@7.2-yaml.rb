@@ -1,4 +1,4 @@
-require File.expand_path("../lib/php_pecl_formula", __dir__)
+require_relative "../lib/php_pecl_formula"
 
 class PhpAT72Yaml < PhpPeclFormula
   extension_dsl "YAML 1.1 serialization"

@@ -1,4 +1,4 @@
-require File.expand_path("../lib/php_pecl_formula", __dir__)
+require_relative "../lib/php_pecl_formula"
 
 class PhpMemcached < PhpPeclFormula
   extension_dsl "Extension for interfacing with memcached via libmemcached library"

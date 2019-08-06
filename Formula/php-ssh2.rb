@@ -1,4 +1,4 @@
-require File.expand_path("../lib/php_pecl_formula", __dir__)
+require_relative "../lib/php_pecl_formula"
 
 class PhpSsh2 < PhpPeclFormula
   extension_dsl "Bindings for the libssh2 library"

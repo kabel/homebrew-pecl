@@ -1,4 +1,4 @@
-require File.expand_path("../lib/php_pecl_formula", __dir__)
+require_relative "../lib/php_pecl_formula"
 
 class PhpAT71Mailparse < PhpPeclFormula
   extension_dsl "Email message manipulation"
