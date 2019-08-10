@@ -23,7 +23,7 @@ class PhpPeclFormula < Formula
   end
 
   test do
-    assert_match extension.downcase, shell_output("#{php_parent.opt_bin}/php -m").downcase,
+    assert_match provides_extension.downcase, shell_output("#{php_parent.opt_bin}/php -m").downcase,
       "failed to find extension in php -m output"
   end
 
