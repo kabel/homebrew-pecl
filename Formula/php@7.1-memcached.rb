@@ -14,5 +14,8 @@ class PhpAT71Memcached < PhpPeclFormula
 
   depends_on "libmemcached"
 
-  configure_arg "--with-libmemcached-dir=#{Formula["libmemcached"].opt_prefix}"
+  configure_arg %W[
+    --with-libmemcached-dir=#{Formula["libmemcached"].opt_prefix}
+    --with-zlib-dir=#{MacOS.sdk_path_if_needed}/usr
+  ]
 end
