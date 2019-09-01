@@ -14,8 +14,8 @@ class PhpXdebug < PhpPeclFormula
   end
 
   devel do
-    url "https://pecl.php.net/get/xdebug-2.8.0beta1.tgz"
-    sha256 "a576235c207c8b6b5bc41e2a3d5912cac34b4f7bb1def01893be54591e015fc3"
+    url "https://pecl.php.net/get/xdebug-2.8.0beta2.tgz"
+    sha256 "4cdc590909074b1e28525f354d14283e663bf20e17c468246a09633553a1fea5"
   end
 
   def extension_type
