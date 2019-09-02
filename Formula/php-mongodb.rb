@@ -13,8 +13,8 @@ class PhpMongodb < PhpPeclFormula
   end
 
   devel do
-    url "https://pecl.php.net/get/mongodb-1.6.0alpha2.tgz"
-    sha256 "281e69e4ba4a1bff8b1f586891f87c6ceeace50bb317776e6d2c942c8b0caa05"
+    url "https://pecl.php.net/get/mongodb-1.6.0alpha3.tgz"
+    sha256 "7d0eaa01488555d6f24b92d3eafbdf842905c101453d878307405babe894ce72"
   end
 
   depends_on "icu4c"
