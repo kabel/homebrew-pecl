@@ -10,8 +10,8 @@ class PhpSsh2 < PhpPeclFormula
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
     cellar :any
-    sha256 "cb928e69a056018a69e5c5076747c2b5d9cd5d34d43078f2c1cfb97118fbc96c" => :mojave
-    sha256 "a0a219e92d42cb7cd1d722b8a20e2cc07844b2e0439560535a748deefe389fd3" => :high_sierra
+    sha256 "b9fd4c1f44f618ef4bc476f109b38f074a7e103a88e44d3eaafea6b59d26e6c7" => :mojave
+    sha256 "ea46ae84ca421f3f0e750d796c73e6b6f0ee94a9c58811309669c5378bef8a69" => :high_sierra
   end
 
   depends_on "libssh2"
