@@ -3,9 +3,9 @@ require_relative "../lib/php_pecl_formula"
 class PhpAT71Ssh2 < PhpPeclFormula
   extension_dsl "Bindings for the libssh2 library"
 
-  url "https://git.php.net/?p=pecl/networking/ssh2.git;a=snapshot;h=79371dc05ff34e58f796e6755e25ba91c169ac1a;sf=tgz"
-  version "1.2-dev"
-  sha256 "4c252f0f87eb1a769b0bd784e999218b976c1ef2262302f1fec772f48915dbe6"
+  url "http://git.php.net/?p=pecl/networking/ssh2.git;a=snapshot;h=e9e1fd5cbefe2f43de37974e5988a9d05d005078;sf=tgz"
+  version "1.2"
+  sha256 "7536cf4975915389c60afc9784e8ecf5100d1d994ea01749cb418e388069c411"
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
