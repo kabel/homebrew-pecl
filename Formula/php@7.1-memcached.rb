@@ -8,8 +8,8 @@ class PhpAT71Memcached < PhpPeclFormula
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
-    sha256 "24e6cab77eadab5f3e885bdc89438120dd9d37d93208e1013e5b59053af1fda7" => :mojave
-    sha256 "b6633001b002990c3f85043edfbc89825a3f8d19f0c7f59bd353bb84eff9fedb" => :high_sierra
+    sha256 "12a27e95567efb34dfee25e89c7a15c5c159c2b7c14cda8b81aea0ff835bbac5" => :mojave
+    sha256 "355d0cf63f1a8c9d001a30a69b16910499eab714ea30769bc5ac416290e23cfd" => :high_sierra
   end
 
   depends_on "libmemcached"
