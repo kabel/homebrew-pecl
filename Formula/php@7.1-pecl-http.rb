@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpAT71PeclHttp < PhpPeclFormula
   extension_dsl "Extended HTTP Support"
 
-  url "https://pecl.php.net/get/pecl_http-3.2.1.tgz"
-  sha256 "9c5ab5ace7f232699bf4d8997dd9135c92bb630357c51d968d1baca698fadc92"
+  url "https://pecl.php.net/get/pecl_http-3.2.3.tgz"
+  sha256 "cf9d2a2ed335e572366025eca1d69e86c585f96ca07db341839a06f52ee4aa88"
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
