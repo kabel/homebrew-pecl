@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpMemcached < PhpPeclFormula
+class PhpAT73Memcached < PhpPeclFormula
   extension_dsl "Extension for interfacing with memcached via libmemcached library"
 
   url "https://pecl.php.net/get/memcached-3.1.4.tgz"
