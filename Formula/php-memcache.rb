@@ -5,6 +5,7 @@ class PhpMemcache < PhpPeclFormula
 
   url "https://github.com/websupport-sk/pecl-memcache/archive/4.0.4.tar.gz"
   sha256 "022607027e31f63c8bf7958a334743ca7c2a1058b3b5fe6e0aea67926954facf"
+  revision 1
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
