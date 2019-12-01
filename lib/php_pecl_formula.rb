@@ -1,6 +1,9 @@
-class PhpPeclFormula < Formula
+class PhpPeclFormula < Formula # rubocop:disable FormulaAudit/Homepage, FormulaAudit/DescLength
+  def source_dir
+    "#{extension}-#{version}"
+  end
+
   def install
-    source_dir = "#{extension}-#{version}"
     cd source_dir if (buildpath/source_dir).exist?
     system php_parent.bin/"phpize"
     system "./configure", *configure_args
