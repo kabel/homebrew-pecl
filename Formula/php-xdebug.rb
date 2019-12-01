@@ -5,6 +5,7 @@ class PhpXdebug < PhpPeclFormula
 
   url "https://pecl.php.net/get/xdebug-2.8.0.tgz"
   sha256 "cb1d117ecbec7409a408cf24e59d92f7e3816fe8e2331dd0ffc3dce60228c264"
+  revision 1
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
