@@ -5,6 +5,7 @@ class PhpYaml < PhpPeclFormula
 
   url "https://pecl.php.net/get/yaml-2.0.4.tgz"
   sha256 "9786b0386e648f12cc18a038358bd57bee4906e350a2e9ab776d6a5f18fc6680"
+  revision 1
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
