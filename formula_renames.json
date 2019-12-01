@@ -1,0 +1,6 @@
+{
+  "php-tideways": "php-tideways-xhprof",
+  "php@7.3-tideways": "php@7.3-tideways-xhprof",
+  "php@7.2-tideways": "php@7.2-tideways-xhprof",
+  "php@7.1-tideways": "php@7.1-tideways-xhprof"
+}

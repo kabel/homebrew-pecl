@@ -30,7 +30,7 @@ class PhpPeclFormula < Formula
 
   private
 
-  delegate [ # rubocop:disable Layout/AlignHash
+  delegate [ # rubocop:disable Layout/HashAlignment
     :php_parent,
     :extension,
     :configure_args,
