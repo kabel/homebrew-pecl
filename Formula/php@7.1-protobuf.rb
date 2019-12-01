@@ -5,6 +5,8 @@ class PhpAT71Protobuf < PhpPeclFormula
 
   url "https://pecl.php.net/get/protobuf-3.10.0.tgz"
   sha256 "15ae87fa87775c2a729842554c87973e16c9726905f62a407c547ab6c44434a8"
+  revision 1
+
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
     cellar :any_skip_relocation
