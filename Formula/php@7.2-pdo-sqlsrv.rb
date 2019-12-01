@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpAT72PdoSqlsrv < PhpPeclFormula
   extension_dsl "Microsoft Drivers for SQL Server"
 
-  url "https://pecl.php.net/get/pdo_sqlsrv-5.6.1.tgz"
-  sha256 "caf4033677cc7b0992bd68ba1989a095e92150489efc98147445398763a0340a"
+  url "https://pecl.php.net/get/pdo_sqlsrv-5.7.0preview.tgz"
+  sha256 "9d6ab94ad1ef69906acb44545581d7a3c267a95d859ce37e45c5abbe896227a0"
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
@@ -14,4 +14,8 @@ class PhpAT72PdoSqlsrv < PhpPeclFormula
   end
 
   depends_on "unixodbc"
+
+  def source_dir
+    "pdo_sqlsrv-5.7.0preview"
+  end
 end
