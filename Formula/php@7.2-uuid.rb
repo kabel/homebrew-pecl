@@ -8,9 +8,8 @@ class PhpAT72Uuid < PhpPeclFormula
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
-    cellar :any_skip_relocation
-    sha256 "264128a261e486c2c5a95566fdfa64b0d8014dfdfb410046f8dab5f12927e078" => :mojave
-    sha256 "04c4b416e39962b3a62bb023339cc5c6df882ba12bc362e9a07e939f86b599e5" => :high_sierra
+    sha256 "0ccff64bee33c8cd5a9bdaa01abaecffe30ba83f19ce26c97564dc2f41c16a31" => :mojave
+    sha256 "f8974b55ed44cb749edb3d77dea46427cbde8bd39d4f7bdac7529df54d894b95" => :high_sierra
   end
 
   depends_on "e2fsprogs"
