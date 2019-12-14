@@ -6,6 +6,13 @@ class PhpProtobuf < PhpPeclFormula
   url "https://pecl.php.net/get/protobuf-3.11.2.tgz"
   sha256 "1f269a4e04777c978e9d4893d5a0c9edd1bcbd3ceb039224e61e95e9dbf40d2e"
 
+  bottle do
+    root_url "https://dl.bintray.com/kabel/bottles-pecl"
+    cellar :any_skip_relocation
+    sha256 "1c8cf588f4863315a2a533f6b8a9019ec965c8389c9f89513c36a1b60c9d4a3b" => :mojave
+    sha256 "1805be797853428132de293b87b1f2a5e91093aa5bf30e878fb4bc932c207e3d" => :high_sierra
+  end
+
   patch :DATA
 end
 
