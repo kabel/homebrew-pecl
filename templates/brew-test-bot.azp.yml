@@ -1,6 +1,6 @@
 parameters:
-  name: macOS
-  vmImage: macOS-10.14
+  name: macOS_Catalina
+  vmImage: macOS-10.15
 
 jobs:
 - job: ${{ parameters.name }}
