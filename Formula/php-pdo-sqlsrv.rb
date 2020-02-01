@@ -9,8 +9,8 @@ class PhpPdoSqlsrv < PhpPeclFormula
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
     cellar :any
-    sha256 "407ea840027b772daa9b0a1746eb5d1db4c781ea4e970da3b6818d2cd5c85bd3" => :mojave
-    sha256 "e0485548f0e817515e37717d103f7781f6230011838b3c08298072789f0c773d" => :high_sierra
+    sha256 "fdb975eb33a9eba80333441abd0aee57ae718b0e1d6b10284840f8c590fc27c8" => :mojave
+    sha256 "6899ee1026f31d2ed41e542d8d901b62b6f572797885c235df09cb24edfcf105" => :high_sierra
   end
 
   depends_on "unixodbc"
