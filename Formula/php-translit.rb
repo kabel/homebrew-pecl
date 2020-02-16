@@ -6,6 +6,13 @@ class PhpTranslit < PhpPeclFormula
   url "https://pecl.php.net/get/translit-0.6.3.tgz"
   sha256 "169b0d253049c16463eeffa97343e0758a3ac4fb372336917fe9aea700b22a57"
 
+  bottle do
+    root_url "https://dl.bintray.com/kabel/bottles-pecl"
+    cellar :any_skip_relocation
+    sha256 "5b4dfb243267d371ffe8f09bfa9d3399014ca6c62b24eed6ec01ead144cfa0a9" => :catalina
+    sha256 "85e8a356b9af98916c06464bf7fa0e41ea1101f5fbee0f4f5293df6fe3990b53" => :mojave
+  end
+
   patch :DATA
 end
 
