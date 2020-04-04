@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpAT72Amqp < PhpPeclFormula
   extension_dsl "Communicate with any AMQP compliant server"
 
-  url "https://pecl.php.net/get/amqp-1.9.4.tgz"
-  sha256 "b66b8b8264749cb7a69ae4d09665dad1559b6c4f01430206c8e4187bcd8c782d"
+  url "https://pecl.php.net/get/amqp-1.10.0.tgz"
+  sha256 "d5eb39c1cd92c9d50b0dc6529eaaf9b3b1c485d9ee2a97fd892606bd84c93309"
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
