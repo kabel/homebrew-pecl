@@ -8,8 +8,8 @@ class PhpAT73Amqp < PhpPeclFormula
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
-    sha256 "d750ee519832efebffdcff14fb25f65df944e9e651b02fe19e0d3c8e14a4affc" => :catalina
-    sha256 "32779b26cc8ac7e22dbbc52347f24a633545e6e8b92eb5e2169a4696dda33e18" => :mojave
+    sha256 "b8b87f72bb9f073d30ad7fde9086dcabf1d01ff71ed9b38d4305b844da910751" => :catalina
+    sha256 "dbc5a5a142005a9ea5a79a4fd81bd84843741adaf6dfd7b1db5185921452c361" => :mojave
   end
 
   depends_on "rabbitmq-c"
