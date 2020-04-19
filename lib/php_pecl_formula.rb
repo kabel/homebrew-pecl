@@ -1,4 +1,7 @@
-class PhpPeclFormula < Formula # rubocop:disable FormulaAudit/Homepage, FormulaAudit/DescLength
+class PhpPeclFormula < Formula
+  desc "PHP PECL Extension"
+  homepage "https://pecl.php.net/"
+
   def source_dir
     "#{extension}-#{version}"
   end
@@ -33,11 +36,7 @@ class PhpPeclFormula < Formula # rubocop:disable FormulaAudit/Homepage, FormulaA
 
   private
 
-  delegate [ # rubocop:disable Layout/HashAlignment
-    :php_parent,
-    :extension,
-    :configure_args,
-  ] => :"self.class"
+  delegate [:php_parent, :extension, :configure_args] => :"self.class"
 
   def extension_type
     # extension or zend_extension

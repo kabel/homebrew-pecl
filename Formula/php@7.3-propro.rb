@@ -11,5 +11,4 @@ class PhpAT73Propro < PhpPeclFormula
     sha256 "8197ba603eb6df261390c1b36076b107a01e7e23c48703b79b3c53c586da5b82" => :mojave
     sha256 "6772d55c3e3baced7cca7ffa5c18350a406e32fd1667a93db104cc6eff906bde" => :high_sierra
   end
-
 end
