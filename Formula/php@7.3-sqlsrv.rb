@@ -9,8 +9,8 @@ class PhpAT73Sqlsrv < PhpPeclFormula
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
     cellar :any
-    sha256 "857e0b6ed18490903353070d95478bd62982432b8621522a2636930848a58e2c" => :mojave
-    sha256 "2ed2f68c04f5d3443e4dced1165db0f05be5e1561cf9ae3e644946eaffb685ef" => :high_sierra
+    sha256 "34db16a0f0713254a9048cf4dc35735a04856fd388212960728f0222bc5b793d" => :catalina
+    sha256 "5a0bd3d322542e626036892fbcd0d3605e90af7ea20d71e589989b490276824c" => :mojave
   end
 
   depends_on "unixodbc"
