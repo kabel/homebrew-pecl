@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpAT73Mailparse < PhpPeclFormula
   extension_dsl "Email message manipulation"
 
-  url "https://pecl.php.net/get/mailparse-3.0.4.tgz"
-  sha256 "9da0ab0f15323f8265fcfb867f0318ec985b306007cff1f7653cb61e477d563b"
+  url "https://pecl.php.net/get/mailparse-3.1.0.tgz"
+  sha256 "6d4fc66e7bf91b4d94f5339d9486dd26ffd1859acae73b09c0ef119fd2cb1c99"
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
