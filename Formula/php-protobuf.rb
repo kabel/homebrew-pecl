@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpProtobuf < PhpPeclFormula
   extension_dsl "Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data."
 
-  url "https://pecl.php.net/get/protobuf-3.12.0.tgz"
-  sha256 "4f45cb699bf6498b7522866711b51c1437bec90c362d6cbc254bef3df8cb1727"
+  url "https://pecl.php.net/get/protobuf-3.12.1.tgz"
+  sha256 "5877032d206dc33a8135b6e0f1739b6c3f9e533cd2526e803366ed3a3fb7a3f4"
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
