@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpGrpc < PhpPeclFormula
   extension_dsl "A high performance, open source, general RPC framework that puts mobile and HTTP/2 first"
 
-  url "https://pecl.php.net/get/grpc-1.28.0.tgz"
-  sha256 "8e6da7d0f2aa46ffbae1edf325345759ea97795ede1610b30b7518e8d3523109"
+  url "https://pecl.php.net/get/grpc-1.29.1.tgz"
+  sha256 "068df1315becd95caf4b0c299c0c8ed7a172c0f36e566f4f23ed54d35d14f5f3"
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
