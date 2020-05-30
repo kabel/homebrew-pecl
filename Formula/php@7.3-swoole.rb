@@ -8,8 +8,8 @@ class PhpAT73Swoole< PhpPeclFormula
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
-    sha256 "5724293c9d6eaf39970455e9b7badb23f0a467fdd46a044de98805b535212de8" => :catalina
-    sha256 "c3cbfc06589cee20571a3d4c3347f405c5152d2bfe7cde714a5ad34610c73a67" => :mojave
+    sha256 "18ae475a2b40bf68a610bc850049e7dcd4420ba94de0334666f781995d3597a9" => :catalina
+    sha256 "898e3d83b97d3b97036c0049dce7e26730466cfa48ace055c8e7cf21d80e1e9d" => :mojave
   end
 
   depends_on "openssl@1.1"
