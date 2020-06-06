@@ -5,7 +5,7 @@ class PhpAT72PeclHttp < PhpPeclFormula
 
   url "https://pecl.php.net/get/pecl_http-3.2.3.tgz"
   sha256 "cf9d2a2ed335e572366025eca1d69e86c585f96ca07db341839a06f52ee4aa88"
-  revision 1
+  revision 2
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
