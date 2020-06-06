@@ -5,7 +5,7 @@ class PhpAT72Mongodb < PhpPeclFormula
 
   url "https://pecl.php.net/get/mongodb-1.7.4.tgz"
   sha256 "1cec8be860d7d6cff05b075a0e0fc47b1d9f580ef6a0cd46948e455a88a6859a"
-  revision 1
+  revision 2
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
