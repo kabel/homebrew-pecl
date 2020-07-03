@@ -9,7 +9,7 @@ class PhpRedis < PhpPeclFormula
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
     cellar :any_skip_relocation
-    sha256 "7e66985f552c81285b8399309a239bb04b446fee50fa1d8d082c8822de58a407" => :catalina
-    sha256 "d2aba7e4b560795ddd469fca77e89080c69bf4d9c71d8f0fad59079e4626b7f1" => :mojave
+    sha256 "ce5fbf18b50de2cfb4e271befb717e2550328296d3c5f7ff5fb163839bf13a86" => :catalina
+    sha256 "43b4d79d817ef71efde47bffda3915f3552c55f546ebcd3dc28310dc2f2871f5" => :mojave
   end
 end
