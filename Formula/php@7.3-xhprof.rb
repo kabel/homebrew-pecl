@@ -5,4 +5,8 @@ class PhpAT73Xhprof < PhpPeclFormula
 
   url "https://pecl.php.net/get/xhprof-2.2.0.tgz"
   sha256 "034b3141411f3aaf44f91a0ec86a5f4c805a9372c4ef4f9c5ba38ef0b56f4fa2"
+
+  def source_dir
+    "#{extension}-#{version}/extension"
+  end
 end
