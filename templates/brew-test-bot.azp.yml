@@ -19,6 +19,7 @@ jobs:
         export GITHUB_BASE_REF="$SYSTEM_PULLREQUEST_TARGETBRANCH"
         export GITHUB_SHA="$BUILD_SOURCEVERSION"
         export GITHUB_ACTIONS="fake"
+        export GITHUB_REPOSITORY="$BUILD_REPOSITORY_NAME"
         export HOMEBREW_GITHUB_ACTIONS=fake
         brew test-bot --tap="kabel/pecl" --root-url=https://dl.bintray.com/kabel/bottles-pecl
       displayName: Run brew test-bot
