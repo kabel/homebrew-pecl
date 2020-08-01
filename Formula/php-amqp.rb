@@ -5,6 +5,7 @@ class PhpAmqp < PhpPeclFormula
 
   url "https://pecl.php.net/get/amqp-1.10.2.tgz"
   sha256 "0ebc61052eb12406dddf5eabfe8749a12d52c566816b8aab04fb9916d0c26ed2"
+  license "PHP-3.01"
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"

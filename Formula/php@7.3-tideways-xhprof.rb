@@ -6,6 +6,8 @@ class PhpAT73TidewaysXhprof < PhpPeclFormula
 
   url "https://github.com/tideways/php-xhprof-extension/archive/v5.0.2.tar.gz"
   sha256 "9ef4accba5a060128a6f4fb4e91da94f55cf42615cea47379d536d9702394559"
+  license "Apache-2.0"
+
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
     cellar :any_skip_relocation

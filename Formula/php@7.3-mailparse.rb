@@ -5,6 +5,7 @@ class PhpAT73Mailparse < PhpPeclFormula
 
   url "https://pecl.php.net/get/mailparse-3.1.0.tgz"
   sha256 "6d4fc66e7bf91b4d94f5339d9486dd26ffd1859acae73b09c0ef119fd2cb1c99"
+  license "PHP-3.01"
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"

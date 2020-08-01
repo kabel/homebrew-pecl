@@ -5,6 +5,7 @@ class PhpAT73Xdebug < PhpPeclFormula
 
   url "https://pecl.php.net/get/xdebug-2.9.6.tgz"
   sha256 "ab03b6014706491b393aa8d520b5bdaf6735a2f1bc12a7772b2916ef2646e454"
+  license "PHP-3.0"
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"

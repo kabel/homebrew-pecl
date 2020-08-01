@@ -5,6 +5,7 @@ class PhpAT72Apcu < PhpPeclFormula
 
   url "https://pecl.php.net/get/apcu-5.1.18.tgz"
   sha256 "d46debe7acad6073b663ba1710c5cac671a60bf666966cf199bf6d07499bde2b"
+  license "PHP-3.01"
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"

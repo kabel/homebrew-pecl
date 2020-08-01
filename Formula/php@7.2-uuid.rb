@@ -5,6 +5,7 @@ class PhpAT72Uuid < PhpPeclFormula
 
   url "https://pecl.php.net/get/uuid-1.1.0.tgz"
   sha256 "981c1c2fec77aaffec29242c29a346bc6ec2115053e9b6b5afb4a4e149a2333f"
+  license "LGPL-2.1-only"
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"

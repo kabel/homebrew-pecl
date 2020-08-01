@@ -7,6 +7,7 @@ class PhpSsh2 < PhpPeclFormula
   version "1.2"
   sha256 "7536cf4975915389c60afc9784e8ecf5100d1d994ea01749cb418e388069c411"
   revision 1
+  license "PHP-3.01"
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"

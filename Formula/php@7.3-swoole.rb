@@ -5,6 +5,7 @@ class PhpAT73Swoole< PhpPeclFormula
 
   url "https://pecl.php.net/get/swoole-4.5.2.tgz"
   sha256 "f613601a90350ac0632dbab9955ffc7ae29dd1f0a58d3c9af9a1efb01c2925d0"
+  license "Apache-2.0"
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"

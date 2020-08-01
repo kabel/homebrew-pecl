@@ -5,6 +5,7 @@ class PhpAT72Redis < PhpPeclFormula
 
   url "https://pecl.php.net/get/redis-5.3.1.tgz"
   sha256 "7c29e49c5cbc6b54ccccc00b44fac4d3ed9895e5718fcf62a5b06281dda8809d"
+  license "PHP-3.01"
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
