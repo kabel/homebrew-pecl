@@ -10,7 +10,7 @@ class PhpAT73Igbinary < PhpPeclFormula
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
     cellar :any_skip_relocation
-    sha256 "00bd38a923dfc782677b22ed8ccdd32e2d26c6625445a734d7da7f2ad3dd834c" => :mojave
-    sha256 "1971884c0b023d84f367b61a6d11c88d352810f841c1bf73b081542cbabf0539" => :high_sierra
+    sha256 "8218ff0165d6bf1c56cf46a37fd70967a683c501cb12559a21f86df7b1288faf" => :catalina
+    sha256 "85d52e4f6329e014f03f779c0e3578fc12ee864681058687306d904756967fa9" => :mojave
   end
 end
