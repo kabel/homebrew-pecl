@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpAT73Igbinary < PhpPeclFormula
   extension_dsl "Communicate with any AMQP compliant server"
 
-  url "https://pecl.php.net/get/igbinary-3.1.2.tgz"
-  sha256 "e78b327dad5397ed42f7b0c6fe017eddcde8c3c24ab8b59562cb691c411fa90b"
+  url "https://pecl.php.net/get/igbinary-3.1.4.tgz"
+  sha256 "f4be61542df76ef628825a9bf1ec8de180d4c6142816349c1e4004918178f015"
   license "BSD-3-Clause"
 
   bottle do
