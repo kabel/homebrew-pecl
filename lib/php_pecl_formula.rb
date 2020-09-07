@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class PhpPeclFormula < Formula
   desc "PHP PECL Extension"
   homepage "https://pecl.php.net/"
@@ -20,7 +22,8 @@ class PhpPeclFormula < Formula
     ext_config_path = etc/"php"/php_parent.version.major_minor/"conf.d"/"ext-#{extension}.ini"
     if ext_config_path.exist?
       inreplace ext_config_path,
-        /#{extension_type}=.*$/, "#{extension_type}=#{opt_lib/module_path}/#{provides_extension}.so"
+                /#{extension_type}=.*$/,
+                "#{extension_type}=#{opt_lib/module_path}/#{provides_extension}.so"
     else
       ext_config_path.write <<~EOS
         [#{provides_extension}]
@@ -30,8 +33,9 @@ class PhpPeclFormula < Formula
   end
 
   test do
-    assert_match provides_extension.downcase, shell_output("#{php_parent.opt_bin}/php -m").downcase,
-      "failed to find extension in php -m output"
+    assert_match provides_extension.downcase,
+                 shell_output("#{php_parent.opt_bin}/php -m").downcase,
+                 "failed to find extension in php -m output"
   end
 
   private
@@ -48,7 +52,7 @@ class PhpPeclFormula < Formula
   end
 
   def module_path
-    extension_dir = Utils.safe_popen_read("#{php_parent.opt_bin/"php-config"} --extension-dir").chomp
+    extension_dir = Utils.safe_popen_read(php_parent.opt_bin/"php-config", "--extension-dir").chomp
     php_basename = File.basename(extension_dir)
     "php/#{php_basename}"
   end
@@ -65,18 +69,18 @@ class PhpPeclFormula < Formula
     def extension_dsl(description = nil)
       class_name = name.split("::").last
       m = NAME_PATTERN.match(class_name)
-      if m.nil?
-        raise "Bad PECL extension name for #{class_name}"
-      elsif m[1].nil?
+      raise "Bad PECL extension name for #{class_name}" if m.nil?
+
+      if m[1].nil?
         parent_name = "php"
       else
-        parent_name = "php@" + m.captures[0..1].join(".")
+        parent_name = "php@#{m.captures[0..1].join(".")}"
         keg_only :versioned_formula
       end
 
       @php_parent = Formula[parent_name]
       @extension = m[3].gsub(/([a-z])([A-Z])/) do
-        Regexp.last_match(1) + "_" + Regexp.last_match(2)
+        "#{Regexp.last_match(1)}_#{Regexp.last_match(2)}"
       end.downcase
       @configure_args = %W[
         --with-php-config=#{php_parent.opt_bin/"php-config"}
@@ -84,7 +88,7 @@ class PhpPeclFormula < Formula
 
       desc "#{description} for PHP #{php_parent.version.major_minor}" unless description.nil?
 
-      homepage "https://pecl.php.net/package/" + extension
+      homepage "https://pecl.php.net/package/#{extension}"
 
       depends_on "autoconf" => :build
       depends_on "pkg-config" => :build
