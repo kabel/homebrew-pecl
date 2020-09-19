@@ -86,7 +86,7 @@ class PhpPeclFormula < Formula
         --with-php-config=#{php_parent.opt_bin/"php-config"}
       ]
 
-      desc "#{description} for PHP #{php_parent.version.major_minor}" unless description.nil?
+      desc "#{description.strip.gsub(/\s+/, " ")} for PHP #{php_parent.version.major_minor}" unless description.nil?
 
       homepage "https://pecl.php.net/package/#{extension}"
 
