@@ -3,10 +3,9 @@ require_relative "../lib/php_pecl_formula"
 class PhpApcu < PhpPeclFormula
   extension_dsl "APC User Cache"
 
-  url "https://pecl.php.net/get/apcu-5.1.18.tgz"
-  sha256 "d46debe7acad6073b663ba1710c5cac671a60bf666966cf199bf6d07499bde2b"
+  url "https://pecl.php.net/get/apcu-5.1.19.tgz"
+  sha256 "837fbc99d5c79efb510fafaf585ef0c06e02baf8310a7d77f93e402c93276ce0"
   license "PHP-3.01"
-  revision 1
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
