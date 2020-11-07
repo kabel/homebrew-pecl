@@ -9,8 +9,8 @@ class PhpMongodb < PhpPeclFormula
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
-    sha256 "96a5b7e7959ec65fbf6fb5643da92117766394ff3c5f32a4e583e96c05d6e894" => :catalina
-    sha256 "edbf00a0db9180c8cadc31b75e70b3912b7db82236109f519a1ef6d21db360cd" => :mojave
+    sha256 "9dad1b14194dd01bcd5cd6f2975463523ceeec5fdc531ffcc67d1fd254507f57" => :catalina
+    sha256 "37448d9ccf6818090891d25c836226a2c9ffa68b8a002fd0d0867dbbc4be99f3" => :mojave
   end
 
   depends_on "icu4c"
