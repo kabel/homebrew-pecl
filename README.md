@@ -1,8 +1,8 @@
 ![](https://repository-images.githubusercontent.com/198321627/2fbdcd80-f858-11ea-9918-e98efc78da29)
 
 # kabel/pecl
-![](https://img.shields.io/github/sponsors/kabel?style=social)
-![](https://img.shields.io/azure-devops/build/kevinabel0613/kevinabel/1?style=social)
+[![](https://img.shields.io/github/sponsors/kabel?style=social)](https://github.com/sponsors/kabel/)
+[![](https://img.shields.io/azure-devops/build/kevinabel0613/kevinabel/1?style=social)](https://dev.azure.com/kevinabel0613/kevinabel/_build?definitionId=1)
 
 This tap is an experiment to see if it's sustainable to use the pecl registry without using the `pecl` installer that is not included (deprecated) in core PHP since version 7.4.
 
