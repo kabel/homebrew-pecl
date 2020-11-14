@@ -10,8 +10,8 @@ class PhpImagick < PhpPeclFormula
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
-    sha256 "87913ce1a898b86f9f948c7ffb6c8b962a8c99b6b43da5df3674f2fdf50ddafc" => :catalina
-    sha256 "513ebdd6ff513316ce7cdd528df5b4ad66c55aa8ea75e2688fd7b35196cec153" => :mojave
+    sha256 "2ed0ebbf72ae2139ebf3bfb07f7b43ec8f770bc707824785ccd0461c773451d1" => :catalina
+    sha256 "41777b5b575a107f595c6d33b231d60463e8b1b25a0bcff318a188d7539c68f2" => :mojave
   end
 
   depends_on "imagemagick"
