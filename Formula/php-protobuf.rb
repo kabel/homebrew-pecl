@@ -10,7 +10,7 @@ class PhpProtobuf < PhpPeclFormula
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
     cellar :any_skip_relocation
-    sha256 "65d241ddc7297c4274e8cbf67e97930d2964fc7dcdf39f7686a21d908ad6ac36" => :catalina
-    sha256 "65fb303191e006100e40f782e8fba9fae1ada247b7b9cbfea538308047e0ddaa" => :mojave
+    sha256 "a4990784888e3cbdf79e85fc4d28e0b3d89011c7c2a1dc9f93a297a7165f8467" => :catalina
+    sha256 "712e6140ae75b74b7640b5295168a425f6c94421d8098b9ff1468190f0dad452" => :mojave
   end
 end
