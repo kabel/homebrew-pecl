@@ -12,5 +12,4 @@ class PhpJsmin < PhpPeclFormula
     sha256 "374eda7f2b8069afa8c9cd2e8609db4179e9f20f27406387c821fda89fe070a3" => :catalina
     sha256 "ce0a55c76c2ab2e34713dba19b889c9736b936833d9afe2aa97fd4eaf3698ac5" => :mojave
   end
-
 end
