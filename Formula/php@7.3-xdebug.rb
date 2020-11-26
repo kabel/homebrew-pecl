@@ -9,9 +9,8 @@ class PhpAT73Xdebug < PhpPeclFormula
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
-    cellar :any_skip_relocation
-    sha256 "6bf5774eb2a0b92781cee9a53b7d1cf350cf673ed99f37200bc47d0f432bc817" => :catalina
-    sha256 "b962bea3220f84efeb2e3f052daf719fef4a027f75572425d8795217791f4034" => :mojave
+    sha256 "70128753d1f9cd0e836a39d89b79bf87c14e72b5e53dd93100fdb3a999e25a1d" => :catalina
+    sha256 "1904d38357ba954e3f449ab4831ef4b3bca5e81c8913a804d550755e9dfad6f5" => :mojave
   end
 
   def extension_type
