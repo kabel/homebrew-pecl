@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72PeclHttp < PhpPeclFormula
+class PhpAT74PeclHttp < PhpPeclFormula
   extension_dsl "Extended HTTP Support"
 
   url "https://pecl.php.net/get/pecl_http-3.2.3.tgz"
@@ -19,8 +19,8 @@ class PhpAT72PeclHttp < PhpPeclFormula
   depends_on "icu4c"
   depends_on "libevent"
   depends_on "libidn2"
-  depends_on "kabel/pecl/php@7.2-propro"
-  depends_on "kabel/pecl/php@7.2-raphf"
+  depends_on "kabel/pecl/php@7.4-propro"
+  depends_on "kabel/pecl/php@7.4-raphf"
 
   configure_arg %W[
     --with-http
@@ -30,8 +30,8 @@ class PhpAT72PeclHttp < PhpPeclFormula
 
   def install
     extra_includes = %W[
-      -I#{Formula["kabel/pecl/php@7.2-propro"].opt_include}/php
-      -I#{Formula["kabel/pecl/php@7.2-raphf"].opt_include}/php
+      -I#{Formula["kabel/pecl/php@7.4-propro"].opt_include}/php
+      -I#{Formula["kabel/pecl/php@7.4-raphf"].opt_include}/php
     ]
     ENV["EXTRA_INCLUDES"] = extra_includes * " "
     super
