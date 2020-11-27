@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72Xdebug < PhpPeclFormula
+class PhpAT74Xdebug < PhpPeclFormula
   extension_dsl "An extension to assist with debugging and development"
 
   url "https://pecl.php.net/get/xdebug-3.0.0.tgz"
