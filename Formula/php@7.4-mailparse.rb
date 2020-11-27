@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72Mailparse < PhpPeclFormula
+class PhpAT74Mailparse < PhpPeclFormula
   extension_dsl "Email message manipulation"
 
   url "https://pecl.php.net/get/mailparse-3.1.1.tgz"
