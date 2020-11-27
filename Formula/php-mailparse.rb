@@ -11,7 +11,7 @@ class PhpMailparse < PhpPeclFormula
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
     cellar :any_skip_relocation
-    sha256 "c2bfa6412a7a2a47bd62f2c20e278514a7eb033e068a544630fbc1914c487eb5" => :catalina
-    sha256 "c5ded2e763dff5e6a6f97e0010a982c4701002f8416e683dfba7f9082568d4d0" => :mojave
+    sha256 "6bbc1f8da97b263d0f7f02c6d71b8719ab13696758654af15ab18df892a5ecf7" => :catalina
+    sha256 "0f9a3d3f074c045d36c66497ea2483d68a71bfe5d77be38f7e2cfeeb768adae5" => :mojave
   end
 end
