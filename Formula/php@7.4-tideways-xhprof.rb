@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72TidewaysXhprof < PhpPeclFormula
+class PhpAT74TidewaysXhprof < PhpPeclFormula
   extension_dsl "Modern XHProf compatible PHP Profiler"
   homepage "https://tideways.com/"
 
