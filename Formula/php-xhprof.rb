@@ -5,6 +5,7 @@ class PhpXhprof < PhpPeclFormula
 
   url "https://pecl.php.net/get/xhprof-2.2.2.tgz"
   sha256 "13bd1c3f6b0d834ebaa4eef924039f90c8dc1a24e2d92e851de12035d3662a43"
+  revision 1
   license "Apache-2.0"
 
   bottle do
