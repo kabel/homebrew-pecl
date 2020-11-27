@@ -8,11 +8,5 @@ class PhpAmqp < PhpPeclFormula
   revision 1
   license "PHP-3.01"
 
-  bottle do
-    root_url "https://dl.bintray.com/kabel/bottles-pecl"
-    sha256 "4c18dde01de00fde6cdd6a5b036a226e9e479ac13989983cc6008caf0a5362cd" => :catalina
-    sha256 "2afc0509549450a348d93f2ee903ff079f09d8b2d95127e33ec1b6ca0eec6ec3" => :mojave
-  end
-
   depends_on "rabbitmq-c"
 end
