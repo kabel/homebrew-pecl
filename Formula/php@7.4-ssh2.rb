@@ -3,9 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpAT74Ssh2 < PhpPeclFormula
   extension_dsl "Bindings for the libssh2 library"
 
-  url "http://git.php.net/?p=pecl/networking/ssh2.git;a=snapshot;h=e9e1fd5cbefe2f43de37974e5988a9d05d005078;sf=tgz"
-  version "1.2"
-  sha256 "7536cf4975915389c60afc9784e8ecf5100d1d994ea01749cb418e388069c411"
+  url "https://pecl.php.net/get/ssh2-1.2.tgz"
+  sha256 "7f9f205f5b555692f7b010ffb68a01e21860176062f2ec14dc577d994cecd929"
   license "PHP-3.01"
 
   bottle do
@@ -17,5 +16,5 @@ class PhpAT74Ssh2 < PhpPeclFormula
 
   depends_on "libssh2"
 
-  configure_arg "--with-ssh2=#{Formula["libssh2"]}.opt_prefix"
+  configure_arg "--with-ssh2=#{Formula["libssh2"].opt_prefix}"
 end
