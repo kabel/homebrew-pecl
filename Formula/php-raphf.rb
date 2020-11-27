@@ -11,7 +11,7 @@ class PhpRaphf < PhpPeclFormula
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
     cellar :any_skip_relocation
-    sha256 "41109c2d383f27824a7c191e4ef47087a9a662aa3cc4cccfdfc03864d9255b8c" => :mojave
-    sha256 "44373a46e0d4bcb3c58a352e3db18c3332bf30bea8dad64c9024d1361a943b18" => :high_sierra
+    sha256 "b87bd6e5dc1605edf6ca9278ce25b15999191768b282e42d617ebf6c5b2c2613" => :catalina
+    sha256 "96349350be7d6975345d9d9fa02567a3e8da9e0cbfe3e681c448465674c00af1" => :mojave
   end
 end
