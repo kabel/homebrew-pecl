@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72Raphf < PhpPeclFormula
+class PhpAT74Raphf < PhpPeclFormula
   extension_dsl "Resource and persistent handles factory"
 
   url "https://pecl.php.net/get/raphf-2.0.1.tgz"
