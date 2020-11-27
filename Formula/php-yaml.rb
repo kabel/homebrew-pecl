@@ -5,6 +5,7 @@ class PhpYaml < PhpPeclFormula
 
   url "https://pecl.php.net/get/yaml-2.1.0.tgz"
   sha256 "5acbf64d770b4b0aef8c877326fc0711112db4215a27c0fe8e4478fb7314b666"
+  revision 1
   license "MIT"
 
   bottle do
