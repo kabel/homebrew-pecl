@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72Couchbase < PhpPeclFormula
+class PhpAT74Couchbase < PhpPeclFormula
   extension_dsl "Couchbase Server"
 
   url "https://pecl.php.net/get/couchbase-2.6.2.tgz"
