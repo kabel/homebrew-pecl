@@ -10,8 +10,8 @@ class PhpUuid < PhpPeclFormula
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
-    sha256 "e1d5d5626f532db412804571ea66b736d797422fb0cc92f7a869997976071bce" => :catalina
-    sha256 "1e1f5f3b1aa3eec6770fa82fc13272c3f888a790abbe53e78063ba2e4caafc69" => :mojave
+    sha256 "2bdb4c4bd16743dcb24896011ad1ae8966b3752db046ba1d4c1eba20d79327f6" => :catalina
+    sha256 "abd9ffcff12caecc24efaf9842f9a95a7d87ab267362b766f30c3a4132f873d1" => :mojave
   end
 
   depends_on "e2fsprogs"
