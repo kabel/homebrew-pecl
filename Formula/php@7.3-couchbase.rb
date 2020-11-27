@@ -9,8 +9,8 @@ class PhpAT73Couchbase < PhpPeclFormula
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
-    sha256 "c8fd768c7755b698d8b279816f0eaa2980e0b579fcad29be5b99a492f6cf2d64" => :catalina
-    sha256 "f42e840c0cd30ba85d9cbe8c7868f6f5a65df12c8d7770359ddf620b3d10e6a2" => :mojave
+    sha256 "55b0879cd7742bf1f42c7cafc4260ef9c3d5462a1d1ccdb65676d529accc4dca" => :catalina
+    sha256 "a8facd05a8dc07166a84163b8a9f973561b47752680734021db26eea19c5ba87" => :mojave
   end
 
   depends_on "libcouchbase"
