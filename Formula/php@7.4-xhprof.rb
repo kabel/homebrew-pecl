@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72Xhprof < PhpPeclFormula
+class PhpAT74Xhprof < PhpPeclFormula
   extension_dsl "XHProf: A Hierarchical Profiler for PHP"
 
   url "https://pecl.php.net/get/xhprof-2.2.2.tgz"
