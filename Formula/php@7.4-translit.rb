@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72Translit < PhpPeclFormula
+class PhpAT74Translit < PhpPeclFormula
   extension_dsl "Transliterates non-latin character sets to latin"
 
   url "https://pecl.php.net/get/translit-0.7.1.tgz"
