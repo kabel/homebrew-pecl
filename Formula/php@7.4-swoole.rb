@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72Swoole< PhpPeclFormula
+class PhpAT74Swoole< PhpPeclFormula
   extension_dsl "Event-driven asynchronous and concurrent networking engine with high performance"
 
   url "https://pecl.php.net/get/swoole-4.5.8.tgz"
