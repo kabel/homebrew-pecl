@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72Igbinary < PhpPeclFormula
+class PhpAT74Igbinary < PhpPeclFormula
   extension_dsl "Communicate with any AMQP compliant server"
 
   url "https://pecl.php.net/get/igbinary-3.1.6.tgz"
