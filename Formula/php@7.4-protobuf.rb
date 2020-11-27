@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72Protobuf < PhpPeclFormula
+class PhpAT74Protobuf < PhpPeclFormula
   extension_dsl "Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data."
 
   url "https://pecl.php.net/get/protobuf-3.14.0.tgz"
