@@ -5,6 +5,7 @@ class PhpRedis < PhpPeclFormula
 
   url "https://pecl.php.net/get/redis-5.3.2.tgz"
   sha256 "f4e92de628abcb917cdc810df045ca3fa0f2af34673eaa2a03350e3c5c5fdab1"
+  revision 1
   license "PHP-3.01"
 
   bottle do
