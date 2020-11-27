@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72Redis < PhpPeclFormula
+class PhpAT74Redis < PhpPeclFormula
   extension_dsl "Redis extension"
 
   url "https://pecl.php.net/get/redis-5.3.2.tgz"
