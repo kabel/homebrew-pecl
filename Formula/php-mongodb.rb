@@ -5,6 +5,7 @@ class PhpMongodb < PhpPeclFormula
 
   url "https://pecl.php.net/get/mongodb-1.9.0.tgz"
   sha256 "1a9e7117b749c2dd63bd3493bf38c24a9acd11646ec96a0d92ba6380eee0ab9a"
+  revision 1
   license "Apache-2.0"
 
   bottle do
