@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72Uuid < PhpPeclFormula
+class PhpAT74Uuid < PhpPeclFormula
   extension_dsl "UUID extension"
 
   url "https://pecl.php.net/get/uuid-1.2.0.tgz"
