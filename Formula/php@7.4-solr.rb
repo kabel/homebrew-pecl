@@ -14,8 +14,8 @@ class PhpAT74Solr < PhpPeclFormula
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
-    sha256 "afdb2a6b1e29c146b36e64bb5d8bc8fce6568250d208ea1700b4cbb97434ae63" => :catalina
-    sha256 "f8de2a94029702410bdeac6f9015e186501eab391912502dfddaa3872ea269bc" => :mojave
+    sha256 "4afdfde2b313ddf3a5af78c0665d77871dd65f468c377ad1d6926492f329e932" => :catalina
+    sha256 "0fe770845f20936e37fe4eee82dd8997313c5ab269181b609a7d04bce09a63f8" => :mojave
   end
 
   depends_on "curl-openssl"
