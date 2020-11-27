@@ -5,6 +5,7 @@ class PhpMailparse < PhpPeclFormula
 
   url "https://pecl.php.net/get/mailparse-3.1.1.tgz"
   sha256 "c70f2650f81f7e234e5e2c8b079f3db04f38c269cf906c7846242fe9df92ce0a"
+  revision 1
   license "PHP-3.01"
 
   bottle do
