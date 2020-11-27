@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72Yaml < PhpPeclFormula
+class PhpAT74Yaml < PhpPeclFormula
   extension_dsl "YAML 1.1 serialization"
 
   url "https://pecl.php.net/get/yaml-2.1.0.tgz"
