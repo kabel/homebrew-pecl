@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72Memcache < PhpPeclFormula
+class PhpAT74Memcache < PhpPeclFormula
   extension_dsl "memcache extension"
 
   url "https://pecl.php.net/get/memcache-4.0.5.2.tgz"
