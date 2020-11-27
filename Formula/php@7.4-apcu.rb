@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72Apcu < PhpPeclFormula
+class PhpAT74Apcu < PhpPeclFormula
   extension_dsl "APC User Cache"
 
   url "https://pecl.php.net/get/apcu-5.1.19.tgz"
