@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72Ssh2 < PhpPeclFormula
+class PhpAT74Ssh2 < PhpPeclFormula
   extension_dsl "Bindings for the libssh2 library"
 
   url "http://git.php.net/?p=pecl/networking/ssh2.git;a=snapshot;h=e9e1fd5cbefe2f43de37974e5988a9d05d005078;sf=tgz"
