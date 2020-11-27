@@ -10,8 +10,8 @@ class PhpAT74Memcache < PhpPeclFormula
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
     cellar :any_skip_relocation
-    sha256 "bb51e4485a31ed4d571fb0c326e83d6b32d964e82c7903e55dcb148a9195ac26" => :mojave
-    sha256 "aee0ffc29383dd8d1b5d817c2a490fa762e48a7b941207ca32575962c448dc18" => :high_sierra
+    sha256 "af17f29041e74521009e34e159234e1f47900cdfac9990474364b9edf7040e58" => :catalina
+    sha256 "27c744851bb61773f9268009c0a4438fe1e7dda44ad25aa81369f15d2ca8aa14" => :mojave
   end
 
   configure_arg "--with-zlib-dir=#{MacOS.sdk_path_if_needed}/usr"
