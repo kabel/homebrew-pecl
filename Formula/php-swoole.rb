@@ -5,6 +5,7 @@ class PhpSwoole< PhpPeclFormula
 
   url "https://pecl.php.net/get/swoole-4.5.8.tgz"
   sha256 "202efb1ca36b7d30a54ee7571c7db34a5bf73a983a2c97f68cf074891a8f12c9"
+  revision 1
   license "Apache-2.0"
 
   bottle do
