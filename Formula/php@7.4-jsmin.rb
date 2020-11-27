@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72Jsmin < PhpPeclFormula
+class PhpAT74Jsmin < PhpPeclFormula
   extension_dsl "Extension for JavaScript minification"
 
   url "https://pecl.php.net/get/jsmin-3.0.0.tgz"
