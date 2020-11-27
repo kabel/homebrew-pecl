@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72Sqlsrv < PhpPeclFormula
+class PhpAT74Sqlsrv < PhpPeclFormula
   extension_dsl "Microsoft Drivers for SQL Server"
 
   url "https://pecl.php.net/get/sqlsrv-5.8.1.tgz"
