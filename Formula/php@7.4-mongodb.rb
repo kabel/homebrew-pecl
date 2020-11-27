@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72Mongodb < PhpPeclFormula
+class PhpAT74Mongodb < PhpPeclFormula
   extension_dsl "MongoDB driver"
 
   url "https://pecl.php.net/get/mongodb-1.9.0.tgz"
