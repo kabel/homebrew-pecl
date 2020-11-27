@@ -9,9 +9,8 @@ class PhpAT74Ssh2 < PhpPeclFormula
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
-    cellar :any
-    sha256 "a389fe29698d860204eeb962f61d8912f7abfd5ca51c9991a0897a2f132c07f8" => :mojave
-    sha256 "02913cd3b526d1196cd849b7099d40631f6d448dfc5e01dcef37f8d2384cb0cb" => :high_sierra
+    sha256 "d529beff0dabb10bd7658c771d0b1d089c10c48d8488e2efdc739b9ef0856651" => :catalina
+    sha256 "c74216425490b46de97f3b757fad7bbdee99e2f367855052ebf4ba56607a127c" => :mojave
   end
 
   depends_on "libssh2"
