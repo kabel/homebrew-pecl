@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72Grpc < PhpPeclFormula
+class PhpAT74Grpc < PhpPeclFormula
   extension_dsl "A high performance, open source, general RPC framework that puts mobile and HTTP/2 first"
 
   url "https://pecl.php.net/get/grpc-1.33.1.tgz"
