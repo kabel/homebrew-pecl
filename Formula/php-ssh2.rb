@@ -8,13 +8,6 @@ class PhpSsh2 < PhpPeclFormula
   revision 2
   license "PHP-3.01"
 
-  bottle do
-    root_url "https://dl.bintray.com/kabel/bottles-pecl"
-    cellar :any
-    sha256 "d6ce88200971e766352b9ac23e8144161623a3379c3974fc06ef527200143812" => :mojave
-    sha256 "8607f864166fe898522976c0b2906ad2afe6133f84ccd97f0aaeb4dbf7464f89" => :high_sierra
-  end
-
   depends_on "libssh2"
 
   configure_arg "--with-ssh2=#{Formula["libssh2"].opt_prefix}"
