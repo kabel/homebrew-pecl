@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT72Solr < PhpPeclFormula
+class PhpAT74Solr < PhpPeclFormula
   extension_dsl <<~EOS
     The Apache Solr PHP extension is an extremely fast,
     light-weight, feature-rich library that allows PHP applications to
