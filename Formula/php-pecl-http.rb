@@ -9,8 +9,8 @@ class PhpPeclHttp < PhpPeclFormula
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
-    sha256 "c13c038c49311a826408e4dd00ea92454e112ae5576ebcedb62fd1b02fe17a22" => :catalina
-    sha256 "2d7d8c04adc85fdbd202b0a94895db562d563fd18f31b3cdf496a2bd090f61c5" => :mojave
+    sha256 "3e34ee5ffd6ec06067b556c422eb4791e120dc7a568d6905f5e211df95088f69" => :catalina
+    sha256 "446c1385172018ce940cc26961b65099769caa5f2b1670af9c4e8f3bed221dda" => :mojave
   end
 
   depends_on "brotli"
