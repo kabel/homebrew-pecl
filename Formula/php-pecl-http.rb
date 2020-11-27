@@ -3,10 +3,9 @@ require_relative "../lib/php_pecl_formula"
 class PhpPeclHttp < PhpPeclFormula
   extension_dsl "Extended HTTP Support"
 
-  url "https://pecl.php.net/get/pecl_http-3.2.3.tgz"
-  sha256 "cf9d2a2ed335e572366025eca1d69e86c585f96ca07db341839a06f52ee4aa88"
+  url "https://pecl.php.net/get/pecl_http-4.0.0beta1.tgz"
+  sha256 "9973a28c0aa83ce9f643d1df6c92d1e3d9a13f91e22b202004e37f6caa52460d"
   license "BSD-2-Clause"
-  revision 3
 
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
@@ -19,7 +18,6 @@ class PhpPeclHttp < PhpPeclFormula
   depends_on "icu4c"
   depends_on "libevent"
   depends_on "libidn2"
-  depends_on "kabel/pecl/php-propro"
   depends_on "kabel/pecl/php-raphf"
 
   configure_arg %W[
@@ -30,7 +28,6 @@ class PhpPeclHttp < PhpPeclFormula
 
   def install
     extra_includes = %W[
-      -I#{Formula["kabel/pecl/php-propro"].opt_include}/php
       -I#{Formula["kabel/pecl/php-raphf"].opt_include}/php
     ]
     ENV["EXTRA_INCLUDES"] = extra_includes * " "
