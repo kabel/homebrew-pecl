@@ -14,7 +14,7 @@ class PhpPeclHttp < PhpPeclFormula
   end
 
   depends_on "brotli"
-  depends_on "curl-openssl"
+  depends_on "curl"
   depends_on "icu4c"
   depends_on "libevent"
   depends_on "libidn2"

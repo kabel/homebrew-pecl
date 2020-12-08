@@ -18,9 +18,9 @@ class PhpAT73Solr < PhpPeclFormula
     sha256 "6a5e21fac551a7d40d0a0825decfbec82b56ac5000c4fc78121f61bb47fad657" => :mojave
   end
 
-  depends_on "curl-openssl"
+  depends_on "curl"
 
   configure_arg %W[
-    --with-curl=#{Formula["curl-openssl"].opt_prefix}
+    --with-curl=#{Formula["curl"].opt_prefix}
   ]
 end
