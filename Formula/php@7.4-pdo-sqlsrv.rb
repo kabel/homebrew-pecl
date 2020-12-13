@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpAT74PdoSqlsrv < PhpPeclFormula
   extension_dsl "Microsoft Drivers for SQL Server"
 
-  url "https://pecl.php.net/get/pdo_sqlsrv-5.8.1.tgz"
-  sha256 "2047b6cb4e5d8592c8cc31df88b5f23654ed94f0c2f084b148403f4746276a19"
+  url "https://pecl.php.net/get/pdo_sqlsrv-5.9.0beta2.tgz"
+  sha256 "225be6b65b16b4953e139ae7f50aea910acb7c5148e2783b8bfe6e26fbe3f280"
   license "MIT"
 
   bottle do
