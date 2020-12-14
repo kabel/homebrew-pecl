@@ -10,5 +10,7 @@ class PhpDs < PhpPeclFormula
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
     cellar :any_skip_relocation
+    sha256 "bcdfe7de44e39ad9a76a308135d0e830f8ec488786f9a21761ac75139b0f51c9" => :catalina
+    sha256 "fcf0f18957c7e48c3817555d5bfc20c6e1aef589e72308ddfee60f94d106db08" => :mojave
   end
 end
