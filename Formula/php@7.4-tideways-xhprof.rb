@@ -11,7 +11,7 @@ class PhpAT74TidewaysXhprof < PhpPeclFormula
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
     cellar :any_skip_relocation
-    sha256 "767cea537c244477d21e6bffac8055611c51d24baa17d99d32cdcdd5b089daf2" => :catalina
-    sha256 "e1b80959cf9672ef8964553cd5cfec35fc219a1445f37993bef162fbccabef87" => :mojave
+    sha256 "4bbe58f00450d3cff2bf903af13d05411840a17497d8abddc753151c1639301b" => :catalina
+    sha256 "beb6e1e97c20a6bc9891491c3efeb37b07470e8ea253d8c2017795581557aa21" => :mojave
   end
 end
