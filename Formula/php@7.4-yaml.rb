@@ -10,8 +10,8 @@ class PhpAT74Yaml < PhpPeclFormula
   bottle do
     root_url "https://dl.bintray.com/kabel/bottles-pecl"
     cellar :any
-    sha256 "79ba31387c9a43bd510d74378adc81c6bed0932a7ca29b0943986490dada0764" => :catalina
-    sha256 "71b025f5afe8ad84e0f5ae7e7acdf827459ab2970bcfb6bfb59d774dead80cd7" => :mojave
+    sha256 "784012249546fcdcbd716cd7526145d030632578991f84b64f465e9599e3c57d" => :catalina
+    sha256 "5cd41f06db4ba5b23651642caac6a5ce696643bfdd973ef1b904ca71cc347a1e" => :mojave
   end
 
   depends_on "libyaml"
