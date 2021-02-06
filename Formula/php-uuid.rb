@@ -9,7 +9,7 @@ class PhpUuid < PhpPeclFormula
   license "LGPL-2.1-only"
 
   bottle do
-    root_url "https://dl.bintray.com/kabel/bottles-pecl"
+    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
     sha256 "2bdb4c4bd16743dcb24896011ad1ae8966b3752db046ba1d4c1eba20d79327f6" => :catalina
     sha256 "abd9ffcff12caecc24efaf9842f9a95a7d87ab267362b766f30c3a4132f873d1" => :mojave
   end

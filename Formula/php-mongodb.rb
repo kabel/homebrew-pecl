@@ -9,7 +9,7 @@ class PhpMongodb < PhpPeclFormula
   license "Apache-2.0"
 
   bottle do
-    root_url "https://dl.bintray.com/kabel/bottles-pecl"
+    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
     sha256 "2dd30bdf5cd5697ee67d71a6dec71bed0e9ea9faf6297c691f68d27451b25759" => :catalina
     sha256 "20f6f475728a8c5d6a0c82ec4109742dbf84ad706fbdc09b5e60e3404a0812c9" => :mojave
   end

@@ -8,7 +8,7 @@ class PhpAT74Igbinary < PhpPeclFormula
   license "BSD-3-Clause"
 
   bottle do
-    root_url "https://dl.bintray.com/kabel/bottles-pecl"
+    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
     cellar :any_skip_relocation
     sha256 "709cb9cee1246ed898f612b50249ab779d58809b85f9867e1e173be6848f0983" => :catalina
     sha256 "0feafd84848199b2abf0f77255b49855b4425d86c77a6f95204033e4e7189f44" => :mojave

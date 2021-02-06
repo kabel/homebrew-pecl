@@ -9,7 +9,7 @@ class PhpAT74Imagick < PhpPeclFormula
   revision 3
 
   bottle do
-    root_url "https://dl.bintray.com/kabel/bottles-pecl"
+    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
     sha256 "c23a14e5279d851c734acb4e62dc0c427d3727d7b402ca89471917f0f8e45b6e" => :catalina
     sha256 "26102711f75f16c327b613a69935ede7d93bddb3efe5118bf944d0b00668febe" => :mojave
   end

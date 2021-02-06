@@ -8,7 +8,7 @@ class PhpAT74Swoole< PhpPeclFormula
   license "Apache-2.0"
 
   bottle do
-    root_url "https://dl.bintray.com/kabel/bottles-pecl"
+    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
     sha256 "5e93f4aae30bc02d80a87fcf7f6012855bf6d70e0799bc3556f33d1ee69595ea" => :catalina
     sha256 "489e82a2de2326c4e715a01dc5af9503eb333e9a036f2085eec4f4ae279f22b0" => :mojave
   end

@@ -8,7 +8,7 @@ class PhpAT73Memcached < PhpPeclFormula
   license "PHP-3.01"
 
   bottle do
-    root_url "https://dl.bintray.com/kabel/bottles-pecl"
+    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
     sha256 "7586e9bd393e47723af58e75a6da478e26be5dc75d4220ffd4bc008177f58bf6" => :mojave
     sha256 "3d8971293dc94819c2482423d6ecab7cfd234f45d18fad6a30a2777d9ae72710" => :high_sierra
   end

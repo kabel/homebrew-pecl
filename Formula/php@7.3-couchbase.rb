@@ -8,7 +8,7 @@ class PhpAT73Couchbase < PhpPeclFormula
   license "Apache-2.0"
 
   bottle do
-    root_url "https://dl.bintray.com/kabel/bottles-pecl"
+    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
     sha256 "be8b03b19c7c88093f9669a705a488a752c53de7a12917a8aed87b857cfabc12" => :catalina
     sha256 "d2d0899291d462532d46434af98942bf7caa1b7ed07207fc3680e216b1d226af" => :mojave
   end

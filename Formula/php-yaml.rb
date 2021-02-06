@@ -8,7 +8,7 @@ class PhpYaml < PhpPeclFormula
   license "MIT"
 
   bottle do
-    root_url "https://dl.bintray.com/kabel/bottles-pecl"
+    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
     cellar :any
     sha256 "850cf67dd4d979efcb0d8416d9b2e458c8ed26a4d1c91131e748718a2fea0b07" => :catalina
     sha256 "9a374bb98280caea1272e8fb84f1218b73b89f9125bed681178bd9b5abb15392" => :mojave

@@ -8,7 +8,7 @@ class PhpAT73PdoSqlsrv < PhpPeclFormula
   license "MIT"
 
   bottle do
-    root_url "https://dl.bintray.com/kabel/bottles-pecl"
+    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
     cellar :any
     sha256 "1c1d1a6b4d59dc9288c173565cd29645cba24517297416e038383724ff8239b0" => :catalina
     sha256 "2ffccb4fe816e72ffbe1e43279f4dc8ea1252e4af9a4a00b542a25b4d1c0a2d5" => :mojave

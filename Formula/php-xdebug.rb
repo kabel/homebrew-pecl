@@ -8,7 +8,7 @@ class PhpXdebug < PhpPeclFormula
   license "PHP-3.0"
 
   bottle do
-    root_url "https://dl.bintray.com/kabel/bottles-pecl"
+    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
     sha256 "ad8d6c46208d2ab3922e8894cfad79f892d0031ff5205729ee03964cce0e9014" => :catalina
     sha256 "0c73fdb23d4efff31a0a8fc2646923670da5971c1770ca0a8a4346ec457abdac" => :mojave
   end

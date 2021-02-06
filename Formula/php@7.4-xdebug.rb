@@ -8,7 +8,7 @@ class PhpAT74Xdebug < PhpPeclFormula
   license "PHP-3.0"
 
   bottle do
-    root_url "https://dl.bintray.com/kabel/bottles-pecl"
+    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
     sha256 "9dbfdc36b5fb4635c5c7b9f13cce976d357ce34bc029ae91957176aae47612b9" => :catalina
     sha256 "0683ca401e3b0e2c65a3d5707445dd2a3ca0856fda80437d1d9bef8188919c4e" => :mojave
   end
