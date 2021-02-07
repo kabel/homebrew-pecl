@@ -9,9 +9,8 @@ class PhpAT74PdoSqlsrv < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    cellar :any
-    sha256 "ba828c13412c7965f500117f388aabcb560c09beaed0c536a7071b19b3b2b432" => :catalina
-    sha256 "7c9d585b9232b14854f798cf76af997b087dfdff3b8d1a25596a9fa684214a31" => :mojave
+    sha256 cellar: :any, catalina: "ffb6a71b918b07e04b0790742113c97f2b233cc13cfc0f7ca0465b6ed5def44a"
+    sha256 cellar: :any, mojave:   "b6460f4b1590b4d3c978087fc2db40c3b0fc0f4d2737cb60f237ff4d998bf587"
   end
 
   depends_on "unixodbc"
