@@ -10,8 +10,8 @@ class PhpAT74Imagick < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 "c23a14e5279d851c734acb4e62dc0c427d3727d7b402ca89471917f0f8e45b6e" => :catalina
-    sha256 "26102711f75f16c327b613a69935ede7d93bddb3efe5118bf944d0b00668febe" => :mojave
+    sha256 catalina: "d4f4c55532755c4ef437c96eeeb4dc936b9d2a40596e00dfd1f374f3730eacf4"
+    sha256 mojave:   "41be61f4b55a6b57d307cd1afef2c498909338d0b4aa14c47a64ab908fbe1212"
   end
 
   depends_on "imagemagick"
