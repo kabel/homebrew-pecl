@@ -16,12 +16,17 @@ jobs:
     timeoutInMinutes: 120
     steps:
       - bash: |
-          set -e
           HOMEBREW_TAP_DIR="/usr/local/Homebrew/Library/Taps/kabel/homebrew-pecl"
           mkdir -p "$HOMEBREW_TAP_DIR"
           rm -rf "$HOMEBREW_TAP_DIR"
+          rm -rf "$BUILD_ARTIFACTSTAGINGDIRECTORY"/*
+          rm -f *.bottle.tar.gz
+          rm -f *.bottle.json
           brew update-reset
           ln -s "$PWD" "$HOMEBREW_TAP_DIR"
+        displayName: Setup brew tap
+      - bash: |
+          set -e
           if [ -z "$SYSTEM_PULLREQUEST_TARGETBRANCH" ]; then export SYSTEM_PULLREQUEST_TARGETBRANCH="main"; fi
           if [ "$BUILD_REASON" = "PullRequest" ]; then export GITHUB_EVENT_NAME="pull_request"; fi
           export GITHUB_BASE_REF="$SYSTEM_PULLREQUEST_TARGETBRANCH"
@@ -42,18 +47,21 @@ jobs:
           TEST_PARAMS=""
           if [ "$BUILD_REASON" != "PullRequest" -a "$BUILD_SOURCEBRANCHNAME" = "$SYSTEM_PULLREQUEST_TARGETBRANCH" ]; then TEST_PARAMS="--only-tap-syntax"; fi
           brew test-bot --tap=kabel/pecl --root-url=https://kabel.jfrog.io/artifactory/bottles-pecl $TEST_PARAMS
+        displayName: Run brew test-bot
+      - bash: |
           brew list --full-name | grep kabel/pecl | xargs brew rm
           brew cleanup
-        displayName: Run brew test-bot
-      - task: CopyFiles@2
-        displayName: 'Copy Bottle Files to Artifact Stage'
-        inputs:
-          Contents: '*.bottle.?(tar.gz|json)'
-          TargetFolder: '$(Build.ArtifactStagingDirectory)'
+          BOTTLE_COUNT=$(find . -name \*.bottle.tar.gz | wc -l)
+          if [ $BOTTLE_COUNT -gt 0]; then
+            cp *.bottle.tar.gz $BUILD_ARTIFACTSTAGINGDIRECTORY
+            cp *.bottle.json $BUILD_ARTIFACTSTAGINGDIRECTORY
+          fi
+          echo "##vso[task.setvariable variable=BOTTLE_COUNT]$BOTTLE_COUNT"
         condition: succeededOrFailed()
+        displayName: Cleanup brew
       - task: PublishBuildArtifacts@1
         inputs:
           PathtoPublish: '$(Build.ArtifactStagingDirectory)'
           ArtifactName: 'drop'
           publishLocation: 'Container'
-        condition: succeededOrFailed()
+        condition: gt(variables.BOTTLE_COUNT, 0)
