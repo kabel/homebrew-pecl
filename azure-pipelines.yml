@@ -51,7 +51,7 @@ jobs:
       - bash: |
           brew list --full-name | grep kabel/pecl | xargs brew rm
           brew cleanup
-          BOTTLE_COUNT=$(find . -name \*.bottle.tar.gz | wc -l | args)
+          BOTTLE_COUNT=$(find . -name \*.bottle.tar.gz | wc -l | xargs)
           if [ $BOTTLE_COUNT -gt 0]; then
             cp *.bottle.tar.gz $BUILD_ARTIFACTSTAGINGDIRECTORY
             cp *.bottle.json $BUILD_ARTIFACTSTAGINGDIRECTORY
