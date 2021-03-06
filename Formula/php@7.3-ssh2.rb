@@ -9,9 +9,9 @@ class PhpAT73Ssh2 < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    cellar :any
-    sha256 "2e58333d59a1fb7dff8ebab75deede73f4458f98a2b1b12a9bdba33c19fa7a69" => :mojave
-    sha256 "982d0d4dafe55b2ae057470601a26276fea9f67f605c079b867734898049a312" => :high_sierra
+    sha256 big_sur:  "434b05cad7a8ae36bcb45c318b939db41c470ff5d1969a4282339de59065ff93"
+    sha256 catalina: "d315f76bb3d8a0c49d24846e7ca71d496dc781eaf98bddbb9a81cd1675e73871"
+    sha256 mojave:   "b6e3598656ec4963859649839265de127f4e9dd7424d86c86b6432c5d5c462af"
   end
 
   depends_on "libssh2"
