@@ -14,7 +14,7 @@ class PhpPeclFormula < Formula
     system "./configure", *configure_args
     system "make"
     (lib/module_path).install "modules/#{provides_extension}.so"
-    headers = Dir["php_*.h"]
+    headers = Dir["**/*.h"]
     (include/"php/ext"/provides_extension).install headers unless headers.empty?
   end
 
