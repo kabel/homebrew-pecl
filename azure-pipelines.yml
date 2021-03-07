@@ -22,6 +22,7 @@ jobs:
           rm -rf "$BUILD_ARTIFACTSTAGINGDIRECTORY"/*
           rm -f *.bottle.tar.gz
           rm -f *.bottle.json
+          git clean -fdq
           brew update-reset
           ln -s "$PWD" "$HOMEBREW_TAP_DIR"
         displayName: Setup brew tap
