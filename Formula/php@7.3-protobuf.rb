@@ -9,8 +9,8 @@ class PhpAT73Protobuf < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 cellar: :any_skip_relocation, big_sur:  "5d9154023c47c1255137e6b9149626944cef58c3f5d88a562a1d5c5a1711b5e3"
-    sha256 cellar: :any_skip_relocation, catalina: "c6197fbe33f3d2d501c1d8c721cc6391df0f48eb65a1da2b913726f4520ed770"
-    sha256 cellar: :any_skip_relocation, mojave:   "92437eff7cd23173e1464fca860c6bb351ec51ba236661d1833e9656dc4b48c8"
+    sha256 cellar: :any_skip_relocation, big_sur:  "51908dfeda390864bfbe820c4ba4405b3d191c48fcb05dff216e8d66c1a2f5a6"
+    sha256 cellar: :any_skip_relocation, catalina: "6b06db8d2c469fe2ea96fc6baf33de8010476b4bbdef55ee7a1023a7d3d96953"
+    sha256 cellar: :any_skip_relocation, mojave:   "b603dd8ee41b4cc539b8a40ee3a02fd3b01ac8eb926be10c7d23edd6d778d0e7"
   end
 end
