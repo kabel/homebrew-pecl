@@ -5,6 +5,7 @@ class PhpMemcache < PhpPeclFormula
 
   url "https://pecl.php.net/get/memcache-8.0.tgz"
   sha256 "defe33e6f7831d82b7283b95e14a531070531acbf21278f3f0d7050505cf3395"
+  revision 1
   license "PHP-3.0"
 
   bottle do
