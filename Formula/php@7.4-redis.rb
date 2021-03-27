@@ -22,9 +22,9 @@ class PhpAT74Redis < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 big_sur:  "4f54ebb84163e310303f7edc93f28291294b9b995afffadfecba9849f8181fbc"
-    sha256 catalina: "0dc8768f2b6562f476963edd04021f027c5a85cd11dd79202b432215e13e5aab"
-    sha256 mojave:   "d79913ca0e3d8902773390f0d8ac8889be995a0d50668b535342eb1af95b5417"
+    sha256 big_sur:  "14f535a7bc91652f098831e0e50696f511857aa9010364cc14ddd467694c0392"
+    sha256 catalina: "218710c8a5a28ee3f796a3323562e49dc4fa7544a8434f93c0bc0a7e4fb420c6"
+    sha256 mojave:   "c78566041ef546bcd6735a21ad2a7c79548aa2bc76867cd97c76236a3622eb72"
   end
 
   def install
