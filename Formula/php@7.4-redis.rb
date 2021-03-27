@@ -3,9 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpAT74Redis < PhpPeclFormula
   extension_dsl "Redis extension"
 
-  url "https://pecl.php.net/get/redis-5.3.3.tgz"
-  sha256 "37789161e164cd52239a30c9a238da61fec5c8395cdac385b6ed8f0c50fd92f0"
-  revision 2
+  url "https://pecl.php.net/get/redis-5.3.4.tgz"
+  sha256 "4b39056f3356f135255e059efd76398d1c7607c86bd52513e6341bb07a3fb4cc"
   license "PHP-3.01"
 
   depends_on "lz4"
