@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpAT74Xhprof < PhpPeclFormula
   extension_dsl "XHProf: A Hierarchical Profiler for PHP"
 
-  url "https://pecl.php.net/get/xhprof-2.2.3.tgz"
-  sha256 "4b597525e29cb3c38ca9fdab0cd09ad754ba364a067e97252b40e0b943ab85ee"
+  url "https://pecl.php.net/get/xhprof-2.3.0.tgz"
+  sha256 "09a5b5628ff5085fd79fb7bbecce0ad1f29d79c5708b78fbf5311b74ccb8d242"
   license "Apache-2.0"
 
   bottle do
