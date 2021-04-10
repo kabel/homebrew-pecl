@@ -9,8 +9,7 @@ class PhpAT74Raphf < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    cellar :any_skip_relocation
-    sha256 "56232c741a733ff0c70b583efc51491119e08ef4750cf0b53de9cd8147f20caa" => :catalina
-    sha256 "688ae0bf1d998ddf2c3b986183c2aefbb926215602f18f75da4416bdca872136" => :mojave
+    sha256 cellar: :any_skip_relocation, catalina: "56232c741a733ff0c70b583efc51491119e08ef4750cf0b53de9cd8147f20caa"
+    sha256 cellar: :any_skip_relocation, mojave:   "688ae0bf1d998ddf2c3b986183c2aefbb926215602f18f75da4416bdca872136"
   end
 end

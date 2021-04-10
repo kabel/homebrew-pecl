@@ -14,8 +14,8 @@ class PhpAT73Solr < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 "77f6ba94410379f8c56ee3ae8fca4a85dcd6caa73cc811e5250077fbf385a637" => :catalina
-    sha256 "6a5e21fac551a7d40d0a0825decfbec82b56ac5000c4fc78121f61bb47fad657" => :mojave
+    sha256 catalina: "77f6ba94410379f8c56ee3ae8fca4a85dcd6caa73cc811e5250077fbf385a637"
+    sha256 mojave:   "6a5e21fac551a7d40d0a0825decfbec82b56ac5000c4fc78121f61bb47fad657"
   end
 
   depends_on "curl"

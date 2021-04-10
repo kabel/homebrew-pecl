@@ -8,8 +8,7 @@ class PhpAT74Jsmin < PhpPeclFormula
   license "PHP-3.01"
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    cellar :any_skip_relocation
-    sha256 "e7ea1b6e9b04513cb58ba113badb1805d8cb7c4ee01a5a62efc894878d7923fa" => :catalina
-    sha256 "d96bd4ba5446d12747897c8e894f6415a27edea77e82db937393f3d9949f184e" => :mojave
+    sha256 cellar: :any_skip_relocation, catalina: "e7ea1b6e9b04513cb58ba113badb1805d8cb7c4ee01a5a62efc894878d7923fa"
+    sha256 cellar: :any_skip_relocation, mojave:   "d96bd4ba5446d12747897c8e894f6415a27edea77e82db937393f3d9949f184e"
   end
 end
