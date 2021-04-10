@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpAT73Protobuf < PhpPeclFormula
   extension_dsl "Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data."
 
-  url "https://pecl.php.net/get/protobuf-3.15.6.tgz"
-  sha256 "9caa70247dd449ff7819446967883c82496971a6fa58208633badc4f66fb262b"
+  url "https://pecl.php.net/get/protobuf-3.15.8.tgz"
+  sha256 "8d36414a81ac731f5c010def3b33b62ca881df99f9b9b1f3e019d9fd93dd7bd8"
   license "BSD-3-Clause"
 
   bottle do
