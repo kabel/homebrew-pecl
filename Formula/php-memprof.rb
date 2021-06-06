@@ -10,6 +10,13 @@ class PhpMemprof < PhpPeclFormula
   sha256 "3ea040f59f828fe6999ffa6ff1a6762a457f5c6af6ccfb1614ace884cc19dd82"
   license "MIT"
 
+  bottle do
+    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
+    sha256 big_sur:  "32a0cb4392163cd974ef739cb01778d21b4fc4370f2aba7bbf3e08aa9240a8a5"
+    sha256 catalina: "d99d6307e7fc9fe6953f54d5785910b34a37f19f766aa49b5a2ad925c5b7700a"
+    sha256 mojave:   "4e40708f94d6bd81d80290e00912df9fa3efa9876679b0f7bf856065c28706d8"
+  end
+
   resource "judy" do
     url "https://downloads.sourceforge.net/project/judy/judy/Judy-1.0.5/Judy-1.0.5.tar.gz"
     sha256 "d2704089f85fdb6f2cd7e77be21170ced4b4375c03ef1ad4cf1075bd414a63eb"
