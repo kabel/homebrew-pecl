@@ -3,9 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpImagick < PhpPeclFormula
   extension_dsl "Create and modify images using the ImageMagick API"
 
-  url "https://pecl.php.net/get/imagick-3.4.4.tgz"
-  sha256 "8dd5aa16465c218651fc8993e1faecd982e6a597870fd4b937e9ece02d567077"
-  revision 5
+  url "https://pecl.php.net/get/imagick-3.5.0.tgz"
+  sha256 "795db7c36fbacd3d33a4f53ff2d38584c846e80a04dcd04c55e9e46c28f5d229"
   license "PHP-3.01"
 
   depends_on "imagemagick"
