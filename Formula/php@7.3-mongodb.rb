@@ -3,9 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpAT73Mongodb < PhpPeclFormula
   extension_dsl "MongoDB driver"
 
-  url "https://pecl.php.net/get/mongodb-1.9.1.tgz"
-  sha256 "e9d1ce23168385aae24d9b516cab3d67504c85e800569e0fcf2f2125bcd6fed7"
-  revision 1
+  url "https://pecl.php.net/get/mongodb-1.10.0.tgz"
+  sha256 "8033dce1a5a5139a4bda690c15c2c98beb18c996429da6a17796dd0c4fc26a73"
   license "Apache-2.0"
 
   bottle do
