@@ -9,9 +9,9 @@ class PhpCouchbase < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 big_sur:  "62f2803db98b399c418d6e57b3d92358dccdb146b981d3466fa86b71caf0ede8"
-    sha256 catalina: "57d0b4c8ccd127dddf413fe83432763af38c15eec4714f552bf0847ef4d2fce4"
-    sha256 mojave:   "dbfa72c3b0382805e5d5fd853577f12f3dc0fa2de0a8e1887b4c3f00f968bfb5"
+    sha256 big_sur:  "cee140bbf58e4ac44ad4e332b62bdc469ad266c7d2e50bc4167666d79e140bb3"
+    sha256 catalina: "31838ef43d8bfa124258f2ffec2fade45c3590d7bd4c1166117a9340ce723048"
+    sha256 mojave:   "78e1af476da8fc76b83af236a3fef50da43b85ec6e8ab9dbb8a4eba045e71ae1"
   end
 
   depends_on "libcouchbase"
