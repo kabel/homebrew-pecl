@@ -9,9 +9,9 @@ class PhpPeclHttp < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 big_sur:  "2ce9dfc0cfe5ce98207679b0e271ba29c592bfa7a482c589b37859f58b1315ed"
-    sha256 catalina: "6564b45f72beb33a7748fc5e113226d97dee11b1ddd265e77f902d9948028f2e"
-    sha256 mojave:   "d5187e737036bb557b934adaf7b43966eeb1a84995f2c64e358553ba42cf4880"
+    sha256 big_sur:  "0d9864a36066828909221e10507086e32fb8e26c4481a0e3a391d08398b89d33"
+    sha256 catalina: "3611bd88523eff927596165b11ca145d7da942d18bf55da24559fc87c4a34def"
+    sha256 mojave:   "ee75c33f0bd801643fa225eeda5ca910554ae3a65d4aad151dba2a3c4b643cea"
   end
 
   depends_on "brotli"
