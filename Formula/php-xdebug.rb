@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpXdebug < PhpPeclFormula
   extension_dsl "An extension to assist with debugging and development"
 
-  url "https://pecl.php.net/get/xdebug-3.0.4.tgz"
-  sha256 "b27290491f4634b0cd3badfc3a2be98fb1e3c0c3710a706724d8b195baad72af"
+  url "https://pecl.php.net/get/xdebug-3.1.0.tgz"
+  sha256 "b956930adaef4a20e7573ad637a2f0e7f9a94ae2adaf122856bc8bf0d1e39d3a"
   license "PHP-3.0"
 
   bottle do
