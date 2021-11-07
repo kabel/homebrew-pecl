@@ -9,9 +9,8 @@ class PhpXdebug < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 big_sur:  "8296657c31fd74b0ffe9fe3c33b48c21c8a710a170d9358c7089a53061009bdc"
-    sha256 catalina: "c04f916b408f3c495d3fdc123cc6f7cf3327a1e13228691cd1567df96b9a5b24"
-    sha256 mojave:   "7413d9233437860a16d6d649eb31dc7a59832b979735d69373f235dfce6f18c9"
+    sha256 big_sur:  "1f53ab3448345c7a8db44e72bbf51c45d15831ba70bfd190bb0751a7d6c1c8db"
+    sha256 catalina: "4be73eef43597b4545bd927a20482f5f335417d31cc29da4779464eb03d375b0"
   end
 
   def extension_type
