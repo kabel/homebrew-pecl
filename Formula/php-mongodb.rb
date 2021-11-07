@@ -9,9 +9,8 @@ class PhpMongodb < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 big_sur:  "862ee0e9d32aadcc283156cb220a3abf61b2f954e73da84b82350258e8ee4e3f"
-    sha256 catalina: "da34a9dce8645339716d010e8223d88de9263ca7f953caf25e6a66a4e39e5200"
-    sha256 mojave:   "b072a22d8736ce4b68cb87378207e44f521356682392970fca34b4efab168074"
+    sha256 big_sur:  "6b879adf26f5a9dd1959177c052048c845c0f15dcbf9235e2a29cddb8697a97f"
+    sha256 catalina: "6343bc438de8ab450e6b3aa3257b08d3abd11b240dab5501ba9734386ef62e44"
   end
 
   depends_on "icu4c"
