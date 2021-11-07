@@ -2,8 +2,6 @@ jobs:
   - job: Build
     strategy:
       matrix:
-        macOS_Mojave:
-          OS_VERSION: '10.14'
         macOS_Catalina:
           OS_VERSION: '10.15'
         macOS_BigSur:
