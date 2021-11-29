@@ -5,6 +5,7 @@ class PhpApcu < PhpPeclFormula
 
   url "https://pecl.php.net/get/apcu-5.1.21.tgz"
   sha256 "1033530448696ee7cadec85050f6df5135fb1330072ef2a74569392acfecfbc1"
+  revision 1
   license "PHP-3.01"
 
   bottle do

@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpDs < PhpPeclFormula
+class PhpAT80Ds < PhpPeclFormula
   extension_dsl "Data Structures for PHP"
 
   url "https://pecl.php.net/get/ds-1.3.0.tgz"

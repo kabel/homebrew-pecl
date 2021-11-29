@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAmqp < PhpPeclFormula
+class PhpAT80Amqp < PhpPeclFormula
   extension_dsl "Communicate with any AMQP compliant server"
 
   url "https://pecl.php.net/get/amqp-1.10.2.tgz"

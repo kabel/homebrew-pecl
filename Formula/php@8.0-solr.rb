@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpSolr < PhpPeclFormula
+class PhpAT80Solr < PhpPeclFormula
   extension_dsl <<~EOS
     The Apache Solr PHP extension is an extremely fast,
     light-weight, feature-rich library that allows PHP applications to
@@ -10,14 +10,7 @@ class PhpSolr < PhpPeclFormula
 
   url "https://pecl.php.net/get/solr-2.5.1.tgz"
   sha256 "2b41601e74fe371e6525579637a8ddff270e58a0ff636e7f56df8919d6e7777d"
-  revision 2
   license "PHP-3.01"
-
-  bottle do
-    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 catalina: "ccab60f906c709b84aa20036f32abc877db4b8c1215df671b3abf4b52a4b1242"
-    sha256 mojave:   "61c4db1bffaadb3ec7a55775dca24a5de84ef5669df56ccf3bddb66052b07063"
-  end
 
   depends_on "curl"
 

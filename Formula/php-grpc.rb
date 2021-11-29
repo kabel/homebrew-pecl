@@ -5,6 +5,7 @@ class PhpGrpc < PhpPeclFormula
 
   url "https://pecl.php.net/get/grpc-1.41.0.tgz"
   sha256 "62d7320d7e26db29254bbc5770b70ba1f902952b9c6f89d34461019e7f8086a2"
+  revision 1
   license "Apache-2.0"
 
   bottle do

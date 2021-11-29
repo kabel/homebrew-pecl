@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpPdoSqlsrv < PhpPeclFormula
+class PhpAT80PdoSqlsrv < PhpPeclFormula
   extension_dsl "Microsoft Drivers for SQL Server"
 
   url "https://pecl.php.net/get/pdo_sqlsrv-5.9.0.tgz"
