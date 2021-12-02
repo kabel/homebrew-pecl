@@ -10,8 +10,8 @@ class PhpYaml < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 cellar: :any, big_sur:  "1a9d429adf588d9ac53b075100b15c95af672a8e44a3487e0e7a9d0866687138"
-    sha256 cellar: :any, catalina: "52e72206f82c2d844ace94bc7e605f41ef36ea381fa17f3c952c9e4e08c13da9"
+    sha256 cellar: :any, big_sur:  "7ba43e3946a19ed121a6f7aef0590f5ed62aa87aee6ac0b3e46407a49ddceb2f"
+    sha256 cellar: :any, catalina: "a5b8d12a22a97e0fdfb2b947ba547ffaaca214019066a10ef5a612110e95e31b"
   end
 
   depends_on "libyaml"
