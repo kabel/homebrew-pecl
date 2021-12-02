@@ -13,9 +13,8 @@ class PhpMemprof < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 big_sur:  "f6ef7cef295a2cef4407b9493b1b7affacb20e0c8f6fe9eca84c785a71ca0053"
-    sha256 catalina: "ee7cd908079a542555586a77b1a39652fdfabd7aae11f31444dfdb81df0604c9"
-    sha256 mojave:   "af435a2d3cda6e403bc65d5f9eebe288cc0a5e6a0da736ec458a26d336db0ac6"
+    sha256 big_sur:  "fc1e564de6e2541bdd4c4c310c38f6b05008354bb6db6d2c12be6e94f6199f64"
+    sha256 catalina: "99a9e0ab0167254b206d93f6f1e1a44918516c485f5799bd654e9085bd15ccbd"
   end
 
   resource "judy" do
