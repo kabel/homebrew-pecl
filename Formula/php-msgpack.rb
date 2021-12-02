@@ -10,9 +10,8 @@ class PhpMsgpack < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 cellar: :any_skip_relocation, big_sur:  "a8af9f70e4a9ccb24304658ac43fb7d9afb8268c425e406f080b5b9dca279a3c"
-    sha256 cellar: :any_skip_relocation, catalina: "170b7af5e0f3b2aaad5d9dcdf1d845a4ad3a235d6ac0474016b2428364bc0e27"
-    sha256 cellar: :any_skip_relocation, mojave:   "340a4d66992929673e8857249f54250ded3e9d9e2db96d7df5379e74ec3d1b4e"
+    sha256 cellar: :any_skip_relocation, big_sur:  "85a674d2ba5475ed920576e2d828ec67cbfc68ff187b9f39096c58d2ee4a769a"
+    sha256 cellar: :any_skip_relocation, catalina: "9e95cfc47e860e8f88b87ffc7be1493be08f4b571762ac06eef23c0d7c6a4edd"
   end
 
   depends_on "msgpack"
