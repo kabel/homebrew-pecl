@@ -9,8 +9,8 @@ class PhpAT80Redis < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 big_sur:  "2a1d45c6f135d7464918566a10479cfa8d2d8a95911f38c4d46fc18601edc53b"
-    sha256 catalina: "dc9b36e77a79b93d562f15c603041e16ef0621503fbb18ba4d53b3439596bd2a"
+    sha256 big_sur:  "88c04b3cb6364cd84bc8bae07a2999edd0ecddba214fb8a6a2ecc3d2f2e9fdc6"
+    sha256 catalina: "1256edc5bddf1ed070d16d02fcb8a72f416184e9c359b7c53ba6555b5aefb431"
   end
 
   depends_on "lz4"
