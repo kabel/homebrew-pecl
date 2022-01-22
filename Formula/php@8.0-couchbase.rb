@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpAT80Couchbase < PhpPeclFormula
   extension_dsl "Couchbase Server"
 
-  url "https://pecl.php.net/get/couchbase-3.2.1.tgz"
-  sha256 "409faf0903fbc9d2e46952fe6d31e22415c51ee6f8d3aea5095c5415d58e18b4"
+  url "https://pecl.php.net/get/couchbase-3.2.2.tgz"
+  sha256 "d8bd785ccce818e0beb9694cd02ab01ed26e0cf9b19217d2bc2e92b38b21c9c1"
   license "Apache-2.0"
 
   bottle do
