@@ -6,8 +6,8 @@ class PhpAT80Memprof < PhpPeclFormula
     to find the cause of memory leaks in PHP applications
   EOS
 
-  url "https://pecl.php.net/get/memprof-3.0.1.tgz"
-  sha256 "00471384e81990e8db9ce9b5e946dad42f313aeff0f1d10a8ce61bb38b02fff5"
+  url "https://pecl.php.net/get/memprof-3.0.2.tgz"
+  sha256 "510bf09d58487820ac11b617446199ca86c50fda972dde73feaae667be23d183"
   license "MIT"
 
   bottle do
