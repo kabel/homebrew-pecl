@@ -12,8 +12,8 @@ class PhpAT80Memprof < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 big_sur:  "e02ea8f0d281e464e5ade810527dd8cde3c06983ab4156e23d607198f5834169"
-    sha256 catalina: "5f882350fe08a8996b2379460ffac55860d9eacdaaeb354edd3fa5a472ba9585"
+    sha256 cellar: :any, big_sur:  "7713cc74515ac064c6e5895e7c2c6d5c408e8031625f073387f05478c7fa1ea7"
+    sha256 cellar: :any, catalina: "b29182c65cf1a71c9821ccaf15dcfe0f886e89088bd52c25b6b2a99f69a42a1d"
   end
 
   resource "judy" do
