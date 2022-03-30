@@ -9,7 +9,7 @@ class PhpGrpc < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 cellar: :any_skip_relocation, big_sur:  "dc55d7b847276a21133f13f3cfcbcf9236c22c58a81de5f463d49856b4378903"
-    sha256 cellar: :any_skip_relocation, catalina: "0f6752e1fd1eda6ad7b4168a78ebd7851e7b1abe041289cee9cd669c5650a1f6"
+    sha256 cellar: :any_skip_relocation, big_sur:  "fba8552db720063a8d631918880dddffe3d1123a2076a7547afa438891f42cf7"
+    sha256 cellar: :any_skip_relocation, catalina: "4d9c1edb871b7627172656b640ecf707ae69b7918d6b8609bc27888b4cf72d81"
   end
 end
