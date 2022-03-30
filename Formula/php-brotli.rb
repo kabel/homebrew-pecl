@@ -8,6 +8,12 @@ class PhpBrotli < PhpPeclFormula
   sha256 "1eca1af3208e2f6551064e3f26e771453def588898bfc25858ab1db985363e47"
   license "MIT"
 
+  bottle do
+    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
+    sha256 cellar: :any, big_sur:  "e77692443fc1a358a4db2db970ff11e4efbe72b4b04c905bdd7cbfaaa2b76728"
+    sha256 cellar: :any, catalina: "5e00a1eefca9821800b88a02af4bf220961c946400c784e181793057ee69207a"
+  end
+
   depends_on "brotli"
 
   configure_arg %w[
