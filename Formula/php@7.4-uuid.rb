@@ -9,8 +9,9 @@ class PhpAT74Uuid < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 catalina: "2724211e87baaa27003935ccd51d5e46be0d11cc227e08ff34adf218c0507ac2"
-    sha256 mojave:   "cfbf973b95ec75091f47c9d95cc11d056eaf4c8a5a6ba0988de3fe6d6df728df"
+    sha256 cellar: :any, big_sur:  "7b365f9c35086bee09aff626831b6853cc4ab3642f34aeea397e6dc0eb004af8"
+    sha256               catalina: "2724211e87baaa27003935ccd51d5e46be0d11cc227e08ff34adf218c0507ac2"
+    sha256               mojave:   "cfbf973b95ec75091f47c9d95cc11d056eaf4c8a5a6ba0988de3fe6d6df728df"
   end
 
   depends_on "e2fsprogs"
