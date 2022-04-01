@@ -13,6 +13,7 @@ class PhpRedis < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
+    sha256 cellar: :any, monterey: "651a5a86a491811784c0a5b16fa88a4a074a90ce935ed6ac24233d8dc85b86e5"
     sha256 cellar: :any, big_sur:  "7e9f2c91d8ed2c3cb0862348698fe541b33182ab0a556e9d655ad8ccaae43a1a"
     sha256 cellar: :any, catalina: "6cabdf9d2dac194c9288f1abc3a076d69bd95c25d8a8d70a0c26e7df799a7826"
   end
