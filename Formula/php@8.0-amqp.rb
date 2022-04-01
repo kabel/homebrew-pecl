@@ -9,8 +9,9 @@ class PhpAT80Amqp < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 big_sur:  "72005bc2713a940c1ea1e635a31f661826fc6290082b717cd3476ce61974e6b6"
-    sha256 catalina: "3e77988ef6a99621279005d8bfc3f7e5ee136b3e4cfba2e73e3fea7672632df2"
+    sha256 cellar: :any, monterey: "e72c9e89853047905c9ca3c2f1119a232a38f202fc34b0386c0f890407f10eb9"
+    sha256               big_sur:  "72005bc2713a940c1ea1e635a31f661826fc6290082b717cd3476ce61974e6b6"
+    sha256               catalina: "3e77988ef6a99621279005d8bfc3f7e5ee136b3e4cfba2e73e3fea7672632df2"
   end
 
   depends_on "rabbitmq-c"
