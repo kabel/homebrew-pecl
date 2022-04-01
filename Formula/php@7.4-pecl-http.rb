@@ -9,6 +9,7 @@ class PhpAT74PeclHttp < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
+    sha256 cellar: :any, monterey: "11294b8ef69d5aa7b6a0916a161925d198b86db5cdba0bade5d5945e807c1669"
     sha256 cellar: :any, catalina: "a82abe470815f5163b2f8ea1579c977c7831c2cbe7aa302c5c7fe5b7e8be9cf2"
   end
 
