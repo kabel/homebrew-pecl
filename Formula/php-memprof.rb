@@ -12,6 +12,7 @@ class PhpMemprof < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
+    sha256 cellar: :any, monterey: "45747a987411606194cf051cacfed55c079afc9544d8e49ba551c184177b1b22"
     sha256 cellar: :any, big_sur:  "0526e4d2c5434e713e9c4aa20ffe308e16d02ac290cb3c2d92aaa585419bfae8"
     sha256 cellar: :any, catalina: "43a3b14bf0e078270ff2195eeefa27283ce4f669068dc7babfc8320d74179ade"
   end
