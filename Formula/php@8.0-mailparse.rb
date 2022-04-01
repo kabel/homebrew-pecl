@@ -9,6 +9,7 @@ class PhpAT80Mailparse < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
+    sha256 cellar: :any_skip_relocation, monterey: "f4ffab1d47e5941d874a1315e68a7edfd7adb4a17b21c44fcf7cce0ea9ec09f2"
     sha256 cellar: :any_skip_relocation, big_sur:  "5db8017f13d4670b7d45483a9f6af0e62b78834d9e41529d094687d9385f97b3"
     sha256 cellar: :any_skip_relocation, catalina: "f81177256b795ab4e5124424b6d17a7aa0e528012503f01dc6abdc5fcfd7d99e"
   end
