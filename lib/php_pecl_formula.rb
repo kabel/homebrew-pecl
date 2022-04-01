@@ -33,9 +33,9 @@ class PhpPeclFormula < Formula
   end
 
   test do
-    assert_match provides_extension.downcase,
-                 shell_output("#{php_parent.opt_bin}/php -m").downcase,
-                 "failed to find extension in php -m output"
+    assert_match(/^#{provides_extension}$/i,
+                 shell_output("#{php_parent.opt_bin}/php -m"),
+                 "failed to find extension in php -m output")
   end
 
   private
