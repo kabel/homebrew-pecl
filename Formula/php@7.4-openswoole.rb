@@ -7,6 +7,8 @@ class PhpAT74Openswoole< PhpPeclFormula
   sha256 "f1840dedec436d51872940fd7b46cfac97db1ee6efdc96fdad9a823df8dae768"
   license "Apache-2.0"
 
+  conflicts_with "php@7.4-swoole", because: "both provide the same PHP API"
+
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
     sha256 cellar: :any, monterey: "44d8b9f7f0faf419a39b83986f716c86d4664717dc01b4a91a7bdd904d2cac45"
