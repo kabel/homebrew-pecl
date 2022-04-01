@@ -9,6 +9,7 @@ class PhpAT74Memcached < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
+    sha256 cellar: :any, monterey: "dd8d868050d4726ad12de535b295d5ccaaea757ce03eef8e28e6782122f598a3"
     sha256 cellar: :any, big_sur:  "e44f39d5d4464e509ae9c818c68ed1d825b2b6272de7eb34aedb925864a053db"
     sha256 cellar: :any, catalina: "ea34a6a9b5b903f599cf3adafeb30d19d511fced0cc4ab736cbb4b8f669fa9e2"
   end
