@@ -10,6 +10,7 @@ class PhpAT80TidewaysXhprof < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
+    sha256 cellar: :any_skip_relocation, monterey: "4b5f843d34420549ea14026b47522a0357c242170440904134e905d116c812ff"
     sha256 cellar: :any_skip_relocation, big_sur:  "708413bdfec8022f434628f01c3c8fc5c9c60d3e34e3a122c4f96f683f0e8614"
     sha256 cellar: :any_skip_relocation, catalina: "4a6a51fed200a2c9f388e0cb5ed369641e7f43bf0afca77f125e6f4587c5c25d"
   end
