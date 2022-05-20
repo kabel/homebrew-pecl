@@ -11,11 +11,11 @@ class PhpPeclFormula < Formula
   def install
     cd source_dir if (buildpath/source_dir).exist?
     system php_parent.bin/"phpize"
+    inreplace "configure",
+              "EXTENSION_DIR=`$PHP_CONFIG --extension-dir 2>/dev/null`",
+              "EXTENSION_DIR=#{lib/module_path}"
     system "./configure", *configure_args
-    system "make"
-    (lib/module_path).install "modules/#{provides_extension}.so"
-    headers = Dir["**/*.h"]
-    (include/"php/ext"/provides_extension).install headers unless headers.empty?
+    system "make", "phpincludedir=#{include}/php", "install"
   end
 
   def post_install
