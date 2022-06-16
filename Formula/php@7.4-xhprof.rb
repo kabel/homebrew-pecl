@@ -15,7 +15,5 @@ class PhpAT74Xhprof < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, mojave:   "deefbcb055fb39639194e1b5d980e15ea9ef4a455d73e8c12b274fd917af0e0b"
   end
 
-  def source_dir
-    "#{extension}-#{version}/extension"
-  end
+  source_dir "#{extension}-#{version}/extension"
 end

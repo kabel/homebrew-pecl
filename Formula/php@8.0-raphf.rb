@@ -13,4 +13,6 @@ class PhpAT80Raphf < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, big_sur:  "eba21da702c35c6b797d561c87fc0c3999b506df4077ea52366b0a72e449b0ac"
     sha256 cellar: :any_skip_relocation, catalina: "f9d6f70d13fb54106872316593d1104b255665f4ac796086270c85cb885b7bf0"
   end
+
+  conf_order "05"
 end

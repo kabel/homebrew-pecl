@@ -14,4 +14,6 @@ class PhpAT74Propro < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, catalina: "c3531fc58cf330c72af1dfc832070a1d128dc74056e9e7a14dae2f44ebdf2b1a"
     sha256 cellar: :any_skip_relocation, mojave:   "d9b625c316d71006ba158bff338c6644638525b42f11fe6c33a0ee320f91df43"
   end
+
+  conf_order "05"
 end

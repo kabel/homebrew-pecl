@@ -4,8 +4,10 @@ class PhpPeclFormula < Formula
   desc "PHP PECL Extension"
   homepage "https://pecl.php.net/"
 
-  def source_dir
-    "#{extension}-#{version}"
+  def initialize(*)
+    super
+    @source_dir = self.class.source_dir || "#{extension}-#{version}"
+    @conf_order = self.class.conf_order || "10"
   end
 
   def install
@@ -19,13 +21,17 @@ class PhpPeclFormula < Formula
   end
 
   def post_install
+    ordered_ext_config_path = etc/"php"/php_parent.version.major_minor/"conf.d"/"ext-#{conf_order}-#{extension}.ini"
     ext_config_path = etc/"php"/php_parent.version.major_minor/"conf.d"/"ext-#{extension}.ini"
-    if ext_config_path.exist?
-      inreplace ext_config_path,
+
+    mv ext_config_path, ordered_ext_config_path if ext_config_path.exist?
+
+    if ordered_ext_config_path.exist?
+      inreplace ordered_ext_config_path,
                 /#{extension_type}=.*$/,
                 "#{extension_type}=#{opt_lib/module_path}/#{provides_extension}.so"
     else
-      ext_config_path.write <<~EOS
+      ordered_ext_config_path.write <<~EOS
         [#{provides_extension}]
         #{extension_type}=#{opt_lib/module_path}/#{provides_extension}.so
       EOS
@@ -39,6 +45,8 @@ class PhpPeclFormula < Formula
   end
 
   private
+
+  attr_reader :source_dir, :conf_order
 
   delegate [:php_parent, :extension, :configure_args] => :"self.class"
 
@@ -60,6 +68,8 @@ class PhpPeclFormula < Formula
   class << self
     NAME_PATTERN = /^Php(?:AT([578])(\d+))?(.+)/.freeze
     attr_reader :configure_args, :php_parent, :extension
+
+    attr_rw :source_dir, :conf_order
 
     def configure_arg(args)
       @configure_args ||= []

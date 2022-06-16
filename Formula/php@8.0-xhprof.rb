@@ -14,7 +14,5 @@ class PhpAT80Xhprof < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, catalina: "ad4bf1c09d088a8d67b4009b35720523739cdcd3bc1e89eee1c1becaac7d6da4"
   end
 
-  def source_dir
-    "#{extension}-#{version}/extension"
-  end
+  source_dir "#{extension}-#{version}/extension"
 end
