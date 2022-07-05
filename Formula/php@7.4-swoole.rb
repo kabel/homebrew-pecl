@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpAT74Swoole< PhpPeclFormula
   extension_dsl "Event-driven asynchronous and concurrent networking engine with high performance"
 
-  url "https://pecl.php.net/get/swoole-4.8.9.tgz"
-  sha256 "0c032ecd1dd8dd38cc579c5d3a395cde0def9623ce07008f0d6f386b1c1c3253"
+  url "https://pecl.php.net/get/swoole-4.8.10.tgz"
+  sha256 "39fba19af24518e05e6b3f76c3175539e5d171096c254c23d4736e011ab27e72"
   license "Apache-2.0"
 
   conflicts_with "php@7.4-openswoole", because: "both provide the same PHP API"
