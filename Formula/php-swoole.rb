@@ -11,9 +11,9 @@ class PhpSwoole< PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 cellar: :any, monterey: "383c2f73ff68a2e81ed4802645f1a76f1f98bfdd9dd7c88972ab91cbfe80ff3d"
-    sha256 cellar: :any, big_sur:  "6d20269f7a008c8d3b65fb03f682b229b02b18ce39fd5769c8d22ff4abb3e842"
-    sha256 cellar: :any, catalina: "b1126019b8bcf5210aaa7a0e31fd15f0a4553565bebe2db7ff21f9e5ece41220"
+    sha256 cellar: :any, monterey: "3b4f9edc232b434738fd7f40dfa5ff129ca6223b90a5d810721468968939b189"
+    sha256 cellar: :any, big_sur:  "bb3b0619aeb12239b4638c5ad1a8721fdbb93cf90e1cdd4c2c7182a82a2e49fb"
+    sha256 cellar: :any, catalina: "36749258cdc7b4fd2828460e92fddabfc7ab398d859f1282455c973b19b2071f"
   end
 
   depends_on "openssl@1.1"
