@@ -3,9 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpApcu < PhpPeclFormula
   extension_dsl "APC User Cache"
 
-  url "https://pecl.php.net/get/apcu-5.1.21.tgz"
-  sha256 "1033530448696ee7cadec85050f6df5135fb1330072ef2a74569392acfecfbc1"
-  revision 1
+  url "https://pecl.php.net/get/apcu-5.1.22.tgz"
+  sha256 "010a0d8fd112e1ed7a52a356191da3696a6b76319423f7b0dfdeaeeafcb41a1e"
   license "PHP-3.01"
 
   bottle do
