@@ -5,6 +5,7 @@ class PhpAT74Imagick < PhpPeclFormula
 
   url "https://pecl.php.net/get/imagick-3.7.0.tgz"
   sha256 "5a364354109029d224bcbb2e82e15b248be9b641227f45e63425c06531792d3e"
+  revision 1
   license "PHP-3.01"
 
   bottle do
