@@ -9,6 +9,7 @@ class PhpApcu < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
+    sha256 cellar: :any_skip_relocation, ventura:  "128a6650bb9a2085a28a67b11f105bbf6d5d5b780af4d99448bea43daec46ff4"
     sha256 cellar: :any_skip_relocation, monterey: "81d278effb3f9f1fea0bd4edebd6cb015abc677130990a6218d2a967333c6add"
     sha256 cellar: :any_skip_relocation, big_sur:  "2ff8d50a0ddebdc200daec68982e745281b4bdb76a1cc823f89f26dc636ed3b1"
     sha256 cellar: :any_skip_relocation, catalina: "620989ad8b2281f270b4e939bc49809e88ba515cc99f0ef09f672808e80c7ad6"
