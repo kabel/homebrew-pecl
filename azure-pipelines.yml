@@ -2,12 +2,12 @@ jobs:
   - job: Build
     strategy:
       matrix:
-        macOS_Catalina:
-          OS_VERSION: '10.15'
         macOS_BigSur:
           OS_VERSION: '11.5'
         macOS_Monterey:
           OS_VERSION: '12.5'
+        macOS_Ventura:
+          OS_VERSION: '13.0'
     pool:
       name: Default
       demands:
