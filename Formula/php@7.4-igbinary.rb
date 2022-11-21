@@ -13,4 +13,6 @@ class PhpAT74Igbinary < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, monterey: "9dad037ffa7e34c6ccb0c9803a34574bdf04006228b0c1b614f16e214f2bd0a8"
     sha256 cellar: :any_skip_relocation, big_sur:  "8d46068623c755ecbd519666c8f2aeffc9d44ffaa63108741c33ae4c222e83bd"
   end
+
+  conf_order "05"
 end

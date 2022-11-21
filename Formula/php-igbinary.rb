@@ -13,4 +13,6 @@ class PhpIgbinary < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, monterey: "fedd9dd7dc7f9a5089a0df731d822c92fd60a9acc0945e15b2b402250e0b595d"
     sha256 cellar: :any_skip_relocation, big_sur:  "437f12b13810c3f378c359f019fca1f34f6a2f4965bc120b9fbf0c9c0c76f7ad"
   end
+
+  conf_order "05"
 end
