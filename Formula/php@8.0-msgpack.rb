@@ -16,4 +16,6 @@ class PhpAT80Msgpack < PhpPeclFormula
   end
 
   depends_on "msgpack"
+
+  conf_order "05"
 end
