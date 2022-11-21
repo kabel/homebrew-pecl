@@ -10,9 +10,9 @@ class PhpAT74Memcached < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 cellar: :any, monterey: "dd8d868050d4726ad12de535b295d5ccaaea757ce03eef8e28e6782122f598a3"
-    sha256 cellar: :any, big_sur:  "e44f39d5d4464e509ae9c818c68ed1d825b2b6272de7eb34aedb925864a053db"
-    sha256 cellar: :any, catalina: "ea34a6a9b5b903f599cf3adafeb30d19d511fced0cc4ab736cbb4b8f669fa9e2"
+    sha256 cellar: :any, ventura:  "5a8425dfb3dddcf50b06ba3cb2a0eb89fa22241ba9129d04a31575d6599df0d0"
+    sha256 cellar: :any, monterey: "544cf49c1d0a53615f4429a2d4e4785b5ce2871a12ce9fbd97f97d5fd0caf83e"
+    sha256 cellar: :any, big_sur:  "04ff4637ad899fe4b4e42e485ae38e7203498af4cddca8666d35a60ba955708e"
   end
 
   depends_on "libmemcached"
