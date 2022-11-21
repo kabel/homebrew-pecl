@@ -5,6 +5,7 @@ class PhpAT80Sqlsrv < PhpPeclFormula
 
   url "https://pecl.php.net/get/sqlsrv-5.10.1.tgz"
   sha256 "5cdaedb4d8a286343e6b3b99992d9fcb44a8fb69dd02aa5d7bc20eb2ea5e59d2"
+  revision 1
   license "MIT"
 
   bottle do
