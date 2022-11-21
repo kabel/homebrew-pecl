@@ -5,6 +5,7 @@ class PhpAT74PeclHttp < PhpPeclFormula
 
   url "https://pecl.php.net/get/pecl_http-3.3.0.tgz"
   sha256 "9194524be3997328b6788ef37e37485253e03eadc4bf51abd740358d03d2f536"
+  revision 1
   license "BSD-2-Clause"
 
   bottle do
