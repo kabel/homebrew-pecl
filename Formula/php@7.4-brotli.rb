@@ -11,9 +11,9 @@ class PhpAT74Brotli < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 cellar: :any, monterey: "4a5ba62f4cc19a4d056e22ce2156f7385c7666ca6e3c440b0a63a30006e42366"
-    sha256 cellar: :any, big_sur:  "e1ab59abbdbc942f2bd20553c1ed5a4f04c4737024c442849a44d0869113c300"
-    sha256 cellar: :any, catalina: "c140c97d51502570a717f7440f9c4415ce8b0fe625940908488a6ce90cac6978"
+    sha256 cellar: :any, ventura:  "8444ebde117da6ffce7d2545906ab7389a7fd3daf4f4877218f8065b95789c89"
+    sha256 cellar: :any, monterey: "705f279c639fae48f34710bc897362623d75efc1f5821a857ab176f63277721c"
+    sha256 cellar: :any, big_sur:  "e4e22f15251f84d61ee31801a102f59a81040ed96f9cbbd341a533b8ce91779b"
   end
 
   depends_on "brotli"
