@@ -10,9 +10,9 @@ class PhpCouchbase < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 cellar: :any, monterey: "eb28e802a01233a880af7f46b289d7180c8f0b98528e9a251b5288da182c84e2"
-    sha256 cellar: :any, big_sur:  "94173ef9d07ed91e95c5f47b96244bde3fc8d42a14d1df81157c92c43d5f5687"
-    sha256 cellar: :any, catalina: "807ac12006d28c3339720071ffcd8a1cdfd94cfe2d9e492ee8a3992251d1dccb"
+    sha256 cellar: :any, ventura:  "d179103601e00ae736cb78a6cc1cac4303537f85dd8c1a6651bedcea476845ff"
+    sha256 cellar: :any, monterey: "457648ca117978e20b015f91bbc25bc1d897019aef930c4934131895066f093a"
+    sha256 cellar: :any, big_sur:  "f93ebc8e62a4e15025a2df168bcbc101253359ca51eb50579eaf8cbb3b2e2559"
   end
 
   depends_on "cmake" => :build
