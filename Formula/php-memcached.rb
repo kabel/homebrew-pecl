@@ -5,6 +5,7 @@ class PhpMemcached < PhpPeclFormula
 
   url "https://pecl.php.net/get/memcached-3.2.0.tgz"
   sha256 "2a41143a7b29f4a962a3805b77aa207a99e4566e2d314ce98a051cd24d6e9636"
+  revision 1
   license "PHP-3.01"
 
   bottle do
