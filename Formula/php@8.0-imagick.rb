@@ -10,9 +10,9 @@ class PhpAT80Imagick < PhpPeclFormula
 
   bottle do
     root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
-    sha256 cellar: :any, monterey: "1a6dc0d7e2eef65beb4a5e6905853b78fa722eab11421b167816ac98c68d345e"
-    sha256 cellar: :any, big_sur:  "da91168871e22bf1079e59e16eeea6d50343eab7376a6cf6c4c96885f7225bdf"
-    sha256 cellar: :any, catalina: "eb64851a613eb326559719d9575da6e38c624468f7ff5eb961f8366dcadac87c"
+    sha256 cellar: :any, ventura:  "9a03dbb946db22d1c22703304c32cf3425eb4444232d81c1c04837c93f8dada2"
+    sha256 cellar: :any, monterey: "7b6b7e7381932314c13ee9582c0e71ed652083ca8145694eb78635cfc46a829e"
+    sha256 cellar: :any, big_sur:  "c16b7fbf463db0a3c1e6cdc22ecdf91c93769162d7d855e22f1b30f52d3b7fe4"
   end
 
   depends_on "imagemagick"
