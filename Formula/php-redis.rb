@@ -8,16 +8,16 @@ class PhpRedis < PhpPeclFormula
   revision 1
   license "PHP-3.01"
 
-  depends_on "lz4"
-  depends_on "kabel/pecl/php-igbinary"
-  depends_on "kabel/pecl/php-msgpack"
-
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
     sha256 cellar: :any, ventura:  "6167dcc2986b0cc0742b3563099ff9c9898718fa9858f64b4654b2124bea9a8e"
     sha256 cellar: :any, monterey: "c2f4732694d3bc0e755e0d6e472f6fac2fa5490baed159209ff72b805453afa3"
     sha256 cellar: :any, big_sur:  "0119642bbc51b109418126d296a473a7915a056c6b180708e474c69b33ff1e89"
   end
+
+  depends_on "lz4"
+  depends_on "kabel/pecl/php-igbinary"
+  depends_on "kabel/pecl/php-msgpack"
 
   configure_arg %W[
     --enable-redis-igbinary
