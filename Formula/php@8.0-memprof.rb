@@ -18,6 +18,8 @@ class PhpAT80Memprof < PhpPeclFormula
     sha256 cellar: :any, catalina: "b29182c65cf1a71c9821ccaf15dcfe0f886e89088bd52c25b6b2a99f69a42a1d"
   end
 
+  deprecate! date: "2022-11-26", because: :versioned_formula
+
   resource "judy" do
     url "https://downloads.sourceforge.net/project/judy/judy/Judy-1.0.5/Judy-1.0.5.tar.gz"
     sha256 "d2704089f85fdb6f2cd7e77be21170ced4b4375c03ef1ad4cf1075bd414a63eb"

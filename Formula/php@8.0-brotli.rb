@@ -16,6 +16,8 @@ class PhpAT80Brotli < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "9e0a9803e71cf8387186c90f38068c3df8888f985925b7b20348204575efca3d"
   end
 
+  deprecate! date: "2022-11-26", because: :versioned_formula
+
   depends_on "brotli"
 
   configure_arg %w[

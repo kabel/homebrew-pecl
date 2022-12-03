@@ -15,6 +15,8 @@ class PhpAT80Redis < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "a4059f8cbb28bff60b4770eaf6511402ea971d969e845a531b52b6fdc5ac3a35"
   end
 
+  deprecate! date: "2022-11-26", because: :versioned_formula
+
   depends_on "lz4"
   depends_on "kabel/pecl/php@8.0-igbinary"
   depends_on "kabel/pecl/php@8.0-msgpack"

@@ -14,5 +14,7 @@ class PhpAT80Amqp < PhpPeclFormula
     sha256               catalina: "3e77988ef6a99621279005d8bfc3f7e5ee136b3e4cfba2e73e3fea7672632df2"
   end
 
+  deprecate! date: "2022-11-26", because: :versioned_formula
+
   depends_on "rabbitmq-c"
 end

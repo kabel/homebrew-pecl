@@ -15,6 +15,8 @@ class PhpAT80Couchbase < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "ff6acbceac9f6a7e0850e5b81ed663388d27bb78bbb3db6b6fe3d6b9509cd83c"
   end
 
+  deprecate! date: "2022-11-26", because: :versioned_formula
+
   depends_on "cmake" => :build
   depends_on "openssl@1.1"
 end

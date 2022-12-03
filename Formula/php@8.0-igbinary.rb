@@ -14,5 +14,7 @@ class PhpAT80Igbinary < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, big_sur:  "929da69ed668b517b7f4c73b15ba22ba70826c663951f95de3e1a98dedf2e90d"
   end
 
+  deprecate! date: "2022-11-26", because: :versioned_formula
+
   conf_order "05"
 end

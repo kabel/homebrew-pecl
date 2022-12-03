@@ -15,6 +15,8 @@ class PhpAT80Msgpack < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, catalina: "2bdd33c637bcde23d4330208250f5a5575e13d978dc85e68e8af98014257caf8"
   end
 
+  deprecate! date: "2022-11-26", because: :versioned_formula
+
   depends_on "msgpack"
 
   conf_order "05"

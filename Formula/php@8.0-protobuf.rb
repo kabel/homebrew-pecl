@@ -14,4 +14,6 @@ class PhpAT80Protobuf < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, big_sur:  "70560ef86e8dc19737b1ab079cba5ac271a7056711a22c670f6c1e1464597221"
     sha256 cellar: :any_skip_relocation, catalina: "c46f35ebcb3e07cec3de3bbf8faa7434294edd86f158dfd0a0f8b0c94db2586e"
   end
+
+  deprecate! date: "2022-11-26", because: :versioned_formula
 end

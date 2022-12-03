@@ -15,5 +15,7 @@ class PhpAT80Yaml < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "b63a5cadf258ea2cdaf033b9769b865f62e2572906cca0f915f0b04a2a5db8ef"
   end
 
+  deprecate! date: "2022-11-26", because: :versioned_formula
+
   depends_on "libyaml"
 end
