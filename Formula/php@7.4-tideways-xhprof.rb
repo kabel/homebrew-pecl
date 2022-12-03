@@ -16,4 +16,6 @@ class PhpAT74TidewaysXhprof < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, catalina: "4bbe58f00450d3cff2bf903af13d05411840a17497d8abddc753151c1639301b"
     sha256 cellar: :any_skip_relocation, mojave:   "beb6e1e97c20a6bc9891491c3efeb37b07470e8ea253d8c2017795581557aa21"
   end
+
+  disable! date: "2022-11-28", because: :versioned_formula
 end

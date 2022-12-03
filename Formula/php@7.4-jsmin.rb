@@ -14,4 +14,6 @@ class PhpAT74Jsmin < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, catalina: "e7ea1b6e9b04513cb58ba113badb1805d8cb7c4ee01a5a62efc894878d7923fa"
     sha256 cellar: :any_skip_relocation, mojave:   "d96bd4ba5446d12747897c8e894f6415a27edea77e82db937393f3d9949f184e"
   end
+
+  disable! date: "2022-11-28", because: :versioned_formula
 end

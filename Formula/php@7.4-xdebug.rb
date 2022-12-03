@@ -14,6 +14,8 @@ class PhpAT74Xdebug < PhpPeclFormula
     sha256 big_sur:  "e86d6dd8c537f34ddcff05687fe9d5be87ef6ce9c6caee71ac82c7c494da584d"
   end
 
+  disable! date: "2022-11-28", because: :versioned_formula
+
   def extension_type
     "zend_extension"
   end

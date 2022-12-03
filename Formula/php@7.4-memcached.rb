@@ -15,6 +15,8 @@ class PhpAT74Memcached < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "04ff4637ad899fe4b4e42e485ae38e7203498af4cddca8666d35a60ba955708e"
   end
 
+  disable! date: "2022-11-28", because: :versioned_formula
+
   depends_on "libmemcached"
   depends_on "kabel/pecl/php@7.4-igbinary"
   depends_on "kabel/pecl/php@7.4-msgpack"

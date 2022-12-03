@@ -16,6 +16,8 @@ class PhpAT74Msgpack < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, mojave:   "f2437f1c525d131c86c2358d3944b613b07ec5a5178b49fc1bc3de1121b202d5"
   end
 
+  disable! date: "2022-11-28", because: :versioned_formula
+
   depends_on "msgpack"
 
   conf_order "05"

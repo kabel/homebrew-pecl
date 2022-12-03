@@ -15,5 +15,7 @@ class PhpAT74Yaml < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "ec87dd356cc48d319517f075ada16794a7ab102f30847662bb0ab5587be7bd72"
   end
 
+  disable! date: "2022-11-28", because: :versioned_formula
+
   depends_on "libyaml"
 end

@@ -14,5 +14,7 @@ class PhpAT74Xhprof < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, big_sur:  "6d50142711e58ba9997a74a12c9b2eefeae32d98e49e16128fc38f166d17bc0e"
   end
 
+  disable! date: "2022-11-28", because: :versioned_formula
+
   source_dir "#{extension}-#{version}/extension"
 end

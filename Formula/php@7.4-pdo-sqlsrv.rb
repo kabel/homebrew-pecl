@@ -15,5 +15,7 @@ class PhpAT74PdoSqlsrv < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "7437daf17f50d54622712edb10f505113a6e869647556a9752c8145bda03c60f"
   end
 
+  disable! date: "2022-11-28", because: :versioned_formula
+
   depends_on "unixodbc"
 end

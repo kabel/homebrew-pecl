@@ -17,6 +17,8 @@ class PhpAT74Openswoole< PhpPeclFormula
     sha256 cellar: :any, big_sur:  "72fea30cd39326ab590d589e759e6785b03e47dae24c9100a0473c805115cc81"
   end
 
+  disable! date: "2022-11-28", because: :versioned_formula
+
   depends_on "openssl@1.1"
   depends_on "brotli"
 

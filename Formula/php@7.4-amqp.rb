@@ -14,5 +14,7 @@ class PhpAT74Amqp < PhpPeclFormula
     sha256               catalina: "4a5e637c175e1f4284e306f43607cac722f247307d11a2bb05fa2046a94758d9"
   end
 
+  disable! date: "2022-11-28", because: :versioned_formula
+
   depends_on "rabbitmq-c"
 end

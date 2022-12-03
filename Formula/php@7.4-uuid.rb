@@ -16,6 +16,8 @@ class PhpAT74Uuid < PhpPeclFormula
     sha256               mojave:   "cfbf973b95ec75091f47c9d95cc11d056eaf4c8a5a6ba0988de3fe6d6df728df"
   end
 
+  disable! date: "2022-11-28", because: :versioned_formula
+
   depends_on "e2fsprogs"
 
   configure_arg "--with-uuid=#{Formula["e2fsprogs"].opt_prefix}"

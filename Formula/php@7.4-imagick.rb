@@ -15,5 +15,7 @@ class PhpAT74Imagick < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "1af0b487292dc0e288bc455f862b0d085a2bf85fd5bb43fa0d259fd1b29489fc"
   end
 
+  disable! date: "2022-11-28", because: :versioned_formula
+
   depends_on "imagemagick"
 end

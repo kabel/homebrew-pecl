@@ -14,4 +14,6 @@ class PhpAT74Mailparse < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, big_sur:  "a0ef2c12cd28a1076d0e70e480bd876b9bab92cd8c40a971fde4f42fd286ebd1"
     sha256 cellar: :any_skip_relocation, catalina: "9d679ce9b298ab37dabebf45bf14148fd3b3c7c67199cf65cfb047e291b31a12"
   end
+
+  disable! date: "2022-11-28", because: :versioned_formula
 end

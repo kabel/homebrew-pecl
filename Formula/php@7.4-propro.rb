@@ -16,5 +16,7 @@ class PhpAT74Propro < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, mojave:   "d9b625c316d71006ba158bff338c6644638525b42f11fe6c33a0ee320f91df43"
   end
 
+  disable! date: "2022-11-28", because: :versioned_formula
+
   conf_order "05"
 end

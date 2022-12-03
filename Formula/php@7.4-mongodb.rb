@@ -15,6 +15,8 @@ class PhpAT74Mongodb < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "c2e857abe6abdf17e9f75423a97323d6fa24d20a8c5b0d8a9890663de1fc963e"
   end
 
+  disable! date: "2022-11-28", because: :versioned_formula
+
   depends_on "icu4c"
   depends_on "snappy"
 end

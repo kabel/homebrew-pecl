@@ -17,6 +17,8 @@ class PhpAT74Swoole< PhpPeclFormula
     sha256 cellar: :any, catalina: "9f4851587f2780b6b28045454d61062bb64accb31bda397f78c4058c8ac7b899"
   end
 
+  disable! date: "2022-11-28", because: :versioned_formula
+
   depends_on "openssl@1.1"
   depends_on "brotli"
 

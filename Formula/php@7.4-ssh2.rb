@@ -15,6 +15,8 @@ class PhpAT74Ssh2 < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "77f42a214d9adfb6e0afd4dbd9e10d8dae28f19604f9bc33763d4669d245481c"
   end
 
+  disable! date: "2022-11-28", because: :versioned_formula
+
   depends_on "libssh2"
 
   configure_arg "--with-ssh2=#{Formula["libssh2"].opt_prefix}"

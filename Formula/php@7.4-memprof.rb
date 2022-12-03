@@ -23,6 +23,8 @@ class PhpAT74Memprof < PhpPeclFormula
     sha256 "d2704089f85fdb6f2cd7e77be21170ced4b4375c03ef1ad4cf1075bd414a63eb"
   end
 
+  disable! date: "2022-11-28", because: :versioned_formula
+
   def install
     resource("judy").stage do
       system "./configure", "--prefix=#{prefix}/judy"

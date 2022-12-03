@@ -16,5 +16,7 @@ class PhpAT74Memcache < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, mojave:   "27c744851bb61773f9268009c0a4438fe1e7dda44ad25aa81369f15d2ca8aa14"
   end
 
+  disable! date: "2022-11-28", because: :versioned_formula
+
   configure_arg "--with-zlib-dir=#{MacOS.sdk_path_if_needed}/usr"
 end

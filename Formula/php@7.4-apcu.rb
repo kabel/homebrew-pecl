@@ -14,4 +14,6 @@ class PhpAT74Apcu < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, big_sur:  "dfcb34c148e8eb05e83c9438d83cdc0bdaf46ef5855100c1066c3c9cf65167d7"
     sha256 cellar: :any_skip_relocation, catalina: "08d390bc02c98a1bd1435b082ad3d00783a662c6a18129bae8643281f5606028"
   end
+
+  disable! date: "2022-11-28", because: :versioned_formula
 end

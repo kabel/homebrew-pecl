@@ -20,6 +20,8 @@ class PhpAT74Solr < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "490dddfe88c3281181d7a215a2f860b2361e5a86ca2a645655197396546685a8"
   end
 
+  disable! date: "2022-11-28", because: :versioned_formula
+
   depends_on "curl"
 
   configure_arg %W[

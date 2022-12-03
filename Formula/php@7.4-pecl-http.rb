@@ -15,6 +15,8 @@ class PhpAT74PeclHttp < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "605d80c34d4616056dfebba0cecf6f491eba431bc05fc14fa8cfe25dc0f8d39b"
   end
 
+  disable! date: "2022-11-28", because: :versioned_formula
+
   depends_on "brotli"
   depends_on "curl"
   depends_on "icu4c"

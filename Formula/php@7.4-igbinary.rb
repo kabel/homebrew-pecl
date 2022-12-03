@@ -14,5 +14,7 @@ class PhpAT74Igbinary < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, big_sur:  "8d46068623c755ecbd519666c8f2aeffc9d44ffaa63108741c33ae4c222e83bd"
   end
 
+  disable! date: "2022-11-28", because: :versioned_formula
+
   conf_order "05"
 end

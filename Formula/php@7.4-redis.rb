@@ -8,6 +8,15 @@ class PhpAT74Redis < PhpPeclFormula
   revision 1
   license "PHP-3.01"
 
+  bottle do
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
+    sha256 cellar: :any, ventura:  "08294953d15752f49f47122bd285b75ab1e6820213c9fcf92c0f734137dafc43"
+    sha256 cellar: :any, monterey: "58b9cbdba2cac423e0a3361d456456350a88f3169f3bd3c59ad32cc9f90a2527"
+    sha256 cellar: :any, big_sur:  "485d406edf982a9cc4a0490de631742237d52f32e16570b2b204af23169f7159"
+  end
+
+  disable! date: "2022-11-28", because: :versioned_formula
+
   depends_on "lz4"
   depends_on "kabel/pecl/php@7.4-igbinary"
   depends_on "kabel/pecl/php@7.4-msgpack"
@@ -20,13 +29,6 @@ class PhpAT74Redis < PhpPeclFormula
     --enable-redis-zstd
     --with-liblz4=#{Formula["lz4"].opt_prefix}
   ]
-
-  bottle do
-    root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, ventura:  "08294953d15752f49f47122bd285b75ab1e6820213c9fcf92c0f734137dafc43"
-    sha256 cellar: :any, monterey: "58b9cbdba2cac423e0a3361d456456350a88f3169f3bd3c59ad32cc9f90a2527"
-    sha256 cellar: :any, big_sur:  "485d406edf982a9cc4a0490de631742237d52f32e16570b2b204af23169f7159"
-  end
 
   def install
     # fix include location for configure to find
