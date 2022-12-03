@@ -10,7 +10,7 @@ class PhpBrotli < PhpPeclFormula
   license "MIT"
 
   bottle do
-    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
     sha256 cellar: :any, ventura:  "bbe46d588e191e9c360ca4517285266698cc8a11141082f69a8f57826b12c326"
     sha256 cellar: :any, monterey: "3e1edc1c6d98424bceda9bfc455207f8d30e8aa5c41b40358122f72fda2e3681"
     sha256 cellar: :any, big_sur:  "81fa694f5fb85fd44222509f71f1e8838148255cd720bf513d9b28a08f7b4129"

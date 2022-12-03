@@ -9,7 +9,7 @@ class PhpAT80TidewaysXhprof < PhpPeclFormula
   license "Apache-2.0"
 
   bottle do
-    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
     sha256 cellar: :any_skip_relocation, ventura:  "e4650f1671a10b7bcaf0d98183af7085a17d79519df9db7bd118a2c84f29d04a"
     sha256 cellar: :any_skip_relocation, monterey: "4b5f843d34420549ea14026b47522a0357c242170440904134e905d116c812ff"
     sha256 cellar: :any_skip_relocation, big_sur:  "708413bdfec8022f434628f01c3c8fc5c9c60d3e34e3a122c4f96f683f0e8614"

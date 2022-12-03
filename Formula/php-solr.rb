@@ -14,7 +14,7 @@ class PhpSolr < PhpPeclFormula
   license "PHP-3.01"
 
   bottle do
-    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
     sha256 cellar: :any, ventura:  "b30aba2291c1ebab2772e0cb52fcb8dcd3d820ff8b710e8076415042df7c5e93"
     sha256 cellar: :any, monterey: "f64b1f6b3fc722d7fe2d651bada738a91b6a6d6bbda49b4a81b37bb79fcb737b"
     sha256 cellar: :any, big_sur:  "af64ba1b3a08e58b7d0cafd22cfda74b0f832ea14ef36cc41eea4e179f43f92d"

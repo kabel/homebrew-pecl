@@ -9,7 +9,7 @@ class PhpMemcached < PhpPeclFormula
   license "PHP-3.01"
 
   bottle do
-    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
     sha256 cellar: :any, ventura:  "ab9beded86f853c02526b623a04c8b5f6babebd8a8b8d2a74040412dee009ba6"
     sha256 cellar: :any, monterey: "e879e97e535ff7caf7b5d31e2c1227c34e8a75e71747fe0e91c250b9aea1f060"
     sha256 cellar: :any, big_sur:  "113467d2939090ba8f39215bddf97b34bf956213eca79d40873f7faa67cf387c"

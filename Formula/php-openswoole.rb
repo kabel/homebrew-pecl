@@ -11,7 +11,7 @@ class PhpOpenswoole< PhpPeclFormula
   conflicts_with "php-swoole", because: "both provide the same PHP API"
 
   bottle do
-    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
     sha256 cellar: :any, ventura:  "73f21ce49d471633122fdce9992a2fb833ce8681eca49651ffd8b2fa55edd7ad"
     sha256 cellar: :any, monterey: "d328add6225bb2667d8790a69354dfe269a1865c5b7da67b6e22947b788ed093"
     sha256 cellar: :any, big_sur:  "875444184218c50000620514162942ac689a7c9973beb3c45bb27299a8b242a5"

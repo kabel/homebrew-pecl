@@ -47,7 +47,7 @@ jobs:
           echo
           TEST_PARAMS=""
           if [ "$BUILD_REASON" != "PullRequest" -a "$BUILD_SOURCEBRANCHNAME" = "$SYSTEM_PULLREQUEST_TARGETBRANCH" ]; then TEST_PARAMS="--only-tap-syntax"; fi
-          brew test-bot --skip-dependents --skip-online-checks --tap=kabel/pecl --root-url=https://kabel.jfrog.io/artifactory/bottles-pecl $TEST_PARAMS
+          brew test-bot --skip-dependents --skip-online-checks --tap=kabel/pecl --root-url=https://bottles.kabel.rocks/bottles-pecl $TEST_PARAMS
         displayName: Run brew test-bot
       - bash: |
           rm -rf /usr/local/etc/php

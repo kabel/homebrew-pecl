@@ -8,7 +8,7 @@ class PhpAT74Memcache < PhpPeclFormula
   license "PHP-3.0"
 
   bottle do
-    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
     sha256 cellar: :any_skip_relocation, ventura:  "abca39bd11903eb954d5d94d3ee700db9f1a6578706ef5d8736400494fd11fb0"
     sha256 cellar: :any_skip_relocation, monterey: "9ef4e051c6e8189f50054e89448706de2298d27a42a5c1a02509c869279a3bab"
     sha256 cellar: :any_skip_relocation, big_sur:  "50d09dfec3fb02b105f0c171c34a3711dc9e199ca61c0d3ed3d2089ae523a21a"

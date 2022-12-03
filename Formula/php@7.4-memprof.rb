@@ -11,7 +11,7 @@ class PhpAT74Memprof < PhpPeclFormula
   license "MIT"
 
   bottle do
-    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
     sha256 cellar: :any, ventura:  "c49b2c557da42bae150748abf4240479c58db981a379d7503cc84db75c34b392"
     sha256 cellar: :any, monterey: "8b1ab181bad3801de84cd3fd51baa94e579cb682e541b3cfb2f73dc62ea866e1"
     sha256 cellar: :any, big_sur:  "ea189f5cb8091f3179f87796ad7ebcf85bdb950cb2443e49b5797c7b277577af"

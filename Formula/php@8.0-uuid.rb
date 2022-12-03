@@ -8,7 +8,7 @@ class PhpAT80Uuid < PhpPeclFormula
   license "LGPL-2.1-only"
 
   bottle do
-    root_url "https://kabel.jfrog.io/artifactory/bottles-pecl"
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
     sha256 cellar: :any, ventura:  "256bbb9d5b08bf001acd37da3832232c8cde8a46b6e88bb1a805e52f06942a3a"
     sha256 cellar: :any, monterey: "b59049e7776ff9855526990fbd2e4b64520d8ced7b5fa03284de9207abacbeb0"
     sha256               big_sur:  "7b0cd48a4c8f85565aa8cf5fc15c568ee4ae8f9ae05e55d90e7438e0d594ec6d"
