@@ -5,7 +5,7 @@ class PhpCouchbase < PhpPeclFormula
 
   url "https://pecl.php.net/get/couchbase-4.0.0.tgz"
   sha256 "caa67e972a8e0f50b920088434eea14671902f253fb5bfb854b7e8d3898bcd26"
-  revision 1
+  revision 2
   license "Apache-2.0"
 
   bottle do

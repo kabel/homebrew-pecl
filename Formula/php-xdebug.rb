@@ -5,6 +5,7 @@ class PhpXdebug < PhpPeclFormula
 
   url "https://pecl.php.net/get/xdebug-3.1.6.tgz"
   sha256 "554eca0b4d5b7b93cb2258fab0b0bd84cc8721e74322a2255c14e137cbcad5d2"
+  revision 1
   license "PHP-3.0"
 
   bottle do

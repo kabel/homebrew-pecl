@@ -5,6 +5,7 @@ class PhpAmqp < PhpPeclFormula
 
   url "https://pecl.php.net/get/amqp-1.11.0.tgz"
   sha256 "dc5212b4785f59955118a219bbfbcedb7aa6ab2a91e8038a0ad1898f331c2f08"
+  revision 1
   license "PHP-3.01"
 
   bottle do

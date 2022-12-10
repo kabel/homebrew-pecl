@@ -6,7 +6,7 @@ class PhpBrotli < PhpPeclFormula
 
   url "https://github.com/kjdev/php-ext-brotli/archive/refs/tags/0.13.1.tar.gz"
   sha256 "1eca1af3208e2f6551064e3f26e771453def588898bfc25858ab1db985363e47"
-  revision 1
+  revision 2
   license "MIT"
 
   bottle do

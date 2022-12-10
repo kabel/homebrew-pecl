@@ -6,7 +6,7 @@ class PhpTidewaysXhprof < PhpPeclFormula
 
   url "https://github.com/tideways/php-xhprof-extension/archive/v5.0.4.tar.gz"
   sha256 "a414e5d30cba360fbbc54ce929a6db4ae8a9b93a2e58d447e6a5dd7af6fecf72"
-  revision 1
+  revision 2
   license "Apache-2.0"
 
   bottle do
