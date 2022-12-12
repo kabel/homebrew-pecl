@@ -13,10 +13,9 @@ class PhpMemprof < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, ventura:  "002738af1b37e607b6826fc663c3f92c666c6ba27f35e8061e8dd8d75a88240d"
-    sha256 cellar: :any, monterey: "45747a987411606194cf051cacfed55c079afc9544d8e49ba551c184177b1b22"
-    sha256 cellar: :any, big_sur:  "0526e4d2c5434e713e9c4aa20ffe308e16d02ac290cb3c2d92aaa585419bfae8"
-    sha256 cellar: :any, catalina: "43a3b14bf0e078270ff2195eeefa27283ce4f669068dc7babfc8320d74179ade"
+    sha256 cellar: :any, ventura:  "a2b72d60626571e311244d591434650faf43f6494f99f1eca71adbfdc4c98570"
+    sha256 cellar: :any, monterey: "61b231dbfd044b9e2ba7c3e8352f1ff88e737307d67f51f94fadc288c98ea2bf"
+    sha256 cellar: :any, big_sur:  "584af7a49a5a2ddb0a160895760b35c9fcea778b19c567b80f3a582e138a3065"
   end
 
   resource "judy" do
