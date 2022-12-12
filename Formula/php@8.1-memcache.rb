@@ -7,5 +7,12 @@ class PhpAT81Memcache < PhpPeclFormula
   sha256 "defe33e6f7831d82b7283b95e14a531070531acbf21278f3f0d7050505cf3395"
   license "PHP-3.0"
 
+  bottle do
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
+    sha256 cellar: :any_skip_relocation, ventura:  "46b685abf1e131d876ceea40c626a855c023ae3b5beabb6ea6cbded0f272ded5"
+    sha256 cellar: :any_skip_relocation, monterey: "89306ceb355f9d242ba6cb786cae1d28019ffc4f413df0e7a922310b0e2ab33e"
+    sha256 cellar: :any_skip_relocation, big_sur:  "f9d2224ecc0a3f5fcd60042cc81cee66a382817358c7bd86401237578024b569"
+  end
+
   configure_arg "--with-zlib-dir=#{MacOS.sdk_path_if_needed}/usr"
 end
