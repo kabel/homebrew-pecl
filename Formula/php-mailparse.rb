@@ -10,9 +10,8 @@ class PhpMailparse < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any_skip_relocation, ventura:  "45a644a6ae1b2f8a5759944d15de89e1752053314c2133bc48d9ecb9c77a15c8"
-    sha256 cellar: :any_skip_relocation, monterey: "6e7442284c20baebecd27c236d21e4913c39154010cfc2bc4e5f08053e1b7c17"
-    sha256 cellar: :any_skip_relocation, big_sur:  "e321b4f166043dfd0f78f488bfe0ab3683e6109561d502cac5a9cccb8954983b"
-    sha256 cellar: :any_skip_relocation, catalina: "3e24fb4c43c5bb1f471aa3dc57478877a7e0f7d1741554ac80aba92e6de1ad35"
+    sha256 cellar: :any_skip_relocation, ventura:  "ff1e448dcd7a134923011f1f5fae5da5fa6cc9483841d7333ebb72b41b34bb54"
+    sha256 cellar: :any_skip_relocation, monterey: "8215c354ab7af86ce4914a394990fa2866edf48787fad8bfcc39896426005777"
+    sha256 cellar: :any_skip_relocation, big_sur:  "fe44c56e497456e32e4ebf41b437c0725be33f959c55869a85a5eeb868532a58"
   end
 end
