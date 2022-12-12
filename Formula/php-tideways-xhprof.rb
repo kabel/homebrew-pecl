@@ -11,9 +11,8 @@ class PhpTidewaysXhprof < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any_skip_relocation, ventura:  "36c7c9a7085ae7a4399e92bbf5e743ed804be5ae95bfbf5f434be1320b3f8ed6"
-    sha256 cellar: :any_skip_relocation, monterey: "8312ce5a76019ca8e8186407024ce9b64bb50f4b67941a4e6df26fa683ff758e"
-    sha256 cellar: :any_skip_relocation, big_sur:  "6481f381c1ebf75fcddc761b2b366af9dc6cb18cd8753969013c54fec7c6ef09"
-    sha256 cellar: :any_skip_relocation, catalina: "943c909a7a4f3a59ba152ca955b72f20650d6d70a7a1c94ce14ef6e525e60272"
+    sha256 cellar: :any_skip_relocation, ventura:  "64d95f2c5bc9aedcbbe4e2dab805f00c1dc6edbef2e3ef5447abcf3f0eacd08c"
+    sha256 cellar: :any_skip_relocation, monterey: "4e67ee01a211890b1db041f3e6e0f4d281b13d2762f916962c8dc040a2b81524"
+    sha256 cellar: :any_skip_relocation, big_sur:  "688e845b2e7138ec6233bb38908818a02055cf0095f2e8e4a3e0cf238e9cf1fa"
   end
 end
