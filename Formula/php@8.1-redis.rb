@@ -7,6 +7,13 @@ class PhpAT81Redis < PhpPeclFormula
   sha256 "b958166ccda4f40bd17c6998f9e2239021ae644467cd8ad5c15def420aad65b0"
   license "PHP-3.01"
 
+  bottle do
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
+    sha256 cellar: :any, ventura:  "77e47ce838a87ea880bbca032528be21cbabd267b40ae4c7d57d1ba6aaf95bcd"
+    sha256 cellar: :any, monterey: "7fa96b0c0fcf8aef33db7f04e0d0238aae1a16b479bc0744d02010bd7b6af859"
+    sha256 cellar: :any, big_sur:  "fbaadcc7ff0578b3238e8f4a4907095dbb7f75238c8992a3da9b9e6883c175ae"
+  end
+
   depends_on "lz4"
   depends_on "kabel/pecl/php@8.1-igbinary"
   depends_on "kabel/pecl/php@8.1-msgpack"
