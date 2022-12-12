@@ -12,9 +12,9 @@ class PhpSwoole< PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, ventura:  "67b3186fea41ed672ce3110677595ee8d9076a98589977e416746b93fe9584c2"
-    sha256 cellar: :any, monterey: "88a15450134d65ebb6638eac32e295a50ced2f7f73cdf10452974134d3a0a7fa"
-    sha256 cellar: :any, big_sur:  "0210ac802531a72700a92628571eeccc7506c62c7e39d034554680742c3a6a8a"
+    sha256 cellar: :any, ventura:  "34c81fcde9e5b71bc6e2e2159b649da472b4decc13f5b9e9e173a0e575f40478"
+    sha256 cellar: :any, monterey: "02822b846277df10a6d7aea536857e2e0b2297fb01a2b8d491ee88b8247c5372"
+    sha256 cellar: :any, big_sur:  "1e864e797dcb2e9df824fd61dd7f14a01e2e65528e83ce2e62367506b6b064d1"
   end
 
   depends_on "openssl@1.1"
