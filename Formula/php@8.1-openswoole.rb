@@ -7,6 +7,13 @@ class PhpAT81Openswoole< PhpPeclFormula
   sha256 "de2e6c5e098e1db0c02b5e28ac2d07d7a33a82a3fadf25abfe36c288e5e4dd99"
   license "Apache-2.0"
 
+  bottle do
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
+    sha256 cellar: :any, ventura:  "0bb079d31230a69c6e23c3983f18c6d38c724de3984583aaa2a3efb041913f77"
+    sha256 cellar: :any, monterey: "8cbf84b919e577ae37e64cfe1f83dbb9fa06c04ce96b9e143a250dc346817a31"
+    sha256 cellar: :any, big_sur:  "5e9e66be6dd9226b086f50a0166078ca0acaa435c3a552a29ef00d755cfe89f1"
+  end
+
   conflicts_with "php@8.1-swoole", because: "both provide the same PHP API"
 
   depends_on "openssl@1.1"
