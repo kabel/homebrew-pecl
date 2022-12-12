@@ -10,10 +10,9 @@ class PhpMsgpack < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any_skip_relocation, ventura:  "c9394475e4e22f130aae19ac7a61f876ee1fab1c1a6810dc618974788b6ceab0"
-    sha256 cellar: :any_skip_relocation, monterey: "92fe3c76208da7fda372e59b0d77b13c10adeb2cbe1774ed82591cb0b72c4ae8"
-    sha256 cellar: :any_skip_relocation, big_sur:  "85a674d2ba5475ed920576e2d828ec67cbfc68ff187b9f39096c58d2ee4a769a"
-    sha256 cellar: :any_skip_relocation, catalina: "9e95cfc47e860e8f88b87ffc7be1493be08f4b571762ac06eef23c0d7c6a4edd"
+    sha256 cellar: :any_skip_relocation, ventura:  "5f0f1735a11d656ea28df8b5ff5717dd535766fd1dc786a0a6ba155e0b31d905"
+    sha256 cellar: :any_skip_relocation, monterey: "a5db3c42bf805df2e22fa3189cc65e1a3ab17183b8214397175e1a1e6f2773cb"
+    sha256 cellar: :any_skip_relocation, big_sur:  "6a61a66f559dd59374e1a2b0b0e4eb5c1d3598e3d55cc05a4bbb307e37883274"
   end
 
   depends_on "msgpack"
