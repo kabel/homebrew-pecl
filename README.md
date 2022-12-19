@@ -1,9 +1,9 @@
-![](https://repository-images.githubusercontent.com/198321627/2fbdcd80-f858-11ea-9918-e98efc78da29)
+![kabel/pecl Homebrew packages sourced from the PECL (PHP Extension Community Library) repository](https://repository-images.githubusercontent.com/198321627/2fbdcd80-f858-11ea-9918-e98efc78da29)
 
 # kabel/pecl
-[![](https://img.shields.io/github/sponsors/kabel)](https://github.com/sponsors/kabel/)
-[![](https://img.shields.io/azure-devops/build/kevinabel0613/kevinabel/1)](https://dev.azure.com/kevinabel0613/kevinabel/_build?definitionId=1)
-[![](https://img.shields.io/badge/analytics---30d-blue)](https://service.sumologic.com/ui/dashboard.html?k=UG6EbYO10Asr2W4eKkmjqKtz3OcJ2MXkgoG1V4v2JP7yM4WnbuPbup6xBgOZ&f=&t=r)
+[![sponsors](https://img.shields.io/github/sponsors/kabel)](https://github.com/sponsors/kabel/)
+[![build status badge](https://img.shields.io/azure-devops/build/kevinabel0613/kevinabel/1)](https://dev.azure.com/kevinabel0613/kevinabel/_build?definitionId=1)
+[![analytics last 30 days](https://img.shields.io/badge/analytics---30d-blue)](https://kabel.rocks/bottles-pecl-analytics.html)
 
 This tap is an experiment to see if it's sustainable to use the pecl registry without using the `pecl` installer that is not included (deprecated) in core PHP since version 7.4.
 
