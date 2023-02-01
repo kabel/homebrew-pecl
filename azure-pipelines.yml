@@ -7,7 +7,7 @@ jobs:
         macOS_Monterey:
           OS_VERSION: '12.5'
         macOS_Ventura:
-          OS_VERSION: '13.1'
+          OS_VERSION: '13.2'
     pool:
       name: Default
       demands:
