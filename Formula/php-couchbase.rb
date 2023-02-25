@@ -9,9 +9,9 @@ class PhpCouchbase < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, ventura:  "7d85bb54fc96b647da43603f7d9c082ef377c66225658b600c95794d66c5cba8"
-    sha256 cellar: :any, monterey: "1479618190744c3ebc2ab345467772266fb23b1f93a22f7e60fb1fba3ff3bae6"
-    sha256 cellar: :any, big_sur:  "404becdeed7455034442194fca7ddb5b7bf95d15e11ec43c5debf9a31b6be940"
+    sha256 cellar: :any, ventura:  "62a0654f3d0c26e13fd9a4ab0f833722d31dcc940f6cff6065bf218d8768ca98"
+    sha256 cellar: :any, monterey: "c2a8cc46b4e874f0218690b88460532ac1e441646d4f789336c798a124a1dc5e"
+    sha256 cellar: :any, big_sur:  "8b146dbee8c4db55576918c6d6992aa81e65f90d1753f67ace26d9a44c67fb6f"
   end
 
   depends_on "cmake" => :build
