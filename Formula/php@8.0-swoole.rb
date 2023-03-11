@@ -11,9 +11,9 @@ class PhpAT80Swoole< PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, ventura:  "ad3c08e4ea81f8447555ff284db01a4af2085f5dd081858203d93736675a0e2c"
-    sha256 cellar: :any, monterey: "111a5af5f1cc8ff5857ecf1143884f5b1a15bc555f98fcf748ee3f41ef3bf8b8"
-    sha256 cellar: :any, big_sur:  "747738780a5275c54938b64785adfb22ccafd1008af2c51707ce393d84cbb745"
+    sha256 cellar: :any, ventura:  "7fbc790506e357ce15ab27c41f837691fe44b3fa8c8cb14a44949a3420091b26"
+    sha256 cellar: :any, monterey: "c545228ea1878c7b513108bdfb46844421274657f99d524bd158b5d36c1762f6"
+    sha256 cellar: :any, big_sur:  "352299eb6169f3e43a1046cb03dce2242102e43aa7efc526ecf8ec59ad31b13b"
   end
 
   deprecate! date: "2022-11-26", because: :versioned_formula
