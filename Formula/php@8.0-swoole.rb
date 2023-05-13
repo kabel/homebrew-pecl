@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpAT80Swoole< PhpPeclFormula
   extension_dsl "Event-driven asynchronous and concurrent networking engine with high performance"
 
-  url "https://pecl.php.net/get/swoole-5.0.2.tgz"
-  sha256 "ecefcab9ca36f6e724b6f8c9cf784b1c2616d3efe4544be3eda629ad2037fe68"
+  url "https://pecl.php.net/get/swoole-5.0.3.tgz"
+  sha256 "6c51e11199214921e07ab1b9f0e67781c96f7b8e06afb4225f05d1dc79832ead"
   license "Apache-2.0"
 
   conflicts_with "php@8.0-openswoole", because: "both provide the same PHP API"
@@ -18,13 +18,15 @@ class PhpAT80Swoole< PhpPeclFormula
 
   deprecate! date: "2022-11-26", because: :versioned_formula
 
-  depends_on "openssl@1.1"
   depends_on "brotli"
+  depends_on "libnghttp2"
+  depends_on "openssl@1.1"
 
   configure_arg %W[
     --enable-http2
     --enable-mysqlnd
     --enable-sockets
     --with-openssl-dir=#{Formula["openssl@1.1"].opt_prefix}
+    --with-nghttp2_dir=#{Formula["libnghttp2"].opt_prefix}
   ]
 end
