@@ -3,11 +3,11 @@ jobs:
     strategy:
       matrix:
         macOS_BigSur:
-          OS_VERSION: '11.5'
+          OS_VERSION: '11.7'
         macOS_Monterey:
-          OS_VERSION: '12.5'
+          OS_VERSION: '12.6'
         macOS_Ventura:
-          OS_VERSION: '13.2'
+          OS_VERSION: '13.3'
     pool:
       name: Default
       demands:
