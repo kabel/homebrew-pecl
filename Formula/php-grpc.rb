@@ -3,9 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpGrpc < PhpPeclFormula
   extension_dsl "A high performance, open source, general RPC framework that puts mobile and HTTP/2 first"
 
-  url "https://pecl.php.net/get/grpc-1.51.1.tgz"
-  sha256 "a8a79bf27bceeb8088c2a3a5a76c1146bbbd3e8d7a8a13e44ddbcfd715213ba9"
-  revision 1
+  url "https://pecl.php.net/get/grpc-1.54.0.tgz"
+  sha256 "5ad3c1a046290f901771fc3f557db6c5bdd4208e157f42a0ab061cf10ac0dfa9"
   license "Apache-2.0"
 
   bottle do
