@@ -24,6 +24,7 @@ jobs:
           rm -f *.bottle.json
           git clean -fdq
           brew update-reset
+          brew update
           ln -s "$PWD" "$HOMEBREW_TAP_DIR"
         displayName: Setup brew tap
       - bash: |
