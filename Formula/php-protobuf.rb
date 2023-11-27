@@ -5,6 +5,7 @@ class PhpProtobuf < PhpPeclFormula
 
   url "https://pecl.php.net/get/protobuf-3.23.3.tgz"
   sha256 "72575793a9a4e3c8cb52519fdab154c9a9434e34e2027b8761bb0cbcbe0345f1"
+  revision 1
   license "BSD-3-Clause"
 
   bottle do

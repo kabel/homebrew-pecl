@@ -5,6 +5,7 @@ class PhpPdoSqlsrv < PhpPeclFormula
 
   url "https://pecl.php.net/get/pdo_sqlsrv-5.11.0.tgz"
   sha256 "c307d9bcada02bdc21f59b9f099031b90b30727757bca50fd42fd36159812e8a"
+  revision 1
   license "MIT"
 
   bottle do

@@ -5,6 +5,7 @@ class PhpIgbinary < PhpPeclFormula
 
   url "https://pecl.php.net/get/igbinary-3.2.14.tgz"
   sha256 "6337147a4fb888072566674837bda9928ee06ee7f0114b4338b86c816232925d"
+  revision 1
   license "BSD-3-Clause"
 
   bottle do

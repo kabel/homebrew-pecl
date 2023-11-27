@@ -5,6 +5,7 @@ class PhpSsh2 < PhpPeclFormula
 
   url "https://pecl.php.net/get/ssh2-1.4.tgz"
   sha256 "988b52e0315bb5ed725050cb02de89b541034b7be6b94623dcb2baa33f811d87"
+  revision 1
   license "PHP-3.01"
 
   bottle do

@@ -5,6 +5,7 @@ class PhpMsgpack < PhpPeclFormula
 
   url "https://pecl.php.net/get/msgpack-2.2.0.tgz"
   sha256 "82aa1e404c5ff54ec41d2a201305cd6594ed14a7529e9119fa7ca457e4bbd12a"
+  revision 1
   license "PHP-3.01"
 
   bottle do

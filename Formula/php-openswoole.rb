@@ -5,6 +5,7 @@ class PhpOpenswoole< PhpPeclFormula
 
   url "https://pecl.php.net/get/openswoole-22.0.0.tgz"
   sha256 "bf1ebf241bd4a52b5b39102a37da8cfa4b3dfcbd2be4104adf408873dac89034"
+  revision 1
   license "Apache-2.0"
 
   conflicts_with "php-swoole", because: "both provide the same PHP API"
@@ -16,13 +17,13 @@ class PhpOpenswoole< PhpPeclFormula
     sha256 cellar: :any, big_sur:  "e6a43b8a48ff8eaa316b064f3e888c1bf69d9ac4bb5dc0063cf6aa892c9616a0"
   end
 
-  depends_on "openssl@1.1"
+  depends_on "openssl@3"
   depends_on "brotli"
 
   configure_arg %W[
     --enable-http2
     --enable-mysqlnd
     --enable-sockets
-    --with-openssl-dir=#{Formula["openssl@1.1"].opt_prefix}
+    --with-openssl-dir=#{Formula["openssl@3"].opt_prefix}
   ]
 end
