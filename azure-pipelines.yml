@@ -2,12 +2,12 @@ jobs:
   - job: Build
     strategy:
       matrix:
-        macOS_BigSur:
-          OS_VERSION: '11.7'
         macOS_Monterey:
-          OS_VERSION: '12.6'
+          OS_VERSION: '12.7'
         macOS_Ventura:
-          OS_VERSION: '13.5'
+          OS_VERSION: '13.6'
+        macOS_Sonoma:
+          OS_VERSION: '14.1'
     pool:
       name: Default
       demands:
