@@ -19,6 +19,8 @@ class PhpAT81Solr < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "5647cbcf33d713b1488ef25d8cfed566a717b81c8b02235b081ceb20576e99ac"
   end
 
+  deprecate! date: "2024-11-25", because: :unsupported
+
   depends_on "curl"
 
   configure_arg %W[

@@ -17,6 +17,8 @@ class PhpAT81Memprof < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "56a18f19f7127a7f366a4d3d3bda4f6c8e9e33aa66f2ee2fd2946c261dfb102a"
   end
 
+  deprecate! date: "2024-11-25", because: :unsupported
+
   resource "judy" do
     url "https://downloads.sourceforge.net/project/judy/judy/Judy-1.0.5/Judy-1.0.5.tar.gz"
     sha256 "d2704089f85fdb6f2cd7e77be21170ced4b4375c03ef1ad4cf1075bd414a63eb"

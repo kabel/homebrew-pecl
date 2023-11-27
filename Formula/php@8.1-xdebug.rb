@@ -14,6 +14,8 @@ class PhpAT81Xdebug < PhpPeclFormula
     sha256 big_sur:  "9ab12f6d4063c032aa1dcbfe5f7f27782538b59f61fc50473c5444818f89283a"
   end
 
+  deprecate! date: "2024-11-25", because: :unsupported
+
   def extension_type
     "zend_extension"
   end

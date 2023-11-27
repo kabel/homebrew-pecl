@@ -14,6 +14,8 @@ class PhpAT81Ssh2 < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "7cb4b02161317cb74df8ba79116004aef6d18c1efc14cab21b3bb063a3bc2099"
   end
 
+  deprecate! date: "2024-11-25", because: :unsupported
+
   depends_on "libssh2"
 
   configure_arg "--with-ssh2=#{Formula["libssh2"].opt_prefix}"

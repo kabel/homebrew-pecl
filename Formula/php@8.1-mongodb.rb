@@ -14,6 +14,8 @@ class PhpAT81Mongodb < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "1151ebf6aa3051257ca2986fc1cc03362429060fce06770a8d85e2ff7537a02c"
   end
 
+  deprecate! date: "2024-11-25", because: :unsupported
+
   depends_on "icu4c"
   depends_on "snappy"
 end

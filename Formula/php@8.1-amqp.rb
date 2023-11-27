@@ -14,5 +14,7 @@ class PhpAT81Amqp < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "a5cedc5429dc7bb8e1b1ff985c851ffd942e998b80ca8e40206deedccca26ae9"
   end
 
+  deprecate! date: "2024-11-25", because: :unsupported
+
   depends_on "rabbitmq-c"
 end

@@ -14,5 +14,7 @@ class PhpAT81Raphf < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, big_sur:  "47e8932310a8f96660ed0e85b6cc9379fe07532d197cf6235580a4134183f2dd"
   end
 
+  deprecate! date: "2024-11-25", because: :unsupported
+
   conf_order "05"
 end

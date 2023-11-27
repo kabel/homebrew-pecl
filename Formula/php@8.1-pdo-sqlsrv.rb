@@ -14,5 +14,7 @@ class PhpAT81PdoSqlsrv < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "6d665c141071b4123f1fcd1fa5b4f4a2707c740e69a8dc8dc11581e3a68c83da"
   end
 
+  deprecate! date: "2024-11-25", because: :unsupported
+
   depends_on "unixodbc"
 end

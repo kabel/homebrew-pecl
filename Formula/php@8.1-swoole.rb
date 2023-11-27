@@ -5,6 +5,7 @@ class PhpAT81Swoole< PhpPeclFormula
 
   url "https://pecl.php.net/get/swoole-5.0.3.tgz"
   sha256 "6c51e11199214921e07ab1b9f0e67781c96f7b8e06afb4225f05d1dc79832ead"
+  revision 1
   license "Apache-2.0"
 
   bottle do
@@ -14,17 +15,19 @@ class PhpAT81Swoole< PhpPeclFormula
     sha256 cellar: :any, big_sur:  "1a9ee31eed713392120d8970530f521ba4b58fc71eed0007166a86e11eae4a9e"
   end
 
+  deprecate! date: "2024-11-25", because: :unsupported
+
   conflicts_with "php@8.1-openswoole", because: "both provide the same PHP API"
 
   depends_on "brotli"
   depends_on "libnghttp2"
-  depends_on "openssl@1.1"
+  depends_on "openssl@3"
 
   configure_arg %W[
     --enable-http2
     --enable-mysqlnd
     --enable-sockets
-    --with-openssl-dir=#{Formula["openssl@1.1"].opt_prefix}
+    --with-openssl-dir=#{Formula["openssl@3"].opt_prefix}
     --with-nghttp2_dir=#{Formula["libnghttp2"].opt_prefix}
   ]
 end

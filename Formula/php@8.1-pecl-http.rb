@@ -14,6 +14,8 @@ class PhpAT81PeclHttp < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "2de372db3224107131b5ae10bfb452c108cd2eae9477e14c31ffa60259fce3eb"
   end
 
+  deprecate! date: "2024-11-25", because: :unsupported
+
   depends_on "brotli"
   depends_on "curl"
   depends_on "icu4c"

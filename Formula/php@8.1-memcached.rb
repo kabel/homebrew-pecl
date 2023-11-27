@@ -14,6 +14,8 @@ class PhpAT81Memcached < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "ae51839fd5eadb71b1e794972351ecf87eacae0d5f4ffa95877e76c87fd7858f"
   end
 
+  deprecate! date: "2024-11-25", because: :unsupported
+
   depends_on "libmemcached"
   depends_on "kabel/pecl/php@8.1-igbinary"
   depends_on "kabel/pecl/php@8.1-msgpack"
