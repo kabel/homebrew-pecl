@@ -3,9 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpOpenswoole< PhpPeclFormula
   extension_dsl "High Performance Programmatic Server for PHP with Async IO, Coroutines and Fibers"
 
-  url "https://pecl.php.net/get/openswoole-22.0.0.tgz"
-  sha256 "bf1ebf241bd4a52b5b39102a37da8cfa4b3dfcbd2be4104adf408873dac89034"
-  revision 1
+  url "https://pecl.php.net/get/openswoole-22.1.0.tgz"
+  sha256 "2dc7c37957040495fb3bbef64e7cc0d8d0549dd31ede3e96101ad79502d19dea"
   license "Apache-2.0"
 
   conflicts_with "php-swoole", because: "both provide the same PHP API"
