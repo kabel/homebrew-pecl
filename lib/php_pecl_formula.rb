@@ -4,7 +4,7 @@ class PhpPeclFormula < Formula
   desc "PHP PECL Extension"
   homepage "https://pecl.php.net/"
 
-  def initialize(*)
+  def initialize(name, path, spec, alias_path: nil, tap: nil, force_bottle: false)
     super
     @source_dir = self.class.source_dir || "#{extension}-#{version}"
     @conf_order = self.class.conf_order || "10"
