@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpAT82Redis < PhpPeclFormula
   extension_dsl "Redis extension"
 
-  url "https://pecl.php.net/get/redis-5.3.7.tgz"
-  sha256 "b958166ccda4f40bd17c6998f9e2239021ae644467cd8ad5c15def420aad65b0"
+  url "https://pecl.php.net/get/redis-6.0.2.tgz"
+  sha256 "01aeccb0e14f897fe56f0509be6e6991ff0ad459f9d34e95e4556d02699b9a03"
   license "PHP-3.01"
 
   deprecate! date: "2025-12-08", because: :unsupported
