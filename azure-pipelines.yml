@@ -26,6 +26,7 @@ jobs:
           brew update-reset
           brew update
           ln -s "$PWD" "$HOMEBREW_TAP_DIR"
+          sed -i '' -e '/require_relative/{r lib/php_pecl_formula.rb' -e 'd;}' Formula/*.rb
         displayName: Setup brew tap
       - bash: |
           set -e
