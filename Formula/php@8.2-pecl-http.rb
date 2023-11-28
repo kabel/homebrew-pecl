@@ -7,6 +7,13 @@ class PhpAT82PeclHttp < PhpPeclFormula
   sha256 "fb1e10c2e5edfb011ff8dc2e473cdbd2bbe0127d1279dfce4d98570555ac6ded"
   license "BSD-2-Clause"
 
+  bottle do
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
+    sha256 cellar: :any, sonoma:   "dc67c145bb56f6a17a5c54cf7250bd48bd539470d4e8f04aa0ce334490ecb978"
+    sha256 cellar: :any, ventura:  "77ed1ea1606c3fe429cccb3465204f3c16bc124508429416a9dae8aab2aa22c1"
+    sha256 cellar: :any, monterey: "874a56b3411692b309fcf8876dbe93452ef4b0a628fc7a97232781e1b8e26121"
+  end
+
   deprecate! date: "2025-12-08", because: :unsupported
 
   depends_on "brotli"
