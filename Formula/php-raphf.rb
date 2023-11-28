@@ -10,9 +10,9 @@ class PhpRaphf < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any_skip_relocation, ventura:  "d016315e0a3d8a31f7176895496f04f382deda373e32154c61dc0009c907343d"
-    sha256 cellar: :any_skip_relocation, monterey: "e8876c6b1a3f3a7d92071feba4a4feec653e6194f97204b0a41ce2f3e009cda8"
-    sha256 cellar: :any_skip_relocation, big_sur:  "0f17364d936ffadfb0fdc0996cb740f7a8abc9ab450df12243dc647f18c88bc6"
+    sha256 cellar: :any_skip_relocation, sonoma:   "3f84af5c9c84d8d723e8a2d5834f438a7c0b3e2995f38816b4a93b82952616ff"
+    sha256 cellar: :any_skip_relocation, ventura:  "b2b1a4d119365e7751a370549483180b6a74afe0266fdf2e7a6297e29ca7c4b7"
+    sha256 cellar: :any_skip_relocation, monterey: "333bdb8a4b3defee8c368caae7e93f2a948d6bf1b039c0b257e63d8ea2b036e4"
   end
 
   conf_order "05"
