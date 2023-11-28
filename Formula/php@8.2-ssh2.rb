@@ -7,6 +7,13 @@ class PhpAT82Ssh2 < PhpPeclFormula
   sha256 "988b52e0315bb5ed725050cb02de89b541034b7be6b94623dcb2baa33f811d87"
   license "PHP-3.01"
 
+  bottle do
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
+    sha256 cellar: :any, sonoma:   "5e8c161838d945ad86c436b0382de1bff7459a60e3cf15025e9684985cb164e1"
+    sha256 cellar: :any, ventura:  "d49547c7401627f98c163840c269cc0277b71b5deb8c63d222f8c63847b1f226"
+    sha256 cellar: :any, monterey: "5f342f1e36bc42249478b830c6f65246bbd99d99c87f8a015f0b774db3a24f07"
+  end
+
   deprecate! date: "2025-12-08", because: :unsupported
 
   depends_on "libssh2"
