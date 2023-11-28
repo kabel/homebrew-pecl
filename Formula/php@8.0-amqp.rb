@@ -9,9 +9,9 @@ class PhpAT80Amqp < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, monterey: "e72c9e89853047905c9ca3c2f1119a232a38f202fc34b0386c0f890407f10eb9"
-    sha256               big_sur:  "72005bc2713a940c1ea1e635a31f661826fc6290082b717cd3476ce61974e6b6"
-    sha256               catalina: "3e77988ef6a99621279005d8bfc3f7e5ee136b3e4cfba2e73e3fea7672632df2"
+    sha256 cellar: :any, sonoma:   "a23ae0af2a0f7e7404306fb9a7e1931d3cffb99690baf7071b754a909a8dea6a"
+    sha256 cellar: :any, ventura:  "177d7fa8453d28f7b44912160512efbfd55f50d7f771a2f7032c15219dea8f08"
+    sha256 cellar: :any, monterey: "ba2cec8b94918adaf0e4312c4401730dc9b2a6a86296335ff15622709c0d0191"
   end
 
   deprecate! date: "2022-11-26", because: :versioned_formula
