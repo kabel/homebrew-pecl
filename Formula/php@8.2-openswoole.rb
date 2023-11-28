@@ -7,6 +7,13 @@ class PhpAT82Openswoole< PhpPeclFormula
   sha256 "2dc7c37957040495fb3bbef64e7cc0d8d0549dd31ede3e96101ad79502d19dea"
   license "Apache-2.0"
 
+  bottle do
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
+    sha256 cellar: :any, sonoma:   "ac1cb6f79fa6ebf423e46f2340a483f358af7c9ad91036d4a517cb5643e205da"
+    sha256 cellar: :any, ventura:  "bb14c8ea613e366e309289ef9685d9e203da2d28c3037b5eb31568ce5c336bb2"
+    sha256 cellar: :any, monterey: "49d0b989141ada64717d07ae6750096cb5f85fe2a088254f3c3c9525686a1c48"
+  end
+
   deprecate! date: "2025-12-08", because: :unsupported
 
   conflicts_with "php@8.2-swoole", because: "both provide the same PHP API"
