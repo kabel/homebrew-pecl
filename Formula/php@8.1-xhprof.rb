@@ -9,6 +9,7 @@ class PhpAT81Xhprof < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
+    sha256 cellar: :any_skip_relocation, sonoma:   "c0245927902afa5400dfc126b9dd66968db3ec53ddf4acc93d655e645dd42fda"
     sha256 cellar: :any_skip_relocation, ventura:  "fe6a8d7c696974efcf23646087924af0ec943526967e1b34c81bb13ecba24120"
     sha256 cellar: :any_skip_relocation, monterey: "cb1183a40519ecd767671be019d4a114d972eb8c22afef38c4663af983488cf7"
     sha256 cellar: :any_skip_relocation, big_sur:  "ee3a5a9f3e88788441e173afc54cb08a397a3e1ece89416ec410fc2ce1c0d580"
