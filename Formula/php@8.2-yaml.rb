@@ -5,6 +5,7 @@ class PhpAT82Yaml < PhpPeclFormula
 
   url "https://pecl.php.net/get/yaml-2.2.3.tgz"
   sha256 "5937eb9722ddf6d64626799cfa024598ff2452ea157992e4e67331a253f90236"
+  revision 1
   license "MIT"
 
   bottle do
@@ -17,4 +18,6 @@ class PhpAT82Yaml < PhpPeclFormula
   deprecate! date: "2025-12-08", because: :unsupported
 
   depends_on "libyaml"
+
+  configure_arg "--with-yaml=#{Formula["libyaml"].opt_prefix}"
 end
