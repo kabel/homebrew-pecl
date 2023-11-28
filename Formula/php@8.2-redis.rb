@@ -7,6 +7,13 @@ class PhpAT82Redis < PhpPeclFormula
   sha256 "01aeccb0e14f897fe56f0509be6e6991ff0ad459f9d34e95e4556d02699b9a03"
   license "PHP-3.01"
 
+  bottle do
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
+    sha256 cellar: :any, sonoma:   "774cb8529c69690d7ab2052fdc25c9004d0f5eb8b6fdb181feb701d905f59195"
+    sha256 cellar: :any, ventura:  "5d5a20c9132acf0c373ac4a8d93806420ef79c26f145409645868f4febf27585"
+    sha256 cellar: :any, monterey: "b2ae999b7152691200021c19ebfe4365c94cb2866291dd802ae11133b105d41d"
+  end
+
   deprecate! date: "2025-12-08", because: :unsupported
 
   depends_on "lz4"
