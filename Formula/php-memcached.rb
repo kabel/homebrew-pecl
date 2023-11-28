@@ -10,9 +10,9 @@ class PhpMemcached < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, ventura:  "b0c51a3b1f088457b8457d0ca4d28d6770063879cdb84be0bc4042b53b8021a9"
-    sha256 cellar: :any, monterey: "f361444bcea394ed0a06b1e6ae048963a61437e10e6a4594636723c2871cd26c"
-    sha256 cellar: :any, big_sur:  "144ad2fa3b6279423f58b89737df2286eca32d1198617c791d97361178406de1"
+    sha256 cellar: :any, sonoma:   "5ff37b8503618a4e46ce654f8019abdbfee1048363617e66930eb9e63f6ce059"
+    sha256 cellar: :any, ventura:  "d5e1c34cf592268ab46e06d02b3876762af7c30a962415fbb09d7c860a15792a"
+    sha256 cellar: :any, monterey: "06109d7e180eae88494dd5e25f873fd3181882c7c7d1ed59a83bba5b94392854"
   end
 
   depends_on "libmemcached"
