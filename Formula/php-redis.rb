@@ -9,9 +9,9 @@ class PhpRedis < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, ventura:  "a0b41a76af56901207d1b467a940cebdc7498aa0b36a294afd66b89d105781bb"
-    sha256 cellar: :any, monterey: "99dad1888335d5c846459791fac17d27f06692f1018d588802ef28025bbb6091"
-    sha256 cellar: :any, big_sur:  "ec2b9bc70b06cc416b72900870985e0a42404d659f9d601d6f4b2efbccd5f28a"
+    sha256 cellar: :any, sonoma:   "b5ea0d9b7f4ed9e4d32b49a8b123dbd577e92b8200381f99d38c0ec58e4c209a"
+    sha256 cellar: :any, ventura:  "f6f6681d55929f0cee93db4880e4a2891a5f889e4ee2a31c246e3a437ee528f4"
+    sha256 cellar: :any, monterey: "b9d6c18be9a4121868fb16b679bde94a197eddda795436de94c71953e2f63b49"
   end
 
   depends_on "lz4"
