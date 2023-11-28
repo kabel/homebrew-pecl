@@ -12,6 +12,13 @@ class PhpAT82Solr < PhpPeclFormula
   sha256 "7cbee19bd62d3fc89aea266cbf51c0e1d9d4127098f46848910419e8733a4dc7"
   license "PHP-3.01"
 
+  bottle do
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
+    sha256 cellar: :any, sonoma:   "d8ab6be528aeef247595d0d430a69b4ea687b5e80e392fc21c49dd4ab1421bef"
+    sha256 cellar: :any, ventura:  "5bd259f6cd99c56b674e6ad3a8b799109651900c71c1948814082863ee36b721"
+    sha256 cellar: :any, monterey: "b5eec73872070b9895ecfd9993e3e0a0a3a0df970c24aa372532997376e251d0"
+  end
+
   deprecate! date: "2025-12-08", because: :unsupported
 
   depends_on "curl"
