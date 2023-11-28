@@ -14,6 +14,7 @@ class PhpAT81Solr < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
+    sha256 cellar: :any, sonoma:   "9be978ec0ca5072645330302295a27b039eb2183613b226c5163308fea910067"
     sha256 cellar: :any, ventura:  "4444d0d35bdc6d68ee0a1cd4f9ad379f544bda23ea4adf08fadee1eec270ccdf"
     sha256 cellar: :any, monterey: "7454ef1db066373231b66a38dc150a4ca3a3aa93763e01cc6250561fd9494b1d"
     sha256 cellar: :any, big_sur:  "5647cbcf33d713b1488ef25d8cfed566a717b81c8b02235b081ceb20576e99ac"
