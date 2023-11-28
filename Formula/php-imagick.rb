@@ -10,9 +10,9 @@ class PhpImagick < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, ventura:  "b574d3fc4b541e0801837e694b4643b6bc96cb59bb6b29faa2c44cbcb970e3b4"
-    sha256 cellar: :any, monterey: "54c8da67170b4db170725a2f7e9908a210551c6b53dd1f6e6fafcf35c562dd33"
-    sha256 cellar: :any, big_sur:  "46fce69e05f2ae32b058417abee7c38fc678300576cd9ca88b54126f1cb14095"
+    sha256 cellar: :any, sonoma:   "5bf488c84f09fe88d756e3a0aa19477f978677c4f3542fd4a339be7020d69fa5"
+    sha256 cellar: :any, ventura:  "47eedd298c4fee28989520aec48ebdb2fa91b2383da9d743baea858281b1e91a"
+    sha256 cellar: :any, monterey: "5832605e487e3eaa98ad870ddb735372f1fd23379bee7bc51136d5b1a18c3943"
   end
 
   depends_on "imagemagick"
