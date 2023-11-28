@@ -9,9 +9,9 @@ class PhpAT80Sqlsrv < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, ventura:  "e4fa1dd31a95834918620ebd00a697edfd0602549604244c6afe1c71aea53287"
-    sha256 cellar: :any, monterey: "00e1a05f2cf0fa97854e12c7df34c1eb3cb4bdf2c967f49634792515c97f21f2"
-    sha256 cellar: :any, big_sur:  "93713ddefa6c8707c8a80cf50ae8ec25cb124ddc90f544a0c9b50c1b023e9b9c"
+    sha256 cellar: :any, sonoma:   "2b5420a0b4dd19b3f33d07989079c80ac5cb1e328db3fec24bc41f58cc183f77"
+    sha256 cellar: :any, ventura:  "ee0cb42d452162ffb2620b3fa16326cce9e3fa186485a859ada56179c17e39c0"
+    sha256 cellar: :any, monterey: "b9a4326fc1cb27b808f8f579142552ecad464af8cbf0e502d37bbb858f7dac33"
   end
 
   deprecate! date: "2022-11-26", because: :versioned_formula
