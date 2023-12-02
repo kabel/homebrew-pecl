@@ -9,9 +9,9 @@ class PhpXdebug < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 sonoma:   "79b81b0c2dc922f7f5f08f619a1518efa81a974261e0cbb56cf65477663b0bb9"
-    sha256 ventura:  "d99ff566abd54d91029ce7214cadcb28f283313e530cc2a41b12dd63a67c871c"
-    sha256 monterey: "a41c4f742a0f5bd7fea1eec4012593ec307a36013d302a8f115bd608e90cfb52"
+    sha256 sonoma:   "1e84e4f1e88b4cc7dbd56904422bb21755056adcc621d22c1900abb2b8b148c1"
+    sha256 ventura:  "d266a8b7aa92d80ed1588a15dd635708d207879dd3085cd07a70336988773f3f"
+    sha256 monterey: "c6c03957560eb64ef302caa1e217673c985d1f58707ccef56d95af0f1d57d5c2"
   end
 
   def extension_type
