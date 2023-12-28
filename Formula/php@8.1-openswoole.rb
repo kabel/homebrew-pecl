@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpAT81Openswoole< PhpPeclFormula
   extension_dsl "High Performance Programmatic Server for PHP with Async IO, Coroutines and Fibers"
 
-  url "https://pecl.php.net/get/openswoole-22.1.0.tgz"
-  sha256 "2dc7c37957040495fb3bbef64e7cc0d8d0549dd31ede3e96101ad79502d19dea"
+  url "https://pecl.php.net/get/openswoole-22.1.2.tgz"
+  sha256 "ec9d08e9484bf95a0080738342a84f09b9c5b8222f4a03c4736caacb7668cb46"
   license "Apache-2.0"
 
   bottle do
