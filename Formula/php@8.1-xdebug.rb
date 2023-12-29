@@ -9,9 +9,9 @@ class PhpAT81Xdebug < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 sonoma:   "2ae37a675d5bb184c50131a70fc30fc1e89375573d2906c83b41b5e0d93b5a38"
-    sha256 ventura:  "d178912bc37a43d0d9c67d8d8fcbeda9c1005fba610f7b04d0f92fc4f12dd03b"
-    sha256 monterey: "ede0f3969f3e3916fe6b215a0d640df008005ef237b0b1091410810cc826cf1c"
+    sha256 sonoma:   "97bae36917afc8e5f887b2b541de62cc8740647a33b1d3843914889549fc6f91"
+    sha256 ventura:  "793771aa5bce6ecb18273dabb194ed383fd1f079fef0c7f4e81c119970247172"
+    sha256 monterey: "a603eee2895cef5849296a9e3dac614e2dd870e6ff03ebaab6fa8b8152037b28"
   end
 
   deprecate! date: "2024-11-25", because: :unsupported
