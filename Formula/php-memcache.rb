@@ -15,5 +15,7 @@ class PhpMemcache < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, monterey: "a5d43ba785e42aefc856c481b45b44797bb15d4333f8d4317e06e69dacd6e676"
   end
 
-  configure_arg "--with-zlib-dir=#{MacOS.sdk_path_if_needed}/usr"
+  on_macos do
+    configure_arg "--with-zlib-dir=#{MacOS.sdk_path_if_needed}/usr"
+  end
 end

@@ -27,8 +27,11 @@ class PhpAT82Memcached < PhpPeclFormula
     --enable-memcached-msgpack
     --enable-memcached-sasl
     --with-libmemcached-dir=#{Formula["libmemcached"].opt_prefix}
-    --with-zlib-dir=#{MacOS.sdk_path_if_needed}/usr
   ]
+
+  on_macos do
+    configure_arg "--with-zlib-dir=#{MacOS.sdk_path_if_needed}/usr"
+  end
 
   def install
     # fix include location for configure to find

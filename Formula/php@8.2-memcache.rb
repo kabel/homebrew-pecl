@@ -16,5 +16,7 @@ class PhpAT82Memcache < PhpPeclFormula
 
   deprecate! date: "2025-12-08", because: :unsupported
 
-  configure_arg "--with-zlib-dir=#{MacOS.sdk_path_if_needed}/usr"
+  on_macos do
+    configure_arg "--with-zlib-dir=#{MacOS.sdk_path_if_needed}/usr"
+  end
 end

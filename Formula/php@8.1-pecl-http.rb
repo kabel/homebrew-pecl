@@ -26,8 +26,11 @@ class PhpAT81PeclHttp < PhpPeclFormula
   configure_arg %W[
     --with-http
     --with-http-libicu-dir=#{Formula["icu4c"].opt_prefix}
-    --with-http-zlib-dir=#{MacOS.sdk_path_if_needed}/usr
   ]
+
+  on_macos do
+    configure_arg "--with-http-zlib-dir=#{MacOS.sdk_path_if_needed}/usr"
+  end
 
   def install
     extra_includes = %W[
