@@ -14,9 +14,9 @@ class PhpSolr < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, sonoma:   "010b999b79140e5d8ecf92c3bdd106f67afeeafab94399072ccefca08a157ff5"
-    sha256 cellar: :any, ventura:  "3d28495e1e152f7fabdda008b3bc915fe836a74ad2c658ecf6fe37d4f74f45e4"
-    sha256 cellar: :any, monterey: "548353a4a82b189478813abe14d69860c6faa1de6031f9d9fb407d779b046952"
+    sha256 cellar: :any, sonoma:   "46fa6cb8ba8b425ec662c4d692e35971a584c0721dfe02babfd1217cc4e54fb0"
+    sha256 cellar: :any, ventura:  "f9f164d9a2d2fb1602593ed70484267206b29b77fe06be43cec9ffd999f330b3"
+    sha256 cellar: :any, monterey: "c8e468b9b6c94b2f3e4688ac70634a9d0c4f41e36fdee8df7192b9269d64dcb4"
   end
 
   depends_on "curl"
