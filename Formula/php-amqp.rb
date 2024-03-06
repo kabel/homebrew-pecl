@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpAmqp < PhpPeclFormula
   extension_dsl "Communicate with any AMQP compliant server"
 
-  url "https://pecl.php.net/get/amqp-2.1.1.tgz"
-  sha256 "c9b36f10c2e7b7da472440e21c35655c3bf41983b99bf1e438eac7d5bb1c2b45"
+  url "https://pecl.php.net/get/amqp-2.1.2.tgz"
+  sha256 "0cb16d63752a0055de55a22062a6c1744908696d92268d76181284669025d993"
   license "PHP-3.01"
 
   bottle do
