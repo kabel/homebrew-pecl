@@ -9,9 +9,9 @@ class PhpSsh2 < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, sonoma:   "c44aeebbdb70325f22278a41d436aefe673963ae541322445e993bf7051cfaf5"
-    sha256 cellar: :any, ventura:  "37787ad7c15f96c2a572f19e0d9022f56466fea722e722c9b75bfdb38759354a"
-    sha256 cellar: :any, monterey: "3f7ece6bdca84db655afa0841fb1aa8c6c58b79c4328d8821615d3099eb177f7"
+    sha256 cellar: :any, sonoma:   "a8f3954e39c5a9d5ef110db3f127fd10a0bdcd1460b84ecd43262df7be0a3a64"
+    sha256 cellar: :any, ventura:  "5a5fbcbf0a764f1ea9d0461e6899e8f56834c6ad222e0c735d77150ad9932e37"
+    sha256 cellar: :any, monterey: "e6532c25a6198c0401f9d37b874b981fbeb9f729e578bdf857452adc44d8c317"
   end
 
   depends_on "libssh2"
