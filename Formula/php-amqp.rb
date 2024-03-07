@@ -9,9 +9,9 @@ class PhpAmqp < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, sonoma:   "53277024d40dc44d529022f726cfc8697f4cdcda6b7187fbca4ad19867fa45ae"
-    sha256 cellar: :any, ventura:  "a13dcadead0a586c849ae15115a5c462ab106fef7f5e47354b11c925650439d9"
-    sha256 cellar: :any, monterey: "f9c0a7d14b8e1130bb996c081129c2e25798fc49c84d4ebe2db9b5714075a330"
+    sha256 cellar: :any, sonoma:   "11a30a20bfd4afe188a69609784da2a62277bb4e8863f456157999a38ecb1ca4"
+    sha256 cellar: :any, ventura:  "59a4400eea34ecb3745a048c4713c059516f7e70811c23096a3a8ea5f5e727e2"
+    sha256 cellar: :any, monterey: "6bdab8ba95009619ef8c7472e4fd6e3150c0a7eec5c8922f8d13f1e672f3f0de"
   end
 
   depends_on "rabbitmq-c"
