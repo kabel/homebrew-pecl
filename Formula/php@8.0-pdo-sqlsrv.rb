@@ -14,7 +14,7 @@ class PhpAT80PdoSqlsrv < PhpPeclFormula
     sha256 cellar: :any, monterey: "01b0a30768b0ba25c04fa9e064821b790f345111d85f7b6f2bd343c1cf7aaa9a"
   end
 
-  deprecate! date: "2022-11-26", because: :versioned_formula
+  deprecate! date: "2023-11-26", because: :unsupported
 
   depends_on "unixodbc"
 end

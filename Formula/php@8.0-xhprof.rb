@@ -14,7 +14,7 @@ class PhpAT80Xhprof < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, big_sur:  "a9b31241cab7fdba5e1e74261114ecf09cf4a715af2acf7c8b22dbaae9d85e09"
   end
 
-  deprecate! date: "2022-11-26", because: :versioned_formula
+  deprecate! date: "2023-11-26", because: :unsupported
 
   source_dir "#{extension}-#{version}/extension"
 end

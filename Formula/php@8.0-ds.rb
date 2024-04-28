@@ -15,5 +15,5 @@ class PhpAT80Ds < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, catalina: "40febcd26c68f44e3edbeb7419e7741c6bdd4920e91b43402769d22a161ac80e"
   end
 
-  deprecate! date: "2022-11-26", because: :versioned_formula
+  deprecate! date: "2023-11-26", because: :unsupported
 end

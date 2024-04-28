@@ -13,7 +13,7 @@ class PhpAT80Redis < PhpPeclFormula
     sha256 cellar: :any, monterey: "05d8aa96451a8e8e1fc6a5c9733a58753759bf420f249075e32eff5d28b720d4"
   end
 
-  deprecate! date: "2022-11-26", because: :versioned_formula
+  deprecate! date: "2023-11-26", because: :unsupported
 
   depends_on "lz4"
   depends_on "kabel/pecl/php@8.0-igbinary"

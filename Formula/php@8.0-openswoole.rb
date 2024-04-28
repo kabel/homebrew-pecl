@@ -16,7 +16,7 @@ class PhpAT80Openswoole< PhpPeclFormula
     sha256 cellar: :any, monterey: "598e29759a43b6a05a254b49f1e28594412bd08a7d203fef6115ff14ac749329"
   end
 
-  deprecate! date: "2022-11-26", because: :versioned_formula
+  deprecate! date: "2023-11-26", because: :unsupported
 
   depends_on "openssl@3"
   depends_on "brotli"

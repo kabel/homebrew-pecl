@@ -16,7 +16,7 @@ class PhpAT80Swoole< PhpPeclFormula
     sha256 cellar: :any, big_sur:  "038b5171065525e61befe2e35b388d7611306fbb7de3a3c9062a76c3cdfd54c8"
   end
 
-  deprecate! date: "2022-11-26", because: :versioned_formula
+  deprecate! date: "2023-11-26", because: :unsupported
 
   depends_on "brotli"
   depends_on "libnghttp2"

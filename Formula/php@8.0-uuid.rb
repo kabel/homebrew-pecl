@@ -15,7 +15,7 @@ class PhpAT80Uuid < PhpPeclFormula
     sha256               catalina: "541253adc89526ed1735d402fc96bac663b11fd1dda949dca5f868030efa041c"
   end
 
-  deprecate! date: "2022-11-26", because: :versioned_formula
+  deprecate! date: "2023-11-26", because: :unsupported
 
   depends_on "e2fsprogs"
 

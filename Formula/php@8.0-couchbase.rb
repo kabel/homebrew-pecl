@@ -14,7 +14,7 @@ class PhpAT80Couchbase < PhpPeclFormula
     sha256 cellar: :any, monterey: "d1a9586a31534bc31cb2e029052fc786376ee62f86a8aebd8de7ce15690e8e1a"
   end
 
-  deprecate! date: "2022-11-26", because: :versioned_formula
+  deprecate! date: "2023-11-26", because: :unsupported
 
   depends_on "cmake" => :build
   depends_on "openssl@3"

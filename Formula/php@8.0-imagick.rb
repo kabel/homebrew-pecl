@@ -15,7 +15,7 @@ class PhpAT80Imagick < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "c16b7fbf463db0a3c1e6cdc22ecdf91c93769162d7d855e22f1b30f52d3b7fe4"
   end
 
-  deprecate! date: "2022-11-26", because: :versioned_formula
+  deprecate! date: "2023-11-26", because: :unsupported
 
   depends_on "imagemagick"
 end

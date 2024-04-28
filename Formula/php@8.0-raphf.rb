@@ -15,7 +15,7 @@ class PhpAT80Raphf < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, catalina: "f9d6f70d13fb54106872316593d1104b255665f4ac796086270c85cb885b7bf0"
   end
 
-  deprecate! date: "2022-11-26", because: :versioned_formula
+  deprecate! date: "2023-11-26", because: :unsupported
 
   conf_order "05"
 end

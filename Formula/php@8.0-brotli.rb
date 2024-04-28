@@ -15,7 +15,7 @@ class PhpAT80Brotli < PhpPeclFormula
     sha256 cellar: :any, monterey: "b2ac4ada96f6ff2f3073504332b17f1e983b43132410d85533663846af346931"
   end
 
-  deprecate! date: "2022-11-26", because: :versioned_formula
+  deprecate! date: "2023-11-26", because: :unsupported
 
   depends_on "brotli"
 

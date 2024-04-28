@@ -16,5 +16,5 @@ class PhpAT80TidewaysXhprof < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, catalina: "4a6a51fed200a2c9f388e0cb5ed369641e7f43bf0afca77f125e6f4587c5c25d"
   end
 
-  deprecate! date: "2022-11-26", because: :versioned_formula
+  deprecate! date: "2023-11-26", because: :unsupported
 end

@@ -14,7 +14,7 @@ class PhpAT80Amqp < PhpPeclFormula
     sha256 cellar: :any, monterey: "ba2cec8b94918adaf0e4312c4401730dc9b2a6a86296335ff15622709c0d0191"
   end
 
-  deprecate! date: "2022-11-26", because: :versioned_formula
+  deprecate! date: "2023-11-26", because: :unsupported
 
   depends_on "rabbitmq-c"
 end
