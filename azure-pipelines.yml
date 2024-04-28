@@ -7,7 +7,7 @@ jobs:
         macOS_Ventura:
           OS_VERSION: '13.6'
         macOS_Sonoma:
-          OS_VERSION: '14.3'
+          OS_VERSION: '14.4'
     pool:
       name: Default
       demands:
