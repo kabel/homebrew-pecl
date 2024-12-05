@@ -8,8 +8,8 @@ class PhpAT83Redis < PhpPeclFormula
   license "PHP-3.01"
 
   depends_on "lz4"
-  depends_on "rebuy-de/pecl/php@8.3-igbinary"
-  depends_on "rebuy-de/pecl/php@8.3-msgpack"
+  depends_on "kabel/pecl/php@8.3-igbinary"
+  depends_on "kabel/pecl/php@8.3-msgpack"
 
   configure_arg %W[
     --enable-redis-igbinary
