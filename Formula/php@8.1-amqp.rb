@@ -18,4 +18,3 @@ class PhpAT81Amqp < PhpPeclFormula
 
   depends_on "rabbitmq-c"
 end
-∑
