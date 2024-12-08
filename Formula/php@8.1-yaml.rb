@@ -15,7 +15,7 @@ class PhpAT81Yaml < PhpPeclFormula
     sha256 cellar: :any, monterey: "4bb71e3be30e4de6fe3f290c049a77dbe3f394e2ad60ab00bac0516d2f43f87e"
   end
 
-  deprecate! date: "2024-11-25", because: :unsupported
+  deprecate! date: "2025-12-31", because: :unsupported
 
   depends_on "libyaml"
 

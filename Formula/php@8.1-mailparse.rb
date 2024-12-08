@@ -14,5 +14,5 @@ class PhpAT81Mailparse < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, monterey: "928734695d257c1a75505b01bc0f6f5eec8ec8380b070449fb54839093051ff4"
   end
 
-  deprecate! date: "2024-11-25", because: :unsupported
+  deprecate! date: "2025-12-31", because: :unsupported
 end

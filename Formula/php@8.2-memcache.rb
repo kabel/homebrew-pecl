@@ -14,7 +14,7 @@ class PhpAT82Memcache < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, monterey: "8fbb6da8af896a370efbfbf4d0e8c68e437175bb2de08a4fc0c4859545067a74"
   end
 
-  deprecate! date: "2025-12-08", because: :unsupported
+  deprecate! date: "2026-12-31", because: :unsupported
 
   on_macos do
     configure_arg "--with-zlib-dir=#{MacOS.sdk_path_if_needed}/usr"

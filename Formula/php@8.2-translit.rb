@@ -14,5 +14,5 @@ class PhpAT82Translit < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, monterey: "37ad26097464974112444484b20836a4d37cefbabc0bb7e39f4a146ff04e0559"
   end
 
-  deprecate! date: "2025-12-08", because: :unsupported
+  deprecate! date: "2026-12-31", because: :unsupported
 end

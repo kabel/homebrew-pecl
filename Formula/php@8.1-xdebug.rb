@@ -14,7 +14,7 @@ class PhpAT81Xdebug < PhpPeclFormula
     sha256 monterey: "a3bf7314b89594641d283403b7ac26029333e42410634e7980cb45503567125a"
   end
 
-  deprecate! date: "2024-11-25", because: :unsupported
+  deprecate! date: "2025-12-31", because: :unsupported
 
   def extension_type
     "zend_extension"

@@ -14,7 +14,7 @@ class PhpAT82Ssh2 < PhpPeclFormula
     sha256 cellar: :any, monterey: "6552bd8966bddc16dc91692d0976c0845c9a793f84e1308eca16c5282e811e5f"
   end
 
-  deprecate! date: "2025-12-08", because: :unsupported
+  deprecate! date: "2026-12-31", because: :unsupported
 
   depends_on "libssh2"
 

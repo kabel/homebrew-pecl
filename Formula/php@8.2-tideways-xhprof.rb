@@ -11,7 +11,7 @@ class PhpAT82TidewaysXhprof < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, monterey: "f1bbb4773ba64c5d204e1c5075ef0f4db130f2f0fba4c89c0d1775c69f3546fb"
   end
 
-  deprecate! date: "2025-12-08", because: :unsupported
+  deprecate! date: "2026-12-31", because: :unsupported
 
   url "https://github.com/tideways/php-xhprof-extension/archive/v5.0.4.tar.gz"
   sha256 "a414e5d30cba360fbbc54ce929a6db4ae8a9b93a2e58d447e6a5dd7af6fecf72"

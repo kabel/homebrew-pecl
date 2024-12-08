@@ -7,7 +7,7 @@ class PhpAT81Protobuf < PhpPeclFormula
   sha256 "daf75724966e0e83856f90c3179a50f681eb3591f3af1fb57e104b8f3d2964e4"
   license "BSD-3-Clause"
 
-  deprecate! date: "2024-11-25", because: :unsupported
+  deprecate! date: "2025-12-31", because: :unsupported
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"

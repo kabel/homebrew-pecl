@@ -7,7 +7,7 @@ class PhpAT82Swoole< PhpPeclFormula
   sha256 "5551ceace3c9f986403cd1f4659acf8f2b8750fcf02b5bd88c3f967ee258922f"
   license "Apache-2.0"
 
-  deprecate! date: "2025-12-08", because: :unsupported
+  deprecate! date: "2026-12-31", because: :unsupported
 
   conflicts_with "php@8.2-openswoole", because: "both provide the same PHP API"
 

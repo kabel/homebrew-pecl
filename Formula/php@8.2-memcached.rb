@@ -14,7 +14,7 @@ class PhpAT82Memcached < PhpPeclFormula
     sha256 cellar: :any, monterey: "2f9322af7fa58f88fef21d72ec9dc215c216cd020fdde59579f9a20f70d5f194"
   end
 
-  deprecate! date: "2025-12-08", because: :unsupported
+  deprecate! date: "2026-12-31", because: :unsupported
 
   depends_on "libmemcached"
   depends_on "kabel/pecl/php@8.2-igbinary"

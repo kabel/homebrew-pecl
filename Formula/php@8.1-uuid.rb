@@ -15,7 +15,7 @@ class PhpAT81Uuid < PhpPeclFormula
     sha256 cellar: :any, big_sur:  "1ed4366de75d1d25b8f2692695c080d2b0f83798fc5e99c1d5fc23012b853553"
   end
 
-  deprecate! date: "2024-11-25", because: :unsupported
+  deprecate! date: "2025-12-31", because: :unsupported
 
   depends_on "e2fsprogs"
 

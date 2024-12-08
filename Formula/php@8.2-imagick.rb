@@ -14,7 +14,7 @@ class PhpAT82Imagick < PhpPeclFormula
     sha256 cellar: :any, monterey: "b0de764ae069a73f3af5179a6bb1b918d8e57ebe6b82689420b4d5488f5da541"
   end
 
-  deprecate! date: "2025-12-08", because: :unsupported
+  deprecate! date: "2026-12-31", because: :unsupported
 
   depends_on "imagemagick"
 end

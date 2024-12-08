@@ -19,7 +19,7 @@ class PhpAT82Solr < PhpPeclFormula
     sha256 cellar: :any, monterey: "e2bf031d22234b9de67f48908fa47f7f896969368d48e85d06bb24182bf9cc98"
   end
 
-  deprecate! date: "2025-12-08", because: :unsupported
+  deprecate! date: "2026-12-31", because: :unsupported
 
   depends_on "curl"
 

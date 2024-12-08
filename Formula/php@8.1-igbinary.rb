@@ -14,7 +14,7 @@ class PhpAT81Igbinary < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, monterey: "d0541a1728748dc0e51c4b63216bfe98e14b7ac963286663ff1b722a7b8f22a7"
   end
 
-  deprecate! date: "2024-11-25", because: :unsupported
+  deprecate! date: "2025-12-31", because: :unsupported
 
   conf_order "05"
 end

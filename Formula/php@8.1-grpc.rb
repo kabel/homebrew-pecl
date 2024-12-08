@@ -14,5 +14,5 @@ class PhpAT81Grpc < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, monterey: "4d5d76068134b9deb8bf59d85ee4f733bc7d4738546faa97fb2c546fb6908fd7"
   end
 
-  deprecate! date: "2024-11-25", because: :unsupported
+  deprecate! date: "2025-12-31", because: :unsupported
 end

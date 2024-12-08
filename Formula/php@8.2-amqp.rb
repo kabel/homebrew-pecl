@@ -14,7 +14,7 @@ class PhpAT82Amqp < PhpPeclFormula
     sha256 cellar: :any, monterey: "20dc6a556103b2d58a6dbecfd71e6e0bd66dd65c59e59e6cb6ed66c89f79c1cc"
   end
 
-  deprecate! date: "2025-12-08", because: :unsupported
+  deprecate! date: "2026-12-31", because: :unsupported
 
   depends_on "rabbitmq-c"
 end

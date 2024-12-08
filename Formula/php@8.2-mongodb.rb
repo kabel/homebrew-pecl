@@ -14,7 +14,7 @@ class PhpAT82Mongodb < PhpPeclFormula
     sha256 cellar: :any, monterey: "a73a299197dd2f742627585e2aeb4e411ff1db7b9b35b5510e2bf192394ae803"
   end
 
-  deprecate! date: "2025-12-08", because: :unsupported
+  deprecate! date: "2026-12-31", because: :unsupported
 
   depends_on "icu4c"
   depends_on "snappy"

@@ -14,7 +14,7 @@ class PhpAT82Uuid < PhpPeclFormula
     sha256 cellar: :any, monterey: "d4e138fc44daaaaa5666fb85c5f107cbdc40ca0d931f32a2d479313dc798dbac"
   end
 
-  deprecate! date: "2025-12-08", because: :unsupported
+  deprecate! date: "2026-12-31", because: :unsupported
 
   depends_on "e2fsprogs"
 

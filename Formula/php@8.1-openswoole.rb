@@ -14,7 +14,7 @@ class PhpAT81Openswoole< PhpPeclFormula
     sha256 cellar: :any, monterey: "b1cfea49c5c633e9a5ac5ba224fe5b32efa7c40d476e70a1776b4be61ce639d4"
   end
 
-  deprecate! date: "2024-11-25", because: :unsupported
+  deprecate! date: "2025-12-31", because: :unsupported
 
   conflicts_with "php@8.1-swoole", because: "both provide the same PHP API"
 

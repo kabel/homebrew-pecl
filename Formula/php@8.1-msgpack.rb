@@ -15,7 +15,7 @@ class PhpAT81Msgpack < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, big_sur:  "1812e8a067c8ae782db943376025aa69cf14322b53b46d5fcfc83bc6b00000b3"
   end
 
-  deprecate! date: "2024-11-25", because: :unsupported
+  deprecate! date: "2025-12-31", because: :unsupported
 
   depends_on "msgpack"
 

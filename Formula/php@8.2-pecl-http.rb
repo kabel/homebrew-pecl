@@ -14,7 +14,7 @@ class PhpAT82PeclHttp < PhpPeclFormula
     sha256 cellar: :any, monterey: "874a56b3411692b309fcf8876dbe93452ef4b0a628fc7a97232781e1b8e26121"
   end
 
-  deprecate! date: "2025-12-08", because: :unsupported
+  deprecate! date: "2026-12-31", because: :unsupported
 
   depends_on "brotli"
   depends_on "curl"

@@ -13,6 +13,8 @@ class PhpAT83Xdebug < PhpPeclFormula
     sha256 ventura: "64852ee5c51d550c4a3eb0800422c4eed262f108c72252d336f5e4d83c835065"
   end
 
+  deprecate! date: "2027-12-31", because: :unsupported
+
   def extension_type
     "zend_extension"
   end

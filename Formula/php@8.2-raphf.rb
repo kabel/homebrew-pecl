@@ -14,7 +14,7 @@ class PhpAT82Raphf < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, monterey: "10752c2178ffbb4754e1e6eabe6ef92d407146499ff87a17d4a38149bb29936c"
   end
 
-  deprecate! date: "2025-12-08", because: :unsupported
+  deprecate! date: "2026-12-31", because: :unsupported
 
   conf_order "05"
 end

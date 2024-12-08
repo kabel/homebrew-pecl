@@ -15,5 +15,5 @@ class PhpAT81Translit < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, big_sur:  "93bbfea0e006530950f0714a7a7d9c8bb904b153f285df8ceab5137c2ca3d565"
   end
 
-  deprecate! date: "2024-11-25", because: :unsupported
+  deprecate! date: "2025-12-31", because: :unsupported
 end

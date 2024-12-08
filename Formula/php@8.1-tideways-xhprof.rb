@@ -16,5 +16,5 @@ class PhpAT81TidewaysXhprof < PhpPeclFormula
     sha256 cellar: :any_skip_relocation, big_sur:  "3899f0a4eb8ded24b8493a9e157799d3c201ea21faa11738274945d413626faa"
   end
 
-  deprecate! date: "2024-11-25", because: :unsupported
+  deprecate! date: "2025-12-31", because: :unsupported
 end
