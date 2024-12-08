@@ -1,7 +1,16 @@
 jobs:
-  - job: macOS
+  - job: Build
+    strategy:
+      matrix:
+        macOS_Ventura:
+          imageName: 'macOS-13'
+        macOS_Sonoma:
+          imageName: 'macOS-14'
+        macOS_Sequia:
+          imageName: 'macOS-15'
     pool:
-      vmImage: macOS-latest
+      vmImage: $(imageName)
+    timeoutInMinutes: 120
     steps:
       - bash: |
           HOMEBREW_TAP_DIR="/usr/local/Homebrew/Library/Taps/kabel/homebrew-pecl"
@@ -10,6 +19,7 @@ jobs:
           brew update-reset
           brew update
           ln -s "$PWD" "$HOMEBREW_TAP_DIR"
+          sed -i '' -e '/require_relative/{r lib/php_pecl_formula.rb' -e 'd;}' Formula/*.rb
         displayName: Setup brew tap
       - bash: |
           set -e
@@ -35,3 +45,19 @@ jobs:
           if [ "$BUILD_REASON" != "PullRequest" -a "$BUILD_SOURCEBRANCHNAME" = "$SYSTEM_PULLREQUEST_TARGETBRANCH" ]; then TEST_PARAMS="--only-tap-syntax"; fi
           brew test-bot --skip-dependents --skip-online-checks --tap=kabel/pecl --root-url=https://bottles.kabel.rocks/bottles-pecl $TEST_PARAMS
         displayName: Run brew test-bot
+      - bash: |
+          BOTTLE_COUNT=$(find . -name \*.bottle.tar.gz -print | wc -l | xargs)
+          echo "Found $BOTTLE_COUNT bottles"
+          if [ "$BOTTLE_COUNT" -gt "0" ]; then
+            cp *.bottle.tar.gz $BUILD_ARTIFACTSTAGINGDIRECTORY 2>/dev/null
+            cp *.bottle.json $BUILD_ARTIFACTSTAGINGDIRECTORY 2>/dev/null
+          fi
+          echo "##vso[task.setvariable variable=BOTTLE_COUNT]$BOTTLE_COUNT"
+        condition: succeededOrFailed()
+        displayName: Cleanup brew
+      - task: PublishBuildArtifacts@1
+        inputs:
+          PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+          ArtifactName: 'drop'
+          publishLocation: 'Container'
+        condition: gt(variables.BOTTLE_COUNT, 0)
