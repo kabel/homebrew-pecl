@@ -8,12 +8,5 @@ class PhpXhprof < PhpPeclFormula
   revision 1
   license "Apache-2.0"
 
-  bottle do
-    root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any_skip_relocation, sonoma:   "6ce7788b57eafd98abdc3c022d4cca7106b98405a6d6d1d9ddfbc8f07e20981d"
-    sha256 cellar: :any_skip_relocation, ventura:  "45c23cf919c4c33c37ba5e8c7ab23743c4cdf5f1fcbe4dbf519e8314bf49236a"
-    sha256 cellar: :any_skip_relocation, monterey: "d6b3c338be0f3850d40419dbcf4f165ebbf69d90778ce493dad1b9379e368f70"
-  end
-
   source_dir "#{extension}-#{version}/extension"
 end

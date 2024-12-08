@@ -8,13 +8,6 @@ class PhpMemcached < PhpPeclFormula
   revision 3
   license "PHP-3.01"
 
-  bottle do
-    root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, sonoma:   "5ff37b8503618a4e46ce654f8019abdbfee1048363617e66930eb9e63f6ce059"
-    sha256 cellar: :any, ventura:  "d5e1c34cf592268ab46e06d02b3876762af7c30a962415fbb09d7c860a15792a"
-    sha256 cellar: :any, monterey: "06109d7e180eae88494dd5e25f873fd3181882c7c7d1ed59a83bba5b94392854"
-  end
-
   depends_on "libmemcached"
   depends_on "kabel/pecl/php-igbinary"
   depends_on "kabel/pecl/php-msgpack"

@@ -7,13 +7,6 @@ class PhpRedis < PhpPeclFormula
   sha256 "01aeccb0e14f897fe56f0509be6e6991ff0ad459f9d34e95e4556d02699b9a03"
   license "PHP-3.01"
 
-  bottle do
-    root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, sonoma:   "b5ea0d9b7f4ed9e4d32b49a8b123dbd577e92b8200381f99d38c0ec58e4c209a"
-    sha256 cellar: :any, ventura:  "f6f6681d55929f0cee93db4880e4a2891a5f889e4ee2a31c246e3a437ee528f4"
-    sha256 cellar: :any, monterey: "b9d6c18be9a4121868fb16b679bde94a197eddda795436de94c71953e2f63b49"
-  end
-
   depends_on "lz4"
   depends_on "kabel/pecl/php-igbinary"
   depends_on "kabel/pecl/php-msgpack"
