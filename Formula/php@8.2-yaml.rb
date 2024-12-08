@@ -3,9 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpAT82Yaml < PhpPeclFormula
   extension_dsl "YAML 1.1 serialization"
 
-  url "https://pecl.php.net/get/yaml-2.2.3.tgz"
-  sha256 "5937eb9722ddf6d64626799cfa024598ff2452ea157992e4e67331a253f90236"
-  revision 1
+  url "https://pecl.php.net/get/yaml-2.2.4.tgz"
+  sha256 "8eb353baf87f15b1b62ac6eb71c8b589685958a1fe8b0e3d22ac59560d0e8913"
   license "MIT"
 
   bottle do
