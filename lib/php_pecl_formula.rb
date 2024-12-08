@@ -14,7 +14,7 @@ class PhpPeclFormula < Formula
     cd source_dir if (buildpath/source_dir).exist?
     system php_parent.bin/"phpize"
     inreplace "configure",
-              "EXTENSION_DIR=`$PHP_CONFIG --extension-dir 2>/dev/null`",
+              %r{EXTENSION_DIR=(?:`|\$\()\$PHP_CONFIG --extension-dir 2>/dev/null(?:`|\))},
               "EXTENSION_DIR=#{lib/module_path}"
     system "./configure", *configure_args
     system "make", "phpincludedir=#{include}/php", "install"
