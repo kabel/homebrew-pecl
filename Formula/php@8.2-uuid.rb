@@ -9,9 +9,8 @@ class PhpAT82Uuid < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, sonoma:   "41cff82843932a9cf5e8640aa4eddce6871cab7c325804fc3e4bb05d5c4b6efa"
-    sha256 cellar: :any, ventura:  "41fd70145afddca3018743e6ca440f7cb81c14928f918fcdbccabb354b7490c0"
-    sha256 cellar: :any, monterey: "d4e138fc44daaaaa5666fb85c5f107cbdc40ca0d931f32a2d479313dc798dbac"
+    sha256 cellar: :any, sonoma:  "b469d4ff42ff88e4ea239388095f8004fef3d61b754f984a8b8712e1ce0c2218"
+    sha256 cellar: :any, ventura: "f1469484655cefe11c2f0809965afa695aad870b29f341068b11763d54486905"
   end
 
   deprecate! date: "2026-12-31", because: :unsupported
