@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpAT82Redis < PhpPeclFormula
   extension_dsl "Redis extension"
 
-  url "https://pecl.php.net/get/redis-6.0.2.tgz"
-  sha256 "01aeccb0e14f897fe56f0509be6e6991ff0ad459f9d34e95e4556d02699b9a03"
+  url "https://pecl.php.net/get/redis-6.1.0.tgz"
+  sha256 "f10405f639fe415e9ed4ec99538e72c90694d8dbd62868edcfcd6a453466b48c"
   license "PHP-3.01"
 
   bottle do
@@ -17,6 +17,7 @@ class PhpAT82Redis < PhpPeclFormula
   deprecate! date: "2026-12-31", because: :unsupported
 
   depends_on "lz4"
+  depends_on "zstd"
   depends_on "kabel/pecl/php@8.2-igbinary"
   depends_on "kabel/pecl/php@8.2-msgpack"
 
