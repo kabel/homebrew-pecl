@@ -3,9 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpMemcached < PhpPeclFormula
   extension_dsl "Extension for interfacing with memcached via libmemcached library"
 
-  url "https://pecl.php.net/get/memcached-3.2.0.tgz"
-  sha256 "2a41143a7b29f4a962a3805b77aa207a99e4566e2d314ce98a051cd24d6e9636"
-  revision 3
+  url "https://pecl.php.net/get/memcached-3.3.0.tgz"
+  sha256 "2b85bf6699497170801fb4d06eb9c9a06bfc551cdead04101dd75c980be9eebf"
   license "PHP-3.01"
 
   depends_on "libmemcached"
