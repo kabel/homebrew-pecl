@@ -9,9 +9,8 @@ class PhpAT82Memcached < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, sonoma:   "3bb0244562fb2d61cfcb7984e775b82242809ecda7c14c12c01b79853808320d"
-    sha256 cellar: :any, ventura:  "578a0599c68b79bebc3472b5bf76aef5eaf015bd93de305914df8fe76dc881e1"
-    sha256 cellar: :any, monterey: "2f9322af7fa58f88fef21d72ec9dc215c216cd020fdde59579f9a20f70d5f194"
+    sha256 cellar: :any, sonoma:  "2db8c24a59ab72d3a65e4b5cecfed598d5daf42a95bd8041b3751ef5e9f3ee42"
+    sha256 cellar: :any, ventura: "ec14b3840f60808d2a26220f4c6e2063b91ee023e1f1b33b4767650772aec54e"
   end
 
   deprecate! date: "2026-12-31", because: :unsupported
