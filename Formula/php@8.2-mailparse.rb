@@ -9,9 +9,8 @@ class PhpAT82Mailparse < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any_skip_relocation, sonoma:   "e87427d1f7e5bbd60f67250c9c3c2e3bbbc8df76e4c49a67929503d681709cfd"
-    sha256 cellar: :any_skip_relocation, ventura:  "3c5bef2d6e921eeedd82a8fcf4437bc1df48bfaab64beae30ed38a6871331d04"
-    sha256 cellar: :any_skip_relocation, monterey: "ed7f2528f496d3ff30bd684e87af6727f7326140e9bac941e443512405641d36"
+    sha256 cellar: :any_skip_relocation, sonoma:  "84944ed517a22dcff8769360adaf22bddaa196ac4aa35f658d65dc179c46d034"
+    sha256 cellar: :any_skip_relocation, ventura: "2a820ebf4f2e1f33edbe9468278f082ccfe36fa6bba7c999977beec1bd3c1c84"
   end
 
   deprecate! date: "2026-12-31", because: :unsupported
