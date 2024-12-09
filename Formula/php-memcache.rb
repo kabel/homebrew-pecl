@@ -8,6 +8,12 @@ class PhpMemcache < PhpPeclFormula
   revision 2
   license "PHP-3.0"
 
+  bottle do
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
+    sha256 cellar: :any_skip_relocation, sonoma:  "c19374b7da74df88ac22c869248d250fb3aac62623afb0eba0335b7cec35ba20"
+    sha256 cellar: :any_skip_relocation, ventura: "faf9bf1aa6081f163d7e4b245b53cac2a57417c5f8d4443a93a282b666fedf89"
+  end
+
   on_macos do
     configure_arg "--with-zlib-dir=#{MacOS.sdk_path_if_needed}/usr"
   end
