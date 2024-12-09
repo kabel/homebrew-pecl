@@ -6,7 +6,7 @@ jobs:
           imageName: 'macOS-13'
         macOS_Sonoma:
           imageName: 'macOS-14'
-        macOS_Sequia:
+        macOS_Sequoia:
           imageName: 'macOS-15'
     pool:
       vmImage: $(imageName)
