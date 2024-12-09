@@ -8,6 +8,12 @@ class PhpImagick < PhpPeclFormula
   revision 4
   license "PHP-3.01"
 
+  bottle do
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
+    sha256 cellar: :any, sonoma:  "9c41b7117f51d9a2b8a848b7d8f193dcc1947e839d2ea5344a76a305968222e7"
+    sha256 cellar: :any, ventura: "46205d71d153801647602fb57fde76d8355717fd4a33f4d2de5b180aa3cab43e"
+  end
+
   depends_on "imagemagick"
 
   # See https://github.com/Imagick/imagick/pull/690
