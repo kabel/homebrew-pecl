@@ -7,6 +7,12 @@ class PhpAT83Memcached < PhpPeclFormula
   sha256 "2b85bf6699497170801fb4d06eb9c9a06bfc551cdead04101dd75c980be9eebf"
   license "PHP-3.01"
 
+  bottle do
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
+    sha256 cellar: :any, sonoma:  "2b11aa8f0090362e6fd7aa08db5352b61980d8f62530c405154b1c428d440afa"
+    sha256 cellar: :any, ventura: "29d8584746d054f5b70d5de7ea806605659b30a12d4d29a3b456ee25be92aa81"
+  end
+
   deprecate! date: "2027-12-31", because: :unsupported
 
   depends_on "libmemcached"
