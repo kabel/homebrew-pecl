@@ -11,6 +11,12 @@ class PhpMemprof < PhpPeclFormula
   revision 3
   license "MIT"
 
+  bottle do
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
+    sha256 cellar: :any, sonoma:  "50319c85cdbe5bd837509c739e1da9dc4cf2682ef30ac4da1232f94c4a8ca789"
+    sha256 cellar: :any, ventura: "25ddabcf4ec3fd1fd419f767cf57912de49e2321eca9294fab4b6146bb8bc22e"
+  end
+
   resource "judy" do
     url "https://downloads.sourceforge.net/project/judy/judy/Judy-1.0.5/Judy-1.0.5.tar.gz"
     sha256 "d2704089f85fdb6f2cd7e77be21170ced4b4375c03ef1ad4cf1075bd414a63eb"
