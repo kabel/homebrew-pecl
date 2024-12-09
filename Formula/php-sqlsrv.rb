@@ -8,5 +8,11 @@ class PhpSqlsrv < PhpPeclFormula
   revision 1
   license "MIT"
 
+  bottle do
+    root_url "https://bottles.kabel.rocks/bottles-pecl"
+    sha256 cellar: :any, sonoma:  "220246736f1107201ea1663bdc93a93c249c5abf946b59cb91b9ac0bb96787e9"
+    sha256 cellar: :any, ventura: "6108e83d29aaa48bbf1c600db2e5d7b9f59e3943be4137977dbe0c4afaef844f"
+  end
+
   depends_on "unixodbc"
 end
