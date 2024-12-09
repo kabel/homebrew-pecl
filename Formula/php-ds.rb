@@ -5,5 +5,6 @@ class PhpDs < PhpPeclFormula
 
   url "https://pecl.php.net/get/ds-1.5.0.tgz"
   sha256 "2b2b45d609ca0958bda52098581ecbab2de749e0b3934d729de61a59226718b0"
+  revision 1
   license "MIT"
 end
