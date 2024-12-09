@@ -8,7 +8,7 @@ class PhpMemprof < PhpPeclFormula
 
   url "https://pecl.php.net/get/memprof-3.0.2.tgz"
   sha256 "510bf09d58487820ac11b617446199ca86c50fda972dde73feaae667be23d183"
-  revision 2
+  revision 3
   license "MIT"
 
   resource "judy" do
