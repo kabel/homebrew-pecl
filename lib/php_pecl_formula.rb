@@ -66,7 +66,9 @@ class PhpPeclFormula < Formula
   end
 
   class << self
-    NAME_PATTERN = /^Php(?:AT([578])(\d+))?(.+)/
+    unless const_defined?(:NAME_PATTERN)
+      NAME_PATTERN = /^Php(?:AT([578])(\d+))?(.+)/
+    end
     attr_reader :configure_args, :php_parent, :extension
 
     attr_rw :source_dir, :conf_order
