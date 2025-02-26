@@ -4,12 +4,6 @@ class PhpPeclFormula < Formula
   desc "PHP PECL Extension"
   homepage "https://pecl.php.net/"
 
-  def initialize(name, path, spec, alias_path: nil, tap: nil, force_bottle: false)
-    super
-    @source_dir = self.class.source_dir || "#{extension}-#{version}"
-    @conf_order = self.class.conf_order || "10"
-  end
-
   def install
     cd source_dir if (buildpath/source_dir).exist?
     system php_parent.bin/"phpize"
@@ -46,7 +40,13 @@ class PhpPeclFormula < Formula
 
   private
 
-  attr_reader :source_dir, :conf_order
+  def conf_order
+    self.class.conf_order || "10"
+  end
+
+  def source_dir
+    self.class.source_dir || "#{extension}-#{version}"
+  end
 
   delegate [:php_parent, :extension, :configure_args] => :"self.class"
 
@@ -69,7 +69,13 @@ class PhpPeclFormula < Formula
     NAME_PATTERN = /^Php(?:AT([578])(\d+))?(.+)/ unless const_defined?(:NAME_PATTERN)
     attr_reader :configure_args, :php_parent, :extension
 
-    attr_rw :source_dir, :conf_order
+    def source_dir(val = nil)
+      val.nil? ? @source_dir : @source_dir = val
+    end
+
+    def conf_order(val = nil)
+      val.nil? ? @conf_order : @conf_order = val
+    end
 
     def configure_arg(args)
       @configure_args ||= []
