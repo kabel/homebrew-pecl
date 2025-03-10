@@ -1,6 +1,6 @@
 require_relative "../lib/php_pecl_formula"
 
-class PhpAT81Openswoole< PhpPeclFormula
+class PhpAT81Openswoole < PhpPeclFormula
   extension_dsl "High Performance Programmatic Server for PHP with Async IO, Coroutines and Fibers"
 
   url "https://pecl.php.net/get/openswoole-22.1.2.tgz"
