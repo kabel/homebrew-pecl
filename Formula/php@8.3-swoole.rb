@@ -15,6 +15,8 @@ class PhpAT83Swoole< PhpPeclFormula
 
   deprecate! date: "2027-12-31", because: :unsupported
 
+  conflicts_with "php@8.3-openswoole", because: "both provide the same PHP API"
+
   depends_on "brotli"
   depends_on "libnghttp2"
   depends_on "openssl@3"
