@@ -8,8 +8,8 @@ class PhpAT81Solr < PhpPeclFormula
     using an object-oriented API
   EOS
 
-  url "https://pecl.php.net/get/solr-2.7.0.tgz"
-  sha256 "bfbf7fad1a8738ae5518bd664ca963ea8584cc87ed9d813df29a82170b071ea2"
+  url "https://pecl.php.net/get/solr-2.8.0.tgz"
+  sha256 "092b52a7b94a807e40f8d85032c85dd0c052fab31d4f518e1d756b9f2d42d4b8"
   license "PHP-3.01"
 
   bottle do
