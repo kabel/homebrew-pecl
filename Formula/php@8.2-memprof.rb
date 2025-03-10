@@ -12,9 +12,8 @@ class PhpAT82Memprof < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, sonoma:   "ecead0fa7fbd52aa9f657d7b63268b8da3454c02f710af8e7272d9fa2d6348d4"
-    sha256 cellar: :any, ventura:  "6fe24a72fda796ab96d624b13584191f8373d9a885b38888f6a84cdbc0576d12"
-    sha256 cellar: :any, monterey: "b11840a79ee7fc916625ed7d507134a08b29d5946b7492ff7861591d34a73847"
+    sha256 cellar: :any, sonoma:  "07abaf7b672425561b8afc530b855fcf36b6b62cfd094f987c0bcd66890f02c1"
+    sha256 cellar: :any, ventura: "26d785218e1fbde9145bdc2586ed51cf044637f699b074f100c4cf26d713f0be"
   end
 
   deprecate! date: "2026-12-31", because: :unsupported
