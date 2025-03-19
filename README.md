@@ -16,8 +16,8 @@ Or `brew tap kabel/pecl` and then `brew install <formula>`.
 
 Or installation via URL (which will not receive updates):
 
-```
-brew install https://raw.githubusercontent.com/kabel/homebrew-pecl/master/Formula/<formula>.rb
+```sh
+brew install https://raw.githubusercontent.com/kabel/homebrew-pecl/main/Formula/<formula>.rb
 ```
 
 ## Documentation
