@@ -9,6 +9,15 @@
 - Push to the branch (`git push origin fixing-blah`).
 - Create a new pull request.
 
+## Adding new formula
+
+1. Add formula to `Formula` directory
+1. Ensure you fill correct license, get this info from extension pecl page
+1. Do not fill `sha256` for `bottle`
+1. For versioned formulas, add `deprecate! because: :unsupported` with a date of php deprecation of that version
+1. Test build it: `brew install -s kabel/pecl/<formula_name>`
+1. Create pull request with title `Add <formula> formula, version <version>`
+
 ## Rebuild bottle
 
 Sometimes when upstream recipe is updated, a pecl bottle is required to be rebuilt to use newer libraries:
