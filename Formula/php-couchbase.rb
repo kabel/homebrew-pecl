@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpCouchbase < PhpPeclFormula
   extension_dsl "Couchbase Server"
 
-  url "https://pecl.php.net/get/couchbase-4.2.6.tgz"
-  sha256 "728c466b9c5bf82639641e1fab84de7b690e5ded8ea0a4b1af5bf88919d49fac"
+  url "https://pecl.php.net/get/couchbase-4.2.7.tgz"
+  sha256 "963145f6fa7b1785abbd7bb5171210b222d9790a37aded9f724d06858c0eea28"
   license "Apache-2.0"
 
   bottle do
@@ -15,4 +15,9 @@ class PhpCouchbase < PhpPeclFormula
 
   depends_on "cmake" => :build
   depends_on "openssl@3"
+
+  def install
+    ENV["CMAKE_POLICY_VERSION_MINIMUM"] = "3.5"
+    super
+  end
 end
