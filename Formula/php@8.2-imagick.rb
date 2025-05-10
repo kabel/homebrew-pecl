@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpAT82Imagick < PhpPeclFormula
   extension_dsl "Create and modify images using the ImageMagick API"
 
-  url "https://pecl.php.net/get/imagick-3.7.0.tgz"
-  sha256 "5a364354109029d224bcbb2e82e15b248be9b641227f45e63425c06531792d3e"
+  url "https://pecl.php.net/get/imagick-3.8.0.tgz"
+  sha256 "bda67461c854f20d6105782b769c524fc37388b75d4481d951644d2167ffeec6"
   license "PHP-3.01"
 
   bottle do
@@ -17,4 +17,5 @@ class PhpAT82Imagick < PhpPeclFormula
   deprecate! date: "2026-12-31", because: :unsupported
 
   depends_on "imagemagick"
+  depends_on "libomp"
 end
