@@ -10,8 +10,8 @@ class PhpBrotli < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, sonoma:  "7e0b4ec6e95fffc2aa1be7ece99877bc765a5f22abaf9be8c6f382d34ccba1fd"
-    sha256 cellar: :any, ventura: "2ea6c3489e4bad81c22520011579f1b8fda541987e8f24e66d3e7295b5c16d43"
+    sha256 cellar: :any, sonoma:  "ff8a1223d6c3e234d6e9849b4b9ad2df69df5f5508820037a7b802ef2832a026"
+    sha256 cellar: :any, ventura: "f2a39f2c91fb1076e649f1df9fe676e0132c405b056d91cd9b4dd20c37b9e192"
   end
 
   depends_on "brotli"
