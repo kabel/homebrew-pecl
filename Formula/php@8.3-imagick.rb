@@ -9,8 +9,8 @@ class PhpAT83Imagick < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, sonoma:  "c9989fd8c8b9c9441f3d79fed45086c7b18ec69d48a25e6e8a76a9de52e84bce"
-    sha256 cellar: :any, ventura: "a21dc02ab81a2fa0296773bb0ef4d916c5d4f53168a75b64ae87029b7e808733"
+    sha256 cellar: :any, sonoma:  "e888682898cc2d3e8c07229d41907873ae95c57a646d8957df45db554ed31e77"
+    sha256 cellar: :any, ventura: "ac9c9ae6b5d597e43c63d697adfb36c6d34fff7ce0b2ea84e82cc21f18d71cb6"
   end
 
   deprecate! date: "2027-12-31", because: :unsupported
