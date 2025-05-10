@@ -11,7 +11,7 @@ class PhpAT81Protobuf < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any_skip_relocation, sonoma:  "3a66f6f261001826130badebb2064bde68bdbbafe0580ca2012db301d79c38da"
-    sha256 cellar: :any_skip_relocation, ventura: "faf9f6c44bb700c511fe57a42c6b351d2662b1f81659d7eb63b543cf70268afe"
+    sha256 cellar: :any_skip_relocation, sonoma:  "025153dce14683fc5e964dd7767c423afe2ae949064641d7357a7a0cc414253b"
+    sha256 cellar: :any_skip_relocation, ventura: "1644111beb26c0a099a64438b0150b9d5b0a3a2c1270b1bfc0575aebef298fb5"
   end
 end
