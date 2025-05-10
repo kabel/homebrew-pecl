@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpAT82Phalcon < PhpPeclFormula
   extension_dsl "Phalcon is a full stack PHP framework offering low resource consumption and high performance"
 
-  url "https://pecl.php.net/get/phalcon-5.9.0.tgz"
-  sha256 "7b8622bf7df5385e159dde3f41ed91bc6798726d8d725a46db8ba884651664d0"
+  url "https://pecl.php.net/get/phalcon-5.9.3.tgz"
+  sha256 "2b1983f09b56fc2779509a8ac1df776c368782538a7ef6601c0d4aef9892fe83"
   license "BSD-3-Clause"
 
   bottle do
