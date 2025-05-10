@@ -9,8 +9,8 @@ class PhpSwoole< PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, sonoma:  "2920e5349046af4f7b05301f7f53fdff1f1eec5316a74887472ca6e615088f06"
-    sha256 cellar: :any, ventura: "ea62427d51812e6132950d8e94ae40fb99b47c037447435e898a02adfec2f142"
+    sha256 cellar: :any, sonoma:  "1e5a965f9553137fed9f2516a25144729e5f88d5282cd4cc1ebc1e2174a9d4b7"
+    sha256 cellar: :any, ventura: "f28aa078f85222465fe8e8c104e5c20af29d59dca63bf847e0d155827f21326d"
   end
 
   conflicts_with "php-openswoole", because: "both provide the same PHP API"
