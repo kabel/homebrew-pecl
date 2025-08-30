@@ -9,8 +9,8 @@ class PhpUuid < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, sonoma:  "a42f9ac270eea8bc2177688b80c3b1ff15cd0a26b17ceb1cb86306a0f2f7b54d"
-    sha256 cellar: :any, ventura: "abd8a3160c35b8aa4a8299b910da47e25ccae0e93edde12d7df47f28f5a81840"
+    sha256 cellar: :any, sonoma:  "680880add2685333c7f46d8bb82585af24b77b67cacb7a29fc577259b5d55133"
+    sha256 cellar: :any, ventura: "76b63e558d254f39975042f9fc9bc687aea3f3787b4779eec56f46f1ac375593"
   end
 
   depends_on "util-linux"
