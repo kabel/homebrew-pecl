@@ -15,8 +15,9 @@ class PhpPeclFormula < Formula
   end
 
   def post_install
-    ordered_ext_config_path = etc/"php"/php_parent.version.major_minor/"conf.d"/"ext-#{conf_order}-#{extension}.ini"
-    ext_config_path = etc/"php"/php_parent.version.major_minor/"conf.d"/"ext-#{extension}.ini"
+    major_minor = php_parent.version.major_minor.to_s
+    ordered_ext_config_path = etc/"php"/major_minor/"conf.d"/"ext-#{conf_order}-#{extension}.ini"
+    ext_config_path = etc/"php"/major_minor/"conf.d"/"ext-#{extension}.ini"
 
     mv ext_config_path, ordered_ext_config_path if ext_config_path.exist?
 
