@@ -9,8 +9,8 @@ class PhpAT82Mongodb < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, sonoma:  "292e8a7009763aaa39e9858b0b4d7a4592cf075c0c89c750d58ddcc89359486f"
-    sha256 cellar: :any, ventura: "ed16c137430b03200c96197b92def61266ce7227f6b0e78ea244156d8bc06047"
+    sha256 cellar: :any, sonoma:  "968d88e98132ba69c0512b60caf45c67c9642dc9d35d4e8b951199a1d87a2756"
+    sha256 cellar: :any, ventura: "25c2c8422ea99c5e0e6ecf5fdeae65405861e64a2a43e184eca152449aab846a"
   end
 
   deprecate! date: "2026-12-31", because: :unsupported
