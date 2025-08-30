@@ -9,8 +9,8 @@ class PhpMongodb < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, sonoma:  "c65cfc31959bb4b85d411ce7583c2357159d2518842e904ebce12e09f2b90171"
-    sha256 cellar: :any, ventura: "f5ff4ab640a9b7d76843319033bdd8ca28eaa72827b3b92514b147b2a0f63ed7"
+    sha256 cellar: :any, sonoma:  "3d29054b53466d7772e1054c31c9c65e8bd4b364445d57ed197f03d00a7ed3da"
+    sha256 cellar: :any, ventura: "ff64d54c034c25cca647e8a1ad9b6b0f1a3b859c4200311cb7fd8f2a987f58b3"
   end
 
   depends_on "icu4c"
