@@ -9,8 +9,8 @@ class PhpYaml < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any, sonoma:  "940080cb3182a832f9addcf8d7be35afacadfd98540d058e0896b959d845c834"
-    sha256 cellar: :any, ventura: "bb437152654428f6b1da9275d493291e044b42636d97517c080eeed1aa48f42c"
+    sha256 cellar: :any, sonoma:  "8a2bda2c452f0f0bd0b3302cb2cacf48009a84a3a2a95b0c5df8206a2f3e3cb1"
+    sha256 cellar: :any, ventura: "f45613097051b7368496ff679800d4b7da7071ac55ee1b144ed2ed5daff07917"
   end
 
   depends_on "libyaml"
