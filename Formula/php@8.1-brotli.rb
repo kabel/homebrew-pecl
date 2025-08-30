@@ -4,8 +4,8 @@ class PhpAT81Brotli < PhpPeclFormula
   extension_dsl "Brotli compression"
   homepage "https://github.com/kjdev/php-ext-brotli"
 
-  url "https://github.com/kjdev/php-ext-brotli/archive/refs/tags/0.16.0.tar.gz"
-  sha256 "2ddd7d151974c44b461b1418ee69067ebb4e37183b2217ea7864c74f2d762d51"
+  url "https://github.com/kjdev/php-ext-brotli/archive/refs/tags/0.18.2.tar.gz"
+  sha256 "d79ff26c24859485166a805e4340cdebdaad6246d93e9c5eeb90ae681bc801a6"
   license "MIT"
 
   bottle do
