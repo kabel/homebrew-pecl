@@ -9,7 +9,7 @@ class PhpGrpc < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any_skip_relocation, sonoma:  "5cca549828f474e96fc8aa0671c9db30acc88a6c759aac9270b36f161b291e64"
-    sha256 cellar: :any_skip_relocation, ventura: "4f374a52517122ea4a4ce1a745236814723148018f59f345bfc265b789b9e7be"
+    sha256 cellar: :any_skip_relocation, sonoma:  "403577460f5fef1cd7ead36b52c7dc75ac781b74b3a802f7845dc2c7f8afd864"
+    sha256 cellar: :any_skip_relocation, ventura: "05e531dd0c870e875fceae921aa768cff98874d8dfbf77a52bce5945cba75eb1"
   end
 end
