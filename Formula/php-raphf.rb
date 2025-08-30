@@ -3,9 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpRaphf < PhpPeclFormula
   extension_dsl "Resource and persistent handles factory"
 
-  url "https://pecl.php.net/get/raphf-2.0.1.tgz"
-  sha256 "da3566db17422e5ef08b7ff144162952aabc14cb22407cc6b1d2a2d095812bd0"
-  revision 6
+  url "https://pecl.php.net/get/raphf-2.0.2.tgz"
+  sha256 "7e782fbe7b7de2b5f1c43f49d9eb8c427649b547573564c78baaf2b8f8160ef4"
   license "BSD-2-Clause"
 
   bottle do
