@@ -9,8 +9,8 @@ class PhpAT81Apcu < PhpPeclFormula
 
   bottle do
     root_url "https://bottles.kabel.rocks/bottles-pecl"
-    sha256 cellar: :any_skip_relocation, sonoma:  "7d5e7da2da9abd30aeb22890b6841f079e1e6dde9f3868069c935a6ed4a4585d"
-    sha256 cellar: :any_skip_relocation, ventura: "108299bb2d09f731d18dedf141b3dd911e7d145c2ed21096e44393aab63c0425"
+    sha256 cellar: :any_skip_relocation, sonoma:  "b7ed34bd4faf526178504ace4e30b7faeccfc9305b0408c16c48a1bf9a1f0831"
+    sha256 cellar: :any_skip_relocation, ventura: "b3987305148c5a48a71fb4244735417416ef9bb16b66b8beec4ac0d4945bf1de"
   end
 
   deprecate! date: "2025-12-31", because: :unsupported
