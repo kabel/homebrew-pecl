@@ -3,8 +3,8 @@ require_relative "../lib/php_pecl_formula"
 class PhpUuid < PhpPeclFormula
   extension_dsl "UUID extension"
 
-  url "https://pecl.php.net/get/uuid-1.2.1.tgz"
-  sha256 "2235c8584ca8911ce5512ebf791e5bb1d849c323640ad3e0be507b00156481c7"
+  url "https://pecl.php.net/get/uuid-1.3.0.tgz"
+  sha256 "b7af055e2c409622f8c5e6242d1c526c00e011a93c39b10ca28040b908da3f37"
   license "LGPL-2.1-only"
 
   bottle do
@@ -13,7 +13,7 @@ class PhpUuid < PhpPeclFormula
     sha256 cellar: :any, ventura: "abd8a3160c35b8aa4a8299b910da47e25ccae0e93edde12d7df47f28f5a81840"
   end
 
-  depends_on "e2fsprogs"
+  depends_on "util-linux"
 
-  configure_arg "--with-uuid=#{Formula["e2fsprogs"].opt_prefix}"
+  configure_arg "--with-uuid=#{Formula["util-linux"].opt_prefix}"
 end
